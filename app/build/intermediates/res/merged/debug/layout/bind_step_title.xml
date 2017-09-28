@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        
+         >
+
+        <ImageView
+            android:id="@+id/iv_step_one"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/bind_step_before" />
+
+        <TextView
+            android:id="@+id/tv_step_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_step_one"
+            android:gravity="center_horizontal"
+            android:text="硬件检测"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/iv_step_two"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/bind_step_before" />
+
+        <TextView
+            android:id="@+id/tv_step_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_step_two"
+            android:gravity="center_horizontal"
+            android:text="震动测试"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/iv_step_three"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/bind_step_before" />
+
+        <TextView
+            android:id="@+id/tv_step_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_step_three"
+            android:gravity="center_horizontal"
+            android:text="压力测试"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/iv_step_four"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/bind_step_before" />
+
+        <TextView
+            android:id="@+id/tv_step_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_step_four"
+            android:gravity="center_horizontal"
+            android:text="计步测试"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/iv_step_five"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/bind_step_before" />
+
+        <TextView
+            android:id="@+id/tv_step_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_step_five"
+            android:gravity="center_horizontal"
+            android:text="绑定成功"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</LinearLayout>

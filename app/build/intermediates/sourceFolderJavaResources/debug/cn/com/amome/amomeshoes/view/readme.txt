@@ -1,0 +1,2 @@
+1、account：包含软件启动到登录成功前的所有页面。如欢迎页面，引导页面，登录页面，注册页面，忘记密码页面，支付页面等。
+2、main：登录成功后进入主界面（MainFragmentActivity，对应布局文件：fragment_ui_main.xml），主页面包含四个模块，健康（HealthFragment）、运动（ExerciseFragment）、活动（ActivityFragment）以及我（MyFragment）。另外绑定（bind）属于独立模块也另外四个模块并列放在该目录下。

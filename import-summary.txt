@@ -1,0 +1,107 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* build.xml
+* readme.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+gson-2.1.jar => com.google.code.gson:gson:2.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.1.jar => version 2.1 in com.google.code.gson:gson:2.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/BleService.jar => app/libs/BleService.jar
+* libs/ZXing-core-3.2.1.jar => app/libs/ZXing-core-3.2.1.jar
+* libs/amome.encrypt.jar => app/libs/amome.encrypt.jar
+* libs/android-async-http-1.4.4.jar => app/libs/android-async-http-1.4.4.jar
+* libs/bugly_crash_release.jar => app/libs/bugly_crash_release.jar
+* libs/eventbus-1.0.1.jar => app/libs/eventbus-1.0.1.jar
+* libs/mpandroidchartlibrary-2-1-6.jar => app/libs/mpandroidchartlibrary-2-1-6.jar
+* libs/radar.jar => app/libs/radar.jar
+* libs/swipemenulistview.jar => app/libs/swipemenulistview.jar
+* libs/umeng-analytics-v6.0.1.jar => app/libs/umeng-analytics-v6.0.1.jar
+* libs/universal-image-loader-1.9.3.jar => app/libs/universal-image-loader-1.9.3.jar
+* libs/weixinlibammsdk.jar => app/libs/weixinlibammsdk.jar
+* proguard-project.txt => app/proguard-project.txt
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/cn/com/amome/amomeshoes/adapter/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/adapter/readme.txt
+* src/cn/com/amome/amomeshoes/common/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/common/readme.txt
+* src/cn/com/amome/amomeshoes/events/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/events/readme.txt
+* src/cn/com/amome/amomeshoes/http/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/http/readme.txt
+* src/cn/com/amome/amomeshoes/model/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/model/readme.txt
+* src/cn/com/amome/amomeshoes/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/readme.txt
+* src/cn/com/amome/amomeshoes/util/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/util/readme.txt
+* src/cn/com/amome/amomeshoes/view/account/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/account/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/activity/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/activity/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/bind/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/bind/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/exercise/.MotionDataFragment.java.swp => app/src/main/resources/cn/com/amome/amomeshoes/view/main/exercise/.MotionDataFragment.java.swp
+* src/cn/com/amome/amomeshoes/view/main/exercise/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/exercise/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/detection/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/detection/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/detection/shake/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/detection/shake/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/detection/squat/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/detection/squat/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/detection/stand/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/detection/stand/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/detection/walk/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/detection/walk/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/promotion/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/promotion/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/report/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/report/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/service/assistant/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/service/assistant/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/service/look/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/service/look/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/service/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/service/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/service/ruler/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/service/ruler/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/health/service/shoebox/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/health/service/shoebox/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/my/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/my/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/my/secret/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/my/secret/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/my/setting/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/my/setting/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/my/user/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/my/user/readme.txt
+* src/cn/com/amome/amomeshoes/view/main/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/main/readme.txt
+* src/cn/com/amome/amomeshoes/view/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/view/readme.txt
+* src/cn/com/amome/amomeshoes/widget/readme.txt => app/src/main/resources/cn/com/amome/amomeshoes/widget/readme.txt
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

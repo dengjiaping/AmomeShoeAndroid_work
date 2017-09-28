@@ -1,0 +1,288 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/head_title" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/register_gray_light"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/y10"
+                android:text="辛苦啦，经过测试发现您：" />
+
+            <LinearLayout
+                android:id="@+id/ll_report_walk"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y180"
+                android:layout_marginLeft="@dimen/y21"
+                android:layout_marginRight="@dimen/y21"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|bottom"
+                        android:text="双脚对称性"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_walk_result"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|bottom"
+                        android:text=""
+                        android:textColor="#FF8D4A"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="#727171"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="异常"
+                            android:textColor="#FFA943"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="一般"
+                            android:textColor="#FF8D4A"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:text="正常"
+                            android:textColor="#FF4070"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="#727171"
+                        android:gravity="center_vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_walk_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/y21" >
+
+                            <View
+                                android:id="@+id/view_walk_progress"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/jbshape" />
+
+                            <ImageView
+                                android:layout_width="@dimen/y17"
+                                android:layout_height="@dimen/y17"
+                                android:layout_alignRight="@+id/view_walk_progress"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/y4"
+                                android:src="@drawable/exercise_2_dot" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_report_step"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y180"
+                android:layout_marginLeft="@dimen/y21"
+                android:layout_marginRight="@dimen/y21"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="left|bottom"
+                        android:text="步态情况"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_step_result"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|bottom"
+                        android:text=""
+                        android:textColor="#FF8D4A"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="#727171"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="弱"
+                            android:textColor="#FFA943"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="正常"
+                            android:textColor="#FF8D4A"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|right"
+                            android:text="优秀"
+                            android:textColor="#FF4070"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="#727171"
+                        android:gravity="center_vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_step_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/y21" >
+
+                            <View
+                                android:id="@+id/view_step_progress"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/jbshape" />
+
+                            <ImageView
+                                android:layout_width="@dimen/y17"
+                                android:layout_height="@dimen/y17"
+                                android:layout_alignRight="@+id/view_step_progress"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/y4"
+                                android:src="@drawable/exercise_2_dot" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_tip1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/y21"
+                android:layout_marginRight="@dimen/y21"
+                android:layout_marginTop="@dimen/y21"
+                android:text=""
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_tip2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/y42"
+                android:layout_marginLeft="@dimen/y21"
+                android:layout_marginRight="@dimen/y21"
+                android:layout_marginTop="@dimen/y21"
+                android:text=""
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tv_walk_report_more"
+            android:layout_width="@dimen/y313"
+            android:layout_height="@dimen/y104"
+            android:background="@drawable/conner_blue_rectangle_radius_3dp"
+            android:gravity="center"
+            android:text="@string/squat_report_more"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

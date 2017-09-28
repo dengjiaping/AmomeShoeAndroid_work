@@ -1,0 +1,147 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- 主页底部导航栏 -->
+    <style name="main_tab_bottom">
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#676767</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <!-- progress bar -->
+    <style name="Widget"></style>
+
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="Widget.ProgressBar.RegularProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">1dip</item>
+        <item name="android:maxHeight">10dip</item>
+    </style>
+    <!-- progress bar -->
+
+
+    <!-- popwindow animation -->
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item> <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item> <!-- 指定消失的动画xml -->
+    </style>
+    <!-- popwindow animation -->
+
+
+    <!-- dialog样式activity -->
+    <style name="ThemeFloatActivity" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/float_box</item>
+    </style>
+    <!-- 运动今日/昨日 -->
+    <style name="exerciese_radio_tab">
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#676767</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!--
+             <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        -->
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- 个人信息性别 -->
+    <style name="radio_tab">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5dip</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <!-- ios dialog -->
+    <style name="mystyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- 动画弹窗效果 -->
+    <style name="transparentFrameWindowStyle" parent="@style/EvaluatDialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+    <style name="EvaluatDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <!-- 底部弹出选择窗的动画样式 -->
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out_anim</item>
+    </style>
+<!--2017.9.26将CircleImageView修改为CircleImageView2-->
+    <declare-styleable name="CircleImageView2">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <style name="Widget_MyGiftView">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

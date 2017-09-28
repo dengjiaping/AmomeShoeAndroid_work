@@ -1,0 +1,569 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gif="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/head_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_scan_shoes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_scan_shoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/loadingpic" />
+
+            <TextView
+                android:id="@+id/tv_scanshoes_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y21"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_stand"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/y21"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <cn.com.amome.amomeshoes.widget.GifView
+                android:id="@+id/gv_shake_posture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                gif:gif="@raw/shake_single_tip_black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_stand_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="通过"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_stand_tip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="“摇一摇”"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_stand_tip2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="可知道"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_stand_tip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="平衡能力"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_stand_guidance"
+                    android:layout_width="@dimen/y313"
+                    android:layout_height="@dimen/y104"
+                    android:background="@drawable/conner_solid_green_grass_rectangle_radius_3dp"
+                    android:text="查看教程"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_stand_start_tip"
+                    android:layout_width="@dimen/y313"
+                    android:layout_height="@dimen/y104"
+                    android:background="@drawable/conner_blue_rectangle_radius_3dp"
+                    android:text="跳过教程"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_stand_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/y21"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="检测中需注意"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:paddingLeft="@dimen/y63"
+                android:paddingRight="@dimen/y63"
+                android:paddingTop="@dimen/y63"
+                android:text="1 请遵语音提示保持对应的检测动作\n2 检测中，双脚请勿移动与滑动\n3 单足站立的检测难度高，请坚持"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="贴心提示"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:paddingLeft="@dimen/y63"
+                android:paddingRight="@dimen/y63"
+                android:paddingTop="@dimen/y63"
+                android:text="身体状态良好\n不能安全独立完成所要求动作时，要注意予以保护以免摔到，必要时给予帮助\n单足站立检测易摔到，请保持周围无尖锐易碎等异物，防止摔到碰伤。或放置可支撑物帮助完成检测"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_shake_start_pre"
+                    android:layout_width="@dimen/y313"
+                    android:layout_height="@dimen/y104"
+                    android:background="@drawable/conner_blue_rectangle_radius_3dp"
+                    android:text="开始测试"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_stand_pre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:id="@+id/ll_shake_pre_top"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_shake_double_tip"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/shake_double_tip"
+                    android:visibility="visible" />
+
+                <cn.com.amome.amomeshoes.widget.GifView
+                    android:id="@+id/gv_shake_single_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"
+                    gif:gif="@raw/shake_single_tip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_shake_open_tip"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/y6"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/shake_open"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/iv_shake_close_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/y6"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_stand_countdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_grass"
+                android:gravity="center"
+                android:padding="@dimen/y21"
+                android:text="双足睁眼检测"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_double_open"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_open" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_double" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_single_open"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_open" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_single" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_double_close"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_close" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_double" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_single_close"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_close" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:padding="@dimen/y6"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/shake_single" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_shake_start_double_open"
+                    android:layout_width="@dimen/y313"
+                    android:layout_height="@dimen/y104"
+                    android:background="@drawable/conner_solid_green_grass_rectangle_radius_3dp"
+                    android:text="开始测试"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btn_shake_start_single_open"
+                    android:layout_width="@dimen/y313"
+                    android:layout_height="@dimen/y104"
+                    android:background="@drawable/conner_solid_green_grass_rectangle_radius_3dp"
+                    android:text="开始测试"
+                    android:textColor="@android:color/white"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_shake_start_double_close"
+                    android:layout_width="@dimen/y313"
+                    android:layout_height="@dimen/y104"
+                    android:background="@drawable/conner_solid_green_grass_rectangle_radius_3dp"
+                    android:text="开始测试"
+                    android:textColor="@android:color/white"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_shake_start_single_close"
+                    android:layout_width="@dimen/y313"
+                    android:layout_height="@dimen/y104"
+                    android:background="@drawable/conner_solid_green_grass_rectangle_radius_3dp"
+                    android:text="开始测试"
+                    android:textColor="@android:color/white"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_foot_print"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/ll_shoepic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.6" >
+
+            <ImageView
+                android:id="@+id/iv_shake_detection_double"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/y21"
+                android:scaleType="fitCenter"
+                android:src="@drawable/shake_double_tip" />
+
+            <ImageView
+                android:id="@+id/iv_shake_detection_single"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/y21"
+                android:scaleType="fitCenter"
+                android:src="@drawable/shake_single_tip"
+                android:visibility="gone" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pie_chart_shake"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/y6"
+                android:rotation="270" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_shake_test_eye"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/shake_open" />
+
+            <TextView
+                android:id="@+id/tv_shake_test_countdown"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_test_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green_grass"
+                android:gravity="center"
+                android:padding="@dimen/y21"
+                android:text="预备"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

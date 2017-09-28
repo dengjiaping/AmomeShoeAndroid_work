@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:gravity="center_horizontal" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/head_title" />
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/title"
+        android:background="@color/register_gray_light" />
+
+    <TextView
+        android:id="@+id/tv_add_shoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_short_rosered_bg_selector"
+        android:gravity="center"
+        android:text="添加智能鞋"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_bind_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_add_shoes"
+        android:layout_below="@+id/v_line"
+        android:divider="#d9d9d9"
+        android:dividerHeight="1px" >
+    </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+</RelativeLayout>

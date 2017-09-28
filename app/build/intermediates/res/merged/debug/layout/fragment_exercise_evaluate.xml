@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    tools:context=".ui.exercise.ExerciseFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y67" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_up"
+            android:layout_width="@dimen/y618"
+            android:layout_height="@dimen/y618" >
+
+            <ImageView
+                android:id="@+id/iv_exercise_2_background"
+                android:layout_width="@dimen/y618"
+                android:layout_height="@dimen/y618"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/exercise_2_background" />
+
+            <ImageView
+                android:id="@+id/iv_exercise_2_disk"
+                android:layout_width="@dimen/y375"
+                android:layout_height="@dimen/y375"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/exercise_2_disk" />
+
+            <ImageView
+                android:id="@+id/iv_exercise_2_logo"
+                android:layout_width="@dimen/y104"
+                android:layout_height="@dimen/y97"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/exercise_2_logo" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/iv_exercise_2_background"
+                android:layout_alignTop="@+id/iv_exercise_2_background"
+                android:layout_marginLeft="@dimen/y120"
+                android:layout_marginTop="@dimen/y120"
+                android:text="业余"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/iv_exercise_2_background"
+                android:layout_alignTop="@+id/iv_exercise_2_background"
+                android:layout_marginRight="@dimen/y120"
+                android:layout_marginTop="@dimen/y120"
+                android:text="竞技"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/y46"
+                android:gravity="right"
+                android:text="专业"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_exercise_2_background"
+                android:layout_alignLeft="@+id/iv_exercise_2_background"
+                android:layout_marginBottom="@dimen/y120"
+                android:layout_marginLeft="@dimen/y120"
+                android:text="low"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_exercise_2_background"
+                android:layout_alignRight="@+id/iv_exercise_2_background"
+                android:layout_marginBottom="@dimen/y120"
+                android:layout_marginRight="@dimen/y120"
+                android:text="大神"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/y46"
+                android:text="娱乐"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_exercise_2_background"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/y40"
+                android:text="达人"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/y668"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/ll_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="@dimen/y69"
+                    android:layout_height="@dimen/y69"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/exercise_2_sit" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y83"
+                    android:layout_marginLeft="@dimen/y10" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/exercise_2_cal_background" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y42"
+                        android:layout_alignParentBottom="true" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_sit_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/y21"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="@dimen/y10"
+                            android:layout_marginRight="@dimen/y10" >
+
+                            <View
+                                android:id="@+id/view_sit_progress"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/jbshape" />
+
+                            <ImageView
+                                android:layout_width="@dimen/y17"
+                                android:layout_height="@dimen/y17"
+                                android:layout_alignRight="@+id/view_sit_progress"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/y4"
+                                android:src="@drawable/exercise_2_dot" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_first"
+                android:layout_marginTop="@dimen/y21"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="@dimen/y69"
+                    android:layout_height="@dimen/y69"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/exercise_2_stand" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y83"
+                    android:layout_marginLeft="@dimen/y10" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/exercise_2_cal_background" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y42"
+                        android:layout_alignParentBottom="true" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_sta_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/y21"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="@dimen/y10"
+                            android:layout_marginRight="@dimen/y10" >
+
+                            <View
+                                android:id="@+id/view_sta_progress"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/jbshape" />
+
+                            <ImageView
+                                android:layout_width="@dimen/y17"
+                                android:layout_height="@dimen/y17"
+                                android:layout_alignRight="@+id/view_sta_progress"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/y4"
+                                android:src="@drawable/exercise_2_dot" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_second"
+                android:layout_marginTop="@dimen/y21"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="@dimen/y69"
+                    android:layout_height="@dimen/y69"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/exercise_2_walk" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y83"
+                    android:layout_marginLeft="@dimen/y10" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/exercise_2_cal_background" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y42"
+                        android:layout_alignParentBottom="true" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_go_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/y21"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="@dimen/y10"
+                            android:layout_marginRight="@dimen/y10" >
+
+                            <View
+                                android:id="@+id/view_go_progress"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/jbshape" />
+
+                            <ImageView
+                                android:layout_width="@dimen/y17"
+                                android:layout_height="@dimen/y17"
+                                android:layout_alignRight="@+id/view_go_progress"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/y4"
+                                android:src="@drawable/exercise_2_dot" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

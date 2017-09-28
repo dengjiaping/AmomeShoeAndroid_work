@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainFragmentActivity" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_gray" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/ll_tab"
+        android:background="#BDBDBD" >
+    </View>
+
+    <LinearLayout
+        android:id="@+id/ll_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y97"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/main_tab_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/tab1"
+                style="@style/main_tab_bottom"
+                android:checked="true"
+                android:drawableTop="@drawable/rb_tab1_health"
+                android:text="@string/health"
+                android:textColor="@color/turkeygreen" />
+
+            <RadioButton
+                android:id="@+id/tab2"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/rb_tab2_motion"
+                android:text="@string/motion"
+                android:textColor="@color/blue" />
+
+            <RadioButton
+                android:id="@+id/tab3"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/rb_tab3_activity"
+                android:text="@string/activity"
+                android:textColor="@color/orange" />
+
+            <RadioButton
+                android:id="@+id/tab4"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/rb_tab4_my"
+                android:text="@string/my"
+                android:textColor="@color/rosered" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

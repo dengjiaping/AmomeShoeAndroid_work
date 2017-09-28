@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="amome.encrypt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/amome.encrypt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

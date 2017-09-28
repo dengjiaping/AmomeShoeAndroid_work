@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/y207"
+                android:layout_height="@dimen/y158"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y42"
+                android:src="@drawable/icon_forget_logo" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/y656"
+                android:layout_height="@dimen/y92"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y31" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/et_gray_bg" />
+
+                <EditText
+                    android:id="@+id/et_phonenum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="@string/phonenum"
+                    android:inputType="phone"
+                    android:padding="@dimen/y21"
+                    android:singleLine="true"
+                    android:textColorHint="@color/tv_gray"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/y656"
+                android:layout_height="@dimen/y92"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y31"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/y92"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/y31"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/et_gray_short_bg" />
+
+                    <EditText
+                        android:id="@+id/et_reset_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/verify_code"
+                        android:padding="@dimen/y21"
+                        android:textColorHint="@color/tv_gray"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/y92"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/btn_short_rosered_bg_selector" />
+
+                    <TextView
+                        android:id="@+id/tv_reset_getcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/y15"
+                        android:paddingLeft="@dimen/y63"
+                        android:paddingRight="@dimen/y63"
+                        android:paddingTop="@dimen/y15"
+                        android:text="@string/get_verify_code"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/y656"
+                android:layout_height="@dimen/y92"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y31" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/et_gray_bg" />
+
+                <EditText
+                    android:id="@+id/et_reset_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="@string/register_inputpw"
+                    android:padding="@dimen/y21"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/tv_gray"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/y656"
+                android:layout_height="@dimen/y92"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y31" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/et_gray_bg" />
+
+                <EditText
+                    android:id="@+id/et_reset_pw_agin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="@string/register_inputpw"
+                    android:padding="@dimen/y21"
+                    android:password="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/tv_gray"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/y656"
+                android:layout_height="@dimen/y92"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/y63" >
+
+                <ImageView
+                    android:id="@+id/iv_complete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_rosered_bg_selector" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/ok"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

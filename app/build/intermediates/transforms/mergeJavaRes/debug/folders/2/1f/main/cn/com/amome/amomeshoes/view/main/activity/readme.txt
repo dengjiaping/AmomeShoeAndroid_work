@@ -1,0 +1,1 @@
+1、ActivityFragment：活动页面，对应布局文件fragment_activity_main.xml。该功能模块目前还未开发。

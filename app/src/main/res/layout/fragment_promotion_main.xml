@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/register_gray_light"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.MainFragmentActivity" >
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/y750"
+        android:layout_height="@dimen/y947"
+        android:scaleType="fitXY"
+        android:src="@drawable/health_promotion_bg" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="足部" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#d9d9d9" />
+
+            <cn.com.amome.amomeshoes.widget.MyGridView
+                android:id="@+id/gv_foot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:cacheColorHint="@android:color/transparent"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="0dp" >
+            </cn.com.amome.amomeshoes.widget.MyGridView>
+
+            <cn.com.amome.amomeshoes.widget.MyGridView
+                android:id="@+id/gv_posture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:cacheColorHint="@android:color/transparent"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="0dp" >
+            </cn.com.amome.amomeshoes.widget.MyGridView>
+
+            <cn.com.amome.amomeshoes.widget.MyGridView
+                android:id="@+id/gv_balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:cacheColorHint="@android:color/transparent"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="0dp" >
+            </cn.com.amome.amomeshoes.widget.MyGridView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

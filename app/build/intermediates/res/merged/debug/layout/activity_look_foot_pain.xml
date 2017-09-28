@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/head_title" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_marginLeft="@dimen/y33"
+        android:layout_marginRight="@dimen/y33"
+        android:layout_marginTop="@dimen/y42"
+        android:choiceMode="multipleChoice"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="@dimen/y17" >
+    </GridView>
+
+    <Button
+        android:id="@+id/btn_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/y31"
+        android:layout_marginLeft="@dimen/y33"
+        android:layout_marginTop="@dimen/y42"
+        android:background="@drawable/btn_short_turkeygreen_bg_selector"
+        android:text="清除"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/y31"
+        android:layout_marginRight="@dimen/y33"
+        android:layout_marginTop="@dimen/y42"
+        android:background="@drawable/btn_short_turkeygreen_bg_selector"
+        android:text="确定"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/tip_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridView"
+        android:layout_marginLeft="@dimen/y52"
+        android:layout_marginRight="@dimen/y52"
+        android:layout_marginTop="@dimen/y42"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="魔秘提示：记录脚痛位置，可在“"
+            android:textColor="@android:color/black"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看"
+            android:textColor="@color/turkeygreen"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="”中，点击症状"
+            android:textColor="@android:color/black"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tip_ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tip_ll1"
+        android:layout_marginTop="@dimen/y2"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/y17"
+            android:text="查看身体健康初诊。"
+            android:textColor="@android:color/black"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</RelativeLayout>

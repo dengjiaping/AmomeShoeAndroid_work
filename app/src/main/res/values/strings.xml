@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">魔秘</string>
+    <string name="pw">请输入登录密码</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="phonenum2">请输入手机号码</string>
+    <string name="phonenum">手机号码</string>
+    <string name="login">登录</string>
+    <string name="forgetpw">忘记密码</string>
+    <string name="register_now">立即注册</string>
+    <string name="fast_login">快速登录</string>
+    <string name="ok">完成</string>
+    <string name="auth_error">授权操作遇到错误</string>
+    <string name="service_test_shoe">测一测</string>
+    <!-- 主页 -->
+    <string name="health">健康</string>
+    <string name="motion">运动</string>
+    <string name="activity">活动</string>
+    <string name="my">我</string>
+    <!-- 注册 -->
+    <string name="verify_code">验证码</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="register_inputpw">请设置6-16位的登录密码</string>
+    <string name="chanpw_inputpw">请输入6-16位的新密码</string>
+    <string name="register_inputpw_agin">再次输入密码</string>
+    <string name="register_complete">完成注册</string>
+    <string name="register_tip">注册即是同意</string>
+    <string name="amome_sla">魔秘网络服务协议</string>
+    <string name="login_now">立即登录</string>
+    <!-- 日常自诊 -->
+    <!-- 看一看 -->
+    <string name="cancle"> 取消</string>
+    <!-- 量一量 -->
+    <string name="ruler_tip1">使用量脚板测量读数字教程(单位:cm)</string>
+    <string name="ruler_tip6">后跟跟腱与底部线成90度</string>
+    <string name="ruler_tip7">脚侧面最外缘线条与标尺对位线平行，再使用附赠的卡尺测量脚的长度</string>
+    <string name="ruler_tip8">脚侧面最外缘线条与标尺对位线平行，再使用附赠的卡尺测量脚的宽度</string>
+    <string name="ruler_tip10">友情提示：</string>
+    <string name="ruler_tip11">请穿上平常穿的袜子进行测量</string>
+    <string name="ruler_foot_height">脚长:</string>
+    <string name="ruler_foot_width">脚宽:</string>
+    <string name="ruler_foot_reference">买鞋参考脚:</string>
+    <string name="ruler_suitable_shoes">适合鞋型:</string>
+    <string name="ruler_suitable_shoesbrand">品牌参考码数</string>
+    <string name="submit">提交</string>
+    <string name="introuduction">点击知道如何使用量脚板</string>
+    <string name="use">使用鞋盒盖子上的</string>
+    <string name="paper">量脚纸</string>
+    <string name="paper2">量脚板</string>
+    <string name="tomeasure">进行测量</string>
+    <string name="othermeasure">或，在A4纸上绘制脚的轮廓，进行测量</string>
+    <string name="unit">(MM)</string>
+    <string name="unit2">(mm)</string>
+    <string name="mome_ruler_tip">魔秘提示：左右滑动尺子，录入脚长脚宽尺寸。</string>
+    <string name="ruler_foot_height1">脚长</string>
+    <string name="ruler_foot_width1">脚宽</string>
+    <string name="measure_next">下一步</string>
+    <string name="measure_prev">上一步</string>
+    <string name="mometip">魔秘提示：品牌不同，鞋码不同，准确的脚长脚宽更有助于买鞋。另外，买鞋需要参考较大的一只脚。</string>
+    <!-- 爱心助手 -->
+    <string name="title_activity_assist_main">AssistMainActivity</string>
+    <string name="title_activity_assist_option">AssistOptionActivity</string>
+    <!-- 鞋小箱 -->
+    <string name="title_activity_shoes_del_pro">ShoesDelProActivity</string>
+    <!-- 我的鞋 -->
+    <string name="shoebox_problem">不良体验</string>
+    <!-- 绑定 -->
+    <string name="bind_start_scan">开始绑定</string>
+    <string name="title_activity_bind_stress">BindStressActivity</string>
+    <string name="title_activity_bind_walk">BindWalkActivity</string>
+    <string name="title_activity_bind_shock">BindShockActivity</string>
+    <!-- 智能检测 -->
+    <string name="title_activity_test_scanshoes">TestScanshoesActivity</string>
+    <string name="title_activity_test_stand">TestStandActivity</string>
+    <string name="title_activity_test_stress">TestStressActivity</string>
+    <string name="title_activity_detection_squat">SquatDetectionActivity</string>
+    <string name="title_activity_detection_squat_report">SquatReportView</string>
+    <string name="title_activity_detection_stand">StandDetectionActivity</string>
+    <string name="title_activity_detection_stand_report">StandReportActivity</string>
+    <string name="title_activity_detection_shake">ShakeDetectionActivity</string>
+    <string name="title_activity_detection_shake_report">ShakeReportActivity</string>
+    <string name="title_activity_detection_walk">WalkDetectionActivity</string>
+    <string name="title_activity_detection_walk_report">WalkReportActivity</string>
+    <string name="title_activity_reconnection">ReconnectionActivity</string>
+    <string name="title_activity_stand_demo">StandDemoActivity</string>
+    <string name="title_activity_more_setting">MoreSettingActivity</string>
+    <string name="title_activity_squat_tip">SquatTipActivity</string>
+    <string name="title_activity_foot_report">FootReportActivity</string>
+    <string name="title_activity_posture_report">PostureReportActivity</string>
+    <string name="title_activity_balance_report">BalanceReportActivity</string>
+    <string name="title_activity_walk_report">WalkReportActivity</string>
+    <string name="title_activity_squat_teaching">SquatTeachingActivity</string>
+    <string name="title_activity_stand_teaching">StandTeachingActivity</string>
+    <string name="title_activity_shake_teaching">ShakeTeachingActivity</string>
+    <string name="title_activity_walk_teaching">WalkTeachingActivity</string>
+    <!-- 蹲一蹲 -->
+    <string name="test_foot_type">足型：</string>
+    <string name="test_save_phone">保存到手机</string>
+    <string name="test_report_tip">魔秘提示：“测一侧”的信息会实时同步在“脚的秘密”中</string>
+    <string name="squat_report_more">查看完整报告</string>
+    <!-- 我 -->
+    <string name="my_setting">设置</string>
+    <string name="my_feedback">问题反馈</string>
+    <string name="my_checkin">签到</string>
+    <string name="my_seret">秘密</string>
+    <string name="my_foot_secret">脚的秘密</string>
+    <string name="my_shoes_secret">鞋的秘密</string>
+    <string name="my_motions_secret">运动的秘密</string>
+    <string name="my_collection">收藏</string>
+    <string name="my_magic">魔力</string>
+    <string name="my_motion_power">运动力</string>
+    <string name="my_health_power">健康力</string>
+    <string name="my_currency">通用</string>
+    <string name="my_firmwareinfo">硬件设备</string>
+    <string name="my_history">历史信息</string>
+    <string name="bind">绑定</string>
+    <string name="title_activity_shoe_secret">ShoeSecretActivity</string>
+    <!-- 设置 -->
+    <string name="app_setting_shark">震动</string>
+    <string name="app_setting_alarm">足底闹钟</string>
+    <string name="app_setting_lowele">低电量通知</string>
+    <string name="app_setting_unbind">解绑</string>
+    <string name="app_soft_setting">软件设置</string>
+    <string name="app_setting_shoes">智能鞋设置</string>
+    <string name="app_setting_add_shoes">添加智能鞋</string>
+    <string name="app_setting_my_shoes">我的智能鞋</string>
+    <string name="app_setting_restart_shoes">重启智能鞋</string>
+    <string name="app_setting_reset_shoes">恢复出厂设置</string>
+    <string name="app_setting_upgrade_shoes">固件升级</string>
+    <string name="app_setting_battery_shoes">电量检测</string>
+    <string name="app_setting_account_manag">帐号管理</string>
+    <string name="app_setting_clear_cache">清理缓存</string>
+    <string name="app_setting_aboutmome">关于魔秘</string>
+    <string name="app_update_mome">魔秘升级</string>
+    <string name="contract_us">联系我们</string>
+    <string name="my_userhelp">用户帮助</string>
+    <string name="mome_upgrade">升级魔秘</string>
+    <string name="title_activity_my_shoes">MyShoesActivity</string>
+    <!-- 账户管理 -->
+    <string name="sina">新浪微博</string>
+    <string name="qq">QQ</string>
+    <string name="wechat">微信</string>
+    <string name="account_bind">帐号绑定</string>
+    <string name="pw_mange">密码管理</string>
+    <string name="change_pw">修改密码</string>
+    <string name="input_oldpw">请输入旧密码</string>
+    <string name="exitmome">退出魔秘</string>
+    <!-- 关于 -->
+    <string name="app_versionnum_defult">0.0.0</string>
+    <string name="app_evaluation">满意度调查</string>
+    <string name="app_opinion">意见与反馈</string>
+    <string name="app_update">魔秘升级</string>
+    <string name="app_tel">联系我们</string>
+    <string name="app_company_phone">0551-67122317</string>
+    <string name="app_logout">退出登录</string>
+    <string name="app_copyright1" formatted="false">Copyright © %s 安徽埃力智能科技有限公司</string>
+    <string name="app_copyright2">All Rights Reserved</string>
+    <string name="qq_contact">QQ：2932713976</string>
+    <string name="weibo_contact">微博：魔秘智能鞋</string>
+    <string name="youzan_url">众筹链接：京东众筹</string>
+    <string name="phone_contact">联系电话：0551-67122317</string>
+    <string name="erweima">魔秘微信公众号二维码</string>
+    <!-- 个人信息 -->
+    <string name="nickname">昵称</string>
+    <string name="birth">出生日期</string>
+    <string name="weight">体重</string>
+    <string name="height">身高</string>
+    <string name="job">职业</string>
+    <string name="hobby">爱好</string>
+    <string name="tel">收货人联系电话</string>
+    <string name="address">收货人地址</string>
+    <string name="realname">收货人姓名</string>
+    <string name="postalcode">邮政编码</string>
+
+    <!-- 意见与反馈 -->
+    <string name="app_opinion_tip">提交</string>
+    <string name="app_opinion_tip2">请输入不多于200字的问题描述</string>
+    <string name="secret_tip">魔秘提示：点击脚痛脚疾症状可见初诊分析。注意:初诊分析中原因与建议仅供参考，具体情况请遵循医嘱。</string>
+
+    <!-- 其他 -->
+    <string name="prompt">提示</string>
+    <string name="exit_app">你确定要退出应用吗?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dismiss">隐藏</string>
+    <string name="title_activity_bind_shoes">BindShoesActivity</string>
+    <string name="title_activity_scan_bluetooth">ScanBluetoothActivity</string>
+    <string name="title_activity_bind">BindActivity</string>
+    <string name="mGP">mGP%1$d</string>
+    <string name="title_activity_sweep_shoes">SweepShoesActivity</string>
+    <!-- 刷新 -->
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新</string>
+    <string name="p2refresh_doing_end_refresh">加载中</string>
+    <string name="p2refresh_refresh_lasttime">最近更新</string>
+    <string name="title_activity_promotion_add">PromotionAddActivity</string>
+
+</resources>

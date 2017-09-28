@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    tools:context=".ui.exercise.ExerciseFragment" >
+
+    <!--
+         <ImageView 
+        android:layout_width="match_parent"
+		android:layout_height="match_parent" 
+		android:scaleType="fitCenter" 
+		android:src="@drawable/exercise_radar_background"      
+        />
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/y8"
+            android:layout_marginTop="@dimen/y8"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="@dimen/y104"
+                android:layout_height="wrap_content"
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="需注意"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="@dimen/y104"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y8"
+                android:background="#A0A0A0"
+                android:gravity="center"
+                android:text="正常"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="@dimen/y104"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y8"
+                android:background="#828282"
+                android:gravity="center"
+                android:text="优秀"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="@dimen/y621"
+            android:layout_height="@dimen/y540"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/exercise_3_radar_background" />
+
+        <com.github.mikephil.charting.radar.charts.RadarChart
+            android:id="@+id/chart1"
+            android:layout_width="@dimen/y620"
+            android:layout_height="@dimen/y620"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_image"
+            android:layout_alignLeft="@+id/iv_image"
+            android:layout_marginLeft="@dimen/y130"
+            android:text="站时间"
+            android:textSize="9sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_image"
+            android:layout_alignRight="@+id/iv_image"
+            android:layout_marginRight="@dimen/y130"
+            android:text="总消耗"
+            android:textSize="9sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_image"
+            android:text="坐时间"
+            android:textSize="9sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_image"
+            android:text="步速"
+            android:textSize="9sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iv_image"
+            android:layout_below="@+id/iv_image"
+            android:layout_marginLeft="@dimen/y130"
+            android:text="走时间"
+            android:textSize="9sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/iv_image"
+            android:layout_below="@+id/iv_image"
+            android:layout_marginRight="@dimen/y130"
+            android:text="步数"
+            android:textSize="9sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/y4"
+            android:layout_marginRight="@dimen/y4"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_margin="@dimen/y4"
+                android:layout_weight="1"
+                android:background="@drawable/conner_gray_rectangle"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y31"
+                    android:gravity="center"
+                    android:text="总消耗(大卡)"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_exercise_radar_totalcal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y52"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_margin="@dimen/y4"
+                android:layout_weight="1"
+                android:background="@drawable/conner_gray_rectangle"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y31"
+                    android:gravity="center"
+                    android:text="步数(步)"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_exercise_radar_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y52"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_margin="@dimen/y4"
+                android:layout_weight="1"
+                android:background="@drawable/conner_gray_rectangle"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y31"
+                    android:gravity="center"
+                    android:text="步速(步/分钟)"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_exercise_radar_stpfqc"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y52"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/y4"
+            android:layout_marginRight="@dimen/y4"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_margin="@dimen/y4"
+                android:layout_weight="1"
+                android:background="@drawable/conner_gray_rectangle"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y31"
+                    android:gravity="center"
+                    android:text="坐时间(分钟)"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_exercise_radar_sittime"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y52"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_margin="@dimen/y4"
+                android:layout_weight="1"
+                android:background="@drawable/conner_gray_rectangle"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y31"
+                    android:gravity="center"
+                    android:text="站时间(分钟)"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_exercise_radar_statime"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y52"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y90"
+                android:layout_margin="@dimen/y4"
+                android:layout_weight="1"
+                android:background="@drawable/conner_gray_rectangle"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y31"
+                    android:gravity="center"
+                    android:text="走时间(分钟)"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_exercise_radar_gotime"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y52"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
