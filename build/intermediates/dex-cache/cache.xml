@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/classes_238749c082e14706867dff014887a4f613f7b750.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/universal-image-loader-1.9.3.jar"
         jumboMode="false"
         optimize="true"
@@ -18,15 +27,6 @@
         revision="26.0.1"
         sha1="2353dd795333a76ae8517e97e85995586b961bb1">
         <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/swipemenulistview_eeeae6d445175c369c97e8521b32cefb7f5e9e03.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ccf/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_d79917f5e5f5fd19996f226fcb3d8e2085a5989c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,21 +57,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_5d7f78d99f241bb0599b4ab73b927f72e3cf9497.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/mpandroidchartlibrary-2-1-6.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
         <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-6_28b7e53dbb490d27107c931f56a526a7bc886664.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ccf/.android/build-cache/6fbb96bb91d231b5a9d331393b8f8b633090bf85/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/classes_8ee4d404b822f19fbc438f76625d8ffc26b2cdd2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/ccf/.android/build-cache/f8e901e43e7a12c74e81724560d9008119c3c8a9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/classes_91934acda875b4ae640b4736453a8ff3a6e5db6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/ccf/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
         jumboMode="false"
         optimize="true"
@@ -129,12 +138,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/ccf/.android/build-cache/6fbb96bb91d231b5a9d331393b8f8b633090bf85/output/jars/libs/internal_impl-21.0.3.jar"
+        jar="/home/ccf/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_e9d4570a494ba4c3aaf846ffcb482c7f5f241315.jar" />
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_e6da92fb5dcc28ed043d5e3cfb647a1ee90e2577.jar" />
     </item>
     <item
         is-multidex="false"

@@ -1,3 +1,4 @@
+<!--
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,11 +9,12 @@
     tools:context=".ui.MainFragmentActivity" >
 
     <ImageView
-        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView"
         android:layout_width="@dimen/y750"
         android:layout_height="@dimen/y947"
+        android:layout_gravity="center_horizontal"
         android:scaleType="fitXY"
-        android:src="@drawable/health_promotion_bg" />
+        android:src="@drawable/health_promotion_bg"/>
 
     <ScrollView
         android:id="@+id/scrollView1"
@@ -79,5 +81,121 @@
             </cn.com.amome.amomeshoes.widget.MyGridView>
         </LinearLayout>
     </ScrollView>
+
+</LinearLayout>-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--足部-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:padding="1dp">
+       <View
+           android:layout_width="5dp"
+           android:layout_height="match_parent"
+           android:background="#32D4C5"
+           android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="足部"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C7C7C7"/>
+    <GridView
+        android:id="@+id/gv_promotion_foot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"></GridView>
+
+    <!--姿态-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:padding="1dp">
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="#32D4C5"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="姿态"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C7C7C7"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></GridView>
+
+    <!--平衡-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:padding="1dp">
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="#32D4C5"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="平衡"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C7C7C7"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></GridView>
+
+    <!--步态-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:padding="1dp">
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="#32D4C5"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="步态"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C7C7C7"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></GridView>
 
 </LinearLayout>

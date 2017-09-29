@@ -17,7 +17,8 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:21.0.3] /home/ccf/.android/build-cache/6fbb96bb91d231b5a9d331393b8f8b633090bf85/output/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.android/build-cache/f8e901e43e7a12c74e81724560d9008119c3c8a9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
@@ -92,7 +93,7 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:38:22-68
 application
 ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-615:19
-MERGED from [com.android.support:support-v4:21.0.3] /home/ccf/.android/build-cache/6fbb96bb91d231b5a9d331393b8f8b633090bf85/output/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:23.4.0] /home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:44:9-41
 	android:allowBackup

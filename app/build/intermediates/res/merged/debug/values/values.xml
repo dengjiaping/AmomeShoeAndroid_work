@@ -55,6 +55,7 @@
     <declare-styleable name="CircleImageView2"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable>
     <declare-styleable name="CustomTheme"><attr format="reference" name="gifViewStyle"/></declare-styleable>
     <declare-styleable name="MyGiftView"><attr format="reference" name="gif"/><attr format="boolean" name="paused"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SaundProgressBar"><attr format="reference" name="progressIndicator"/><attr format="dimension" name="textSize"/><attr format="reference|color" name="textColor"/><attr name="textStyle">
             <flag name="normal" value="0"/>
             <flag name="bold" value="1"/>
@@ -70,6 +71,9 @@
     <dimen name="fy11">-10.55px</dimen>
     <dimen name="fy13">-12.47px</dimen>
     <dimen name="fy16">-15.35px</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
     <dimen name="x1">1.44px</dimen>
     <dimen name="x10">14.4px</dimen>
     <dimen name="x100">144.0px</dimen>
@@ -2162,6 +2166,7 @@
     <item name="decode_succeeded" type="id"/>
     <item name="encode_failed" type="id"/>
     <item name="encode_succeeded" type="id"/>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="launch_product_query" type="id"/>
     <item name="quit" type="id"/>
     <item name="restart_preview" type="id"/>

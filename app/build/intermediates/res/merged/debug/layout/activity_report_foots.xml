@@ -346,6 +346,46 @@
                 android:text=""
                 android:textSize="13sp"
                 android:visibility="gone" />
+
+
+
+            <!--2017/9/28新增足部管家部分-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="#d9d9d9" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/y6"
+                    android:text="足部管家"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+            <!--添加足部管家中有解决方案&&用户有的疾病-->
+            <GridView
+                android:id="@+id/foot_manager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3"
+                android:scrollbars="none">
+            </GridView>
         </LinearLayout>
     </ScrollView>
 

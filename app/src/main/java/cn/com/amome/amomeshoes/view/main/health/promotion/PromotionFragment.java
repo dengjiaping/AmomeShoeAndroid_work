@@ -1,44 +1,34 @@
 package cn.com.amome.amomeshoes.view.main.health.promotion;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.loopj.android.http.RequestParams;
-
-import cn.com.amome.amomeshoes.R;
-import cn.com.amome.amomeshoes.adapter.HealthPromotionMainAdapter;
-import cn.com.amome.amomeshoes.adapter.PromotionAddAdapter;
-import cn.com.amome.amomeshoes.http.ClientConstant;
-import cn.com.amome.amomeshoes.http.HttpError;
-import cn.com.amome.amomeshoes.http.HttpService;
-import cn.com.amome.amomeshoes.http.PostAsyncTask;
-import cn.com.amome.amomeshoes.model.ClassType;
-import cn.com.amome.amomeshoes.model.PromotionFootInfo;
-import cn.com.amome.amomeshoes.model.PromotionInfo;
-import cn.com.amome.amomeshoes.util.DialogUtil;
-import cn.com.amome.amomeshoes.util.SpfUtil;
-import cn.com.amome.amomeshoes.util.T;
-import cn.com.amome.amomeshoes.widget.MyGridView;
 import android.annotation.SuppressLint;
-import android.support.v4.app.Fragment;
-import android.text.TextUtils;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.List;
+
+import cn.com.amome.amomeshoes.R;
+import cn.com.amome.amomeshoes.http.ClientConstant;
+import cn.com.amome.amomeshoes.http.HttpError;
+import cn.com.amome.amomeshoes.http.HttpService;
+import cn.com.amome.amomeshoes.model.ClassType;
+import cn.com.amome.amomeshoes.model.PromotionFootInfo;
+import cn.com.amome.amomeshoes.util.DialogUtil;
 
 /**
  * @Title:PromotionFragment.java
@@ -48,9 +38,9 @@ import android.widget.TextView;
 public class PromotionFragment extends Fragment implements OnClickListener {
 	private String TAG = "PromotionFragment";
 	private Context mContext;
-	private MyGridView gv_foot, gv_posture, gv_balance;
-	private List<Integer> basicList = new ArrayList<Integer>();
-	private HealthPromotionMainAdapter healthPromotionMainAdapter;
+	//private MyGridView gv_foot, gv_posture, gv_balance;
+	//private List<Integer> basicList = new ArrayList<Integer>();
+	//private HealthPromotionMainAdapter healthPromotionMainAdapter;
 	private static final int MSG_GET_FOOT_DEATIL_DATA = 0;
 	private Gson gson = new Gson();
 	private List<PromotionFootInfo> promotionFootList;
@@ -93,15 +83,15 @@ public class PromotionFragment extends Fragment implements OnClickListener {
 	}
 
 	private void initView(View view) {
-		gv_foot = (MyGridView) view.findViewById(R.id.gv_foot);
-		gv_posture = (MyGridView) view.findViewById(R.id.gv_posture);
-		gv_balance = (MyGridView) view.findViewById(R.id.gv_balance);
-		basicList.add(1);
-		healthPromotionMainAdapter = new HealthPromotionMainAdapter(mContext,
-				basicList);
-		gv_foot.setAdapter(healthPromotionMainAdapter);
-		gv_posture.setAdapter(healthPromotionMainAdapter);
-		gv_balance.setAdapter(healthPromotionMainAdapter);
+//		gv_foot = (MyGridView) view.findViewById(gv_foot);
+//		gv_posture = (MyGridView) view.findViewById(gv_posture);
+//		gv_balance = (MyGridView) view.findViewById(gv_balance);
+//		basicList.add(1);
+//		healthPromotionMainAdapter = new HealthPromotionMainAdapter(mContext,
+//				basicList);
+//		gv_foot.setAdapter(healthPromotionMainAdapter);
+//		gv_posture.setAdapter(healthPromotionMainAdapter);
+//		gv_balance.setAdapter(healthPromotionMainAdapter);
 	}
 
 	@Override
@@ -116,7 +106,8 @@ public class PromotionFragment extends Fragment implements OnClickListener {
 		}
 	}
 
-	private void getFootInfo() {
+	//未使用的方法
+	/*private void getFootInfo() {
 		RequestParams params = new RequestParams();
 		params.put("useid", SpfUtil.readUserId(mContext));
 		params.put("calltype", ClientConstant.GET_PROMOTION_DETAIL_INFO_TYPE);
@@ -125,7 +116,7 @@ public class PromotionFragment extends Fragment implements OnClickListener {
 		postTask.startAsyncTask(mContext, callback, MSG_GET_FOOT_DEATIL_DATA,
 				params, ClientConstant.PROMOTION_URL);
 
-	}
+	}*/
 
 	HttpService.ICallback callback = new HttpService.ICallback() {
 
@@ -142,9 +133,7 @@ public class PromotionFragment extends Fragment implements OnClickListener {
 					String return_msg = obj.getString("return_msg");
 					int return_code = obj.getInt("return_code");
 					Message msg = Message.obtain();
-					if (return_code == 0
-							&& HttpError.judgeError(return_msg,
-									ClassType.PayActivity)) {
+					if (return_code == 0 && HttpError.judgeError(return_msg, ClassType.PayActivity)) {
 						msg.what = ClientConstant.HANDLER_SUCCESS;
 						msg.arg1 = type;
 						msg.obj = return_msg;

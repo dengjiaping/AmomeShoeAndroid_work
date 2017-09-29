@@ -36,12 +36,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/drawable-xhdpi/contract_us_code.jpg"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/guide_2.jpg",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/guide_2.jpg"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ruler_introduction.jpg",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/ruler_introduction.jpg"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/guide_2.jpg",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/guide_2.jpg"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/guide_1.jpg",

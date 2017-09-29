@@ -4,11 +4,11 @@
               android:layout_height="120dp">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_manager_illness"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/activity_background"/>
+        android:src="@drawable/bianpingzu"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,10 +16,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/footmanager_illness_name"
+            android:id="@+id/manager_illness_name"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="4"
+            android:layout_weight="5"
             android:gravity="center"
             android:text="扁平足"
             android:textColor="#37D2CA"
@@ -27,14 +27,14 @@
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/footmanager_illness_ischecked"
+            android:id="@+id/manager_illness_ischecked"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="待添加"
             android:textColor="#37D2CA"
             android:layout_marginLeft="70dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="2dp"
             android:background="#FFFFFF"
             android:gravity="center"/>
     </LinearLayout>

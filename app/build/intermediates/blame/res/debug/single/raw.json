@@ -32,12 +32,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/raw/shake_pre_single_close.wav"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/raw/squat_teaching1.gif",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/raw/squat_teaching1.gif"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/raw/squat_tip.wav",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/raw/squat_tip.wav"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/raw/squat_teaching1.gif",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/raw/squat_teaching1.gif"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/raw/walk_countdown1.wav",

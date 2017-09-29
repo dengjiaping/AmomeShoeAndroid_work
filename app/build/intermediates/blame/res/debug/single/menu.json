@@ -4,20 +4,20 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/menu/promotion_add.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/balance_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/balance_report.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/assist_main.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/assist_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/menu/sweep_shoes.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/menu/sweep_shoes.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/balance_report.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/balance_report.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/stand_demo.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/stand_demo.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/menu/sweep_shoes.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/menu/sweep_shoes.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/menu/posture_report.xml",
