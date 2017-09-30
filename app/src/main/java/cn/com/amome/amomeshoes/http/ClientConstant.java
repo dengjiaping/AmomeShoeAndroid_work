@@ -234,4 +234,9 @@ public class ClientConstant {
 	 */
 	public static final String BLEUPGRADE_URL = BASE_URL
 			+ "amome.shoes.bluetooth.upgrade.php";
+
+	/**
+	 * activity页面活动模块接口
+	 */
+	public static final String ILLNESSINFO_URL=BASE_URL+"amome.shoes.health.promotion.php";
 }

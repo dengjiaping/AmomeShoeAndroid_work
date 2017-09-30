@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.GridView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -44,6 +45,8 @@ public class PromotionFragment extends Fragment implements OnClickListener {
 	private static final int MSG_GET_FOOT_DEATIL_DATA = 0;
 	private Gson gson = new Gson();
 	private List<PromotionFootInfo> promotionFootList;
+
+	private GridView gv_promotion_foot;
 
 	private Handler mHandler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
@@ -92,6 +95,7 @@ public class PromotionFragment extends Fragment implements OnClickListener {
 //		gv_foot.setAdapter(healthPromotionMainAdapter);
 //		gv_posture.setAdapter(healthPromotionMainAdapter);
 //		gv_balance.setAdapter(healthPromotionMainAdapter);
+		gv_promotion_foot = (GridView) view.findViewById(R.id.gv_promotion_foot);
 	}
 
 	@Override

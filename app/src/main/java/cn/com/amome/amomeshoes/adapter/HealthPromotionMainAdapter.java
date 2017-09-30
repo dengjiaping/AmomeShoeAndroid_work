@@ -1,12 +1,15 @@
 package cn.com.amome.amomeshoes.adapter;
 
-import java.util.List;
-
-import cn.com.amome.amomeshoes.R;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import java.util.List;
+
+import cn.com.amome.amomeshoes.R;
 
 /**
  * 健康促进主页面适配器
@@ -55,6 +58,9 @@ public class HealthPromotionMainAdapter extends BaseAdapter {
 	}
 
 	class ViewHolder {
+		TextView illness_name;
+		ImageView illness_photo,fitting_icon,curing_icon,action_icon;
+
 	}
 
 }

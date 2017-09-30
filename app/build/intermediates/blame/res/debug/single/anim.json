@@ -1,27 +1,11 @@
 [
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/anim/popshow_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/anim/popshow_anim.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/anim/dialog_in_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/anim/dialog_in_anim.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/anim/pophidden_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/anim/pophidden_anim.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/pophidden_anim.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/pophidden_anim.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/dialog_in_anim.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/dialog_in_anim.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/anim/dialog_out_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/anim/dialog_out_anim.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/popshow_anim.xml",

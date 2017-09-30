@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_foot_secret.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_foot_secret.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/slide_view_merge.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/slide_view_merge.xml"
     },
@@ -12,8 +16,16 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_exercise_today.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_shoebox_chart.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_shoebox_chart.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_setting_shoes.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_setting_shoes.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_register.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_register.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_motion.xml",
@@ -24,572 +36,44 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/hrulerunit.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_service_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_service_main.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_edit.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_edit.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_activity_main.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_activity_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_takephoto.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_takephoto.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_stand_report.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_stand_report.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_stand_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_stand_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_exercise_evaluate.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_exercise_evaluate.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/head.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/head.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_category.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_category.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_bind_sweep.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_bind_sweep.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_ruler_foot_left.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_ruler_foot_left.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_squat_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_teaching.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_pay_weixin.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_pay_weixin.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_changepw.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_changepw.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_shoebox_brand.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_shoebox_brand.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_pay_choose.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_pay_choose.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_bind_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_ruler_result.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_ruler_result.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_squat_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_report.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_assist_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_assist_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_look_foot_pain.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_look_foot_pain.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_look_foot_shap.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_look_foot_shap.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/slide_view_merge.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/slide_view_merge.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_report_walk.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_report_walk.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_scan_info.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_scan_info.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_my_hobbylist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_my_hobbylist.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_my_foot_secret.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_my_foot_secret.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_evaluate.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_exercise_evaluate.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_squat_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_report_foots.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_report_foots.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_shoebox_problem.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_shoebox_problem.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_my_bottom.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_my_bottom.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_joblist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_joblist.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_shoecategory.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_shoecategory.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_webview.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_webview.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_pay_choose.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_pay_choose.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoebox_categorylocal.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoebox_categorylocal.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_setting_more.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_setting_more.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_health_promotion.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_health_promotion.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_footsecretbasic.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_footsecretbasic.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/head.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/head.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_stand_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_stand_report.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_assist_memberlist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_assist_memberlist.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/radar_markerview.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/radar_markerview.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_radar.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_exercise_radar.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_material.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_material.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_heel.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_heel.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_report_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_report_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_look_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_look_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_history.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_exercise_history.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_add.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_add.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_assist_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_assist_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_report_walk.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_report_walk.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_assist_option.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_assist_option.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoebox_problem.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoebox_problem.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_account_register.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_account_register.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_my_bindshoe.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_my_bindshoe.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shake_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shake_report.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_bind_shock.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_bind_shock.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_my_top.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_my_top.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_foot_size.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_foot_size.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_ruler_name.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_ruler_name.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_assist_memberlist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_assist_memberlist.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_walk_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_walk_teaching.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_my_bindshoe.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_my_bindshoe.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_prepare.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_bind_prepare.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_setting_about.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_setting_about.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_category.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_category.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shake_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shake_teaching.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_health_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_health_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_avatar.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_avatar.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_account_changepw.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_account_changepw.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_look_footdiseas.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_look_footdiseas.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_squat_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_squat_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_reconnection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_reconnection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_stand_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_stand_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_heel.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_heel.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_hobbylist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_hobbylist.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_del_reason.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_del_reason.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_takephoto.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_takephoto.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_promotion_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_promotion_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_stand_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_stand_teaching.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_edit.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_edit.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_walk_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_walk_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_service_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_service_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_my_personinfomation.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_my_personinfomation.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shake_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shake_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_foot_color.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_foot_color.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_report_balance.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_report_balance.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_activity_foot.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_activity_foot.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_report_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_report_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_pay_result.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_pay_result.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_shoe_secret.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_shoe_secret.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/dialog_menu.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/dialog_menu.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_reconnection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_reconnection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_viewpager_introduction.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_viewpager_introduction.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_look_foot_size.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_look_foot_size.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_shoebox_charts.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_shoebox_charts.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/listitem_device.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/listitem_device.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_exercise_yesterday.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_exercise_yesterday.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_walk_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_walk_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_footsecret_info.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_footsecret_info.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_webview.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_webview.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_health_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_health_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shake_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shake_teaching.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_footsecretbasic.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_footsecretbasic.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_promotion_add.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_promotion_add.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_promotion_add.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_promotion_add.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_account_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_account_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_look_foot_color.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_look_foot_color.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/service_test_title.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/service_test_title.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_weight.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_weight.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shake_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shake_report.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_bind_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_bind_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_personinfomation.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_personinfomation.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_joblist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_joblist.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/dialog_menu.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/dialog_menu.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_pay_sweep.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_pay_sweep.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/ruler_blankhrulerunit.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/ruler_blankhrulerunit.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_weight.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_weight.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoebox.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoebox.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_ruler_introuction.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_ruler_introuction.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_setting_more.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_setting_more.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_setting_shoes.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_setting_shoes.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_my_bottom.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_my_bottom.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_foot_secret.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_foot_secret.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_list.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_list.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_exercise_history.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_exercise_history.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_shoebox_chart.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_shoebox_chart.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_register.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_register.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_edit.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_edit.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_hobbylist.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_hobbylist.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_bind_walk.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_bind_walk.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_stand_detection.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_stand_detection.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/head.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/head.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_shock.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_bind_shock.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_ui_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_ui_main.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_squat_teaching.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_teaching.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_walk_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_walk_teaching.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_ruler_name.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_ruler_name.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_changepw.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_changepw.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_setting_about.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_setting_about.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_shoe_del_reason.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_shoe_del_reason.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/list_item.xml",
@@ -608,52 +92,44 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/list_footer_more.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_setting_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_setting_main.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_bind_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_exercise_today.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_exercise_today.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_squat_report.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_report.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_assist_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_assist_main.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_report_posture.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_report_posture.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/list_footer_more.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/list_footer_more.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_ruler_foot_right.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_ruler_foot_right.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_scan_info.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_scan_info.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_forgetpw.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_forgetpw.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_shoebox.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_shoebox.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_evaluate.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_exercise_evaluate.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shake_detection.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shake_detection.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_squat_detection.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_detection.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_pay_result.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_pay_result.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/hrulerunit.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/hrulerunit.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_my_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_my_main.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_health_promotion_add.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_health_promotion_add.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_footreport_manager.xml",
@@ -664,20 +140,20 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_popcategory.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_report_balance.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_report_balance.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_exercise_radar.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_exercise_radar.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoe_del_reason.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoe_del_reason.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_squat_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_squat_teaching.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_shoecategory.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_shoecategory.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_webview.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_webview.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_pay_choose.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_pay_choose.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_height.xml",
@@ -688,40 +164,28 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_birthday.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/list_item.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/list_item.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_walk_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_walk_report.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoebox_categorylocal.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoebox_categorylocal.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_introduction.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_introduction.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_viewpager_introduction.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_viewpager_introduction.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_health_promotion.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_health_promotion.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_bind_stress.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_bind_stress.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_footsecretbasic.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_footsecretbasic.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_shoebox_chart.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_shoebox_chart.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/radar_markerview.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/radar_markerview.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_look_foot_diseas.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_look_foot_diseas.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_scan_info.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_scan_info.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_my_joblist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_my_joblist.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_radar.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_exercise_radar.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_main.xml",
@@ -732,14 +196,6 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/bind_step_title.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_bind_prepare.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_bind_prepare.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_footsecret_info.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_footsecret_info.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_promotion_main.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_promotion_main.xml"
     },
@@ -748,44 +204,44 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_stand_teaching.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/service_test_title.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/service_test_title.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_sendopinion.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_sendopinion.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_look_footdiseas.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_look_footdiseas.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_sendopinion.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_sendopinion.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/head_title.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/head_title.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/ruler_blankhrulerunit.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/ruler_blankhrulerunit.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_main.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoebox_charts.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoebox_charts.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_my_shoe_secret.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_my_shoe_secret.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/bind_step_title.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/bind_step_title.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_add.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_add.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_birthday.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_birthday.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_exercise_history.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_exercise_history.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_foot.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_foot.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_report_walk.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_report_walk.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoebox_problem.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoebox_problem.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_foot_shap.xml",
@@ -808,36 +264,56 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_my_top.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_squat_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_squat_report.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_exercise_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_exercise_main.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_shoebox_brand.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_shoebox_brand.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_foot_size.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_foot_size.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_setting_main.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_setting_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_look_foot_prints.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_look_foot_prints.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_ruler_name.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_ruler_name.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_info.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_info.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_assist_memberlist.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_assist_memberlist.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_hobbylist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_hobbylist.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_walk_teaching.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_walk_teaching.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_my_bindshoe.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_my_bindshoe.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_prepare.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_bind_prepare.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_category.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_category.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_health_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_health_main.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_avatar.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_avatar.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_sweep.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_bind_sweep.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_reconnection.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_reconnection.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_pay_weixin.xml",
@@ -848,16 +324,24 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_walk_report.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_ruler_introuction.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_ruler_introuction.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_heel.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_heel.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_hobbylist.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_hobbylist.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_del_reason.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_del_reason.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_takephoto.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_takephoto.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_setting_contact.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_setting_contact.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_exercise_motion.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_exercise_motion.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_report_foots.xml",
@@ -872,60 +356,48 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_login.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/customdialog.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/customdialog.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_joblist.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_joblist.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_my_sendopinion.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_my_sendopinion.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_assist.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_assist.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/head_title.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/head_title.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_service_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_service_main.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_ruler_foot_left.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_ruler_foot_left.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_foot_color.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_foot_color.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_report_balance.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_report_balance.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_ruler_foot_right.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_ruler_foot_right.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_detection_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_detection_main.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_activity_foot.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_activity_foot.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_shoebox_categorylocal.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_shoebox_categorylocal.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_account_introduction.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_account_introduction.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_account_forgetpw.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_account_forgetpw.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_add.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_add.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_height.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_height.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_report_main.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_report_main.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_list.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_list.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_shoe_secret.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_shoe_secret.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_stress.xml",
@@ -936,48 +408,40 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_pay_sweep.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_viewpager_introduction.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_viewpager_introduction.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_info.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_info.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_walk_detection.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_walk_detection.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_footsecret_info.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_footsecret_info.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/listitem_device.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/listitem_device.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/pop_shoecategory.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/pop_shoecategory.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shake_teaching.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shake_teaching.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_my_main.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_my_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_my_avatar.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_my_avatar.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_shoeproblem.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_shoeproblem.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_squat_rec_detection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_squat_rec_detection.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_popcategory.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_popcategory.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_promotion_add.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_promotion_add.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_bind_walk.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_bind_walk.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_account_login.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_account_login.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_account_welcome.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_account_welcome.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/customdialog.xml",
@@ -988,48 +452,68 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_health_promotion_add.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/fragment_activity_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/fragment_activity_main.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/service_test_title.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/service_test_title.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_weight.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_weight.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shake_report.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shake_report.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_foot_diseas.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_foot_diseas.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/item_health_promotion.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/item_health_promotion.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_personinfomation.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_personinfomation.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_shoebox_del_reason.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_shoebox_del_reason.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_promotion_gv.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_promotion_gv.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_shoebox_material.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_shoebox_material.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_report_posture.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_report_posture.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/pop_foot.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/pop_foot.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/radar_markerview.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/radar_markerview.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_joblist.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_my_joblist.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/dialog_menu.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/dialog_menu.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/ruler_blankhrulerunit.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/ruler_blankhrulerunit.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_shoebox.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_shoebox.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_account_welcome.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_account_welcome.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/build/intermediates/res/merged/debug/layout/activity_setting_contact.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroidd/app/src/main/res/layout/activity_setting_contact.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_ruler_introuction.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_ruler_introuction.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_squat_rec_detection.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_rec_detection.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_setting_more.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_setting_more.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_detection_main.xml",
@@ -1038,5 +522,9 @@
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_look_foot_pain.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_look_foot_pain.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/fragment_my_bottom.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/fragment_my_bottom.xml"
     }
 ]

@@ -63,117 +63,129 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <GridView
+                    android:id="@+id/gv_activity_foot"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:numColumns="5"></GridView>
 
 
             </HorizontalScrollView>
-
-            <!--姿态-->
-            <LinearLayout
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal"
-                android:padding="1dp">
-                <View
-                    android:layout_width="5dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:background="#FF9A4A"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="姿态"
-                    android:layout_marginLeft="5dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="查看更多"
-                    android:gravity="right"
-                    android:layout_marginRight="10dp"/>
+                android:layout_height="1dp"
+                android:background="#C7C7C7"/>
 
-            </LinearLayout>
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <GridView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:numColumns="5"></GridView>
+            <!--&lt;!&ndash;姿态&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="1dp">-->
+                <!--<View-->
+                    <!--android:layout_width="5dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:background="#FF9A4A"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="姿态"-->
+                    <!--android:layout_marginLeft="5dp"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="查看更多"-->
+                    <!--android:gravity="right"-->
+                    <!--android:layout_marginRight="10dp"/>-->
 
-
-            </HorizontalScrollView>
-
-            <!--平衡-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal"
-                android:padding="1dp">
-                <View
-                    android:layout_width="5dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:background="#FF9A4A"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="平衡"
-                    android:layout_marginLeft="5dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="查看更多"
-                    android:gravity="right"
-                    android:layout_marginRight="10dp"/>
-
-            </LinearLayout>
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <GridView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:numColumns="5"></GridView>
+            <!--</LinearLayout>-->
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<GridView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:numColumns="5"></GridView>-->
 
 
-            </HorizontalScrollView>
+            <!--</HorizontalScrollView>-->
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="#C7C7C7"/>-->
+            <!--&lt;!&ndash;平衡&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="1dp">-->
+                <!--<View-->
+                    <!--android:layout_width="5dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:background="#FF9A4A"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="平衡"-->
+                    <!--android:layout_marginLeft="5dp"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="查看更多"-->
+                    <!--android:gravity="right"-->
+                    <!--android:layout_marginRight="10dp"/>-->
 
-            <!--步态-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal"
-                android:padding="1dp">
-                <View
-                    android:layout_width="5dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:background="#FF9A4A"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="步态"
-                    android:layout_marginLeft="5dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="查看更多"
-                    android:gravity="right"
-                    android:layout_marginRight="10dp"/>
-
-            </LinearLayout>
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <GridView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:numColumns="5"></GridView>
+            <!--</LinearLayout>-->
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<GridView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:numColumns="5"></GridView>-->
 
 
-            </HorizontalScrollView>
+            <!--</HorizontalScrollView>-->
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="#C7C7C7"/>-->
+
+            <!--&lt;!&ndash;步态&ndash;&gt;-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="1dp">-->
+                <!--<View-->
+                    <!--android:layout_width="5dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:background="#FF9A4A"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="步态"-->
+                    <!--android:layout_marginLeft="5dp"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:text="查看更多"-->
+                    <!--android:gravity="right"-->
+                    <!--android:layout_marginRight="10dp"/>-->
+
+            <!--</LinearLayout>-->
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<GridView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:numColumns="5"></GridView>-->
+
+
+            <!--</HorizontalScrollView>-->
 
         </LinearLayout>
 

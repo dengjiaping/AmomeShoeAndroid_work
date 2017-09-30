@@ -63,6 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <GridView
+                    android:id="@+id/gv_activity_foot"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:numColumns="5"></GridView>
