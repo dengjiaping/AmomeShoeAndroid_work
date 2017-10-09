@@ -45,13 +45,19 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 	private Context mContext;
 	private View rootView;
 	private TextView tv_title;
-	private RecyclerView recycle_activity_foot;
+	private RecyclerView recycle_activity_foot,recycle_activity_posture,recycle_activity_balance,recycle_activity_gait;
 	private Gson gson = new Gson();
-	private List<IllnessInfo> footInfo;
-	private ActivityillnessAdapter footadapter;
+	private List<IllnessInfo> footInfo,postureInfo,balanceInfo,gaitInfo;
+	private ActivityillnessAdapter footadapter,postureadapter,balanceadapter,gaitadapter;
 	private static final String GET_TYPE_FOOT="foot";//获取信息的类型
-	private static final int MSG_GET_ILLNESS_FOOT=0;//
-	String test="空";
+	private static final String GET_TYPE_POSTURE="posture";//获取信息的类型
+	private static final String GET_TYPE_BALANCE="balance";//获取信息的类型
+	private static final String GET_TYPE_GAIT="gait";//获取信息的类型
+	private static final int MSG_GET_ILLNESS_FOOT=0;
+	private static final int MSG_GET_ILLNESS_POSTURE=1;
+	private static final int MSG_GET_ILLNESS_BALANCE=2;
+	private static final int MSG_GET_ILLNESS_GAIT=3;
+	//String test="空";
 
 	private Handler mHandler=new Handler(){
 		@Override
@@ -61,39 +67,107 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 				case ClientConstant.HANDLER_SUCCESS:
 					switch (msg.arg1) {
 						case MSG_GET_ILLNESS_FOOT:
-							String json=(String)msg.obj;
-							if (json.equals("[{}]")) {
+							String jsonfoot=(String)msg.obj;
+							if (jsonfoot.equals("[{}]")) {
 
 							} else {
 								//通过gson的TypeToken将字符串转为list
-								footInfo = gson.fromJson(json,new TypeToken<List<IllnessInfo>>(){}.getType());
-								Log.e(TAG, footInfo.toString());
-								initData();
+								footInfo = gson.fromJson(jsonfoot,new TypeToken<List<IllnessInfo>>(){}.getType());
+								//Log.e(TAG, footInfo.toString());
+								initData(MSG_GET_ILLNESS_FOOT);
 							}
 							break;
+						case MSG_GET_ILLNESS_POSTURE:
+							String jsonposture=(String)msg.obj;
+							if (jsonposture.equals("[{}]")) {
+
+							} else {
+								postureInfo = gson.fromJson(jsonposture,new TypeToken<List<IllnessInfo>>(){}.getType());
+                                Log.e(TAG+"po", postureInfo.toString());
+                                initData(MSG_GET_ILLNESS_POSTURE);
+							}
+							break;
+						/*case MSG_GET_ILLNESS_BALANCE:
+							String jsonbalance=(String)msg.obj;
+							if (jsonbalance.equals("[{}]")) {
+
+							} else {
+								footInfo = gson.fromJson(jsonbalance,new TypeToken<List<IllnessInfo>>(){}.getType());
+								Log.e(TAG, footInfo.toString());
+								//initData();
+							}
+							break;
+						case MSG_GET_ILLNESS_GAIT:
+							String jsongait=(String)msg.obj;
+							if (jsongait.equals("[{}]")) {
+
+							} else {
+								footInfo = gson.fromJson(jsongait,new TypeToken<List<IllnessInfo>>(){}.getType());
+								Log.e(TAG, footInfo.toString());
+								//initData();
+							}
+							break;*/
 						default:
 							break;
 					}
 					default:
 						break;
 			}
+
 		}
 	};
 
 	/**
 	 * 将数据放置到recycleView中显示
 	 */
-	private void initData() {
+	private void initData(int code) {
+        LinearLayoutManager linearLayoutManager=new LinearLayoutManager(mContext);
+        linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        switch (code) {
+            case MSG_GET_ILLNESS_FOOT:
+                recycle_activity_foot.setLayoutManager(linearLayoutManager);
+                footadapter=new ActivityillnessAdapter(mContext,footInfo);
+                recycle_activity_foot.setAdapter(footadapter);
+                break;
+            case MSG_GET_ILLNESS_POSTURE:
+                recycle_activity_posture.setLayoutManager(linearLayoutManager);
+                postureadapter = new ActivityillnessAdapter(mContext, postureInfo);
+                recycle_activity_posture.setAdapter(postureadapter);
+        }
+
+
 		/*footadapter=new ActivityillnessAdapter(mContext,footInfo);
 		gv_activity_foot.setAdapter(footadapter);*/
 		//recycleview使用时需要设置LinearLayoutManager
-		LinearLayoutManager linearLayoutManager=new LinearLayoutManager(mContext);
-		linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+
+
 		//gv_activity_foot.addItemDecoration(new  SpaceItemDecoration(30));
-		recycle_activity_foot.setLayoutManager(linearLayoutManager);
-		footadapter=new ActivityillnessAdapter(mContext,footInfo);
-		recycle_activity_foot.setAdapter(footadapter);
-	}
+
+
+//		recycle_activity_balance.setLayoutManager(linearLayoutManager);
+//		recycle_activity_gait.setLayoutManager(linearLayoutManager);
+
+
+//		balanceadapter=new ActivityillnessAdapter(mContext,balanceInfo);
+//		gaitadapter=new ActivityillnessAdapter(mContext,gaitInfo);
+
+
+
+
+			/*case MSG_GET_ILLNESS_POSTURE:
+				LinearLayoutManager linearLayoutManagerPosture=new LinearLayoutManager(mContext);
+				linearLayoutManagerPosture.setOrientation(LinearLayoutManager.HORIZONTAL);
+				recycle_activity_posture.setLayoutManager(linearLayoutManagerPosture);
+				postureadapter=new ActivityillnessAdapter(mContext,postureInfo);
+					recycle_activity_posture.setAdapter(postureadapter);
+                break;*/
+		}
+		private void initPostureData(){
+            LinearLayoutManager linearLayoutManager=new LinearLayoutManager(mContext);
+            linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+
+        }
+
 
 
 	//联网请求获取数据
@@ -108,7 +182,6 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 						//Log.e(TAG, "onHttpPostSuccess: ");
 						JSONObject obj = new JSONObject(result);
 						String return_msg = obj.getString("return_msg");
-						Log.e(TAG, return_msg);
 						int return_code = obj.getInt("return_code");
 						Message msg = Message.obtain();
                         if (return_code == 0) {
@@ -123,6 +196,25 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 						Log.i(TAG, "MSG_GET_ILLNESS_FOOT解析失败");
 					}
 					break;
+				case MSG_GET_ILLNESS_POSTURE:
+					result = new String(responseBody);
+					try {
+						//Log.e(TAG, "onHttpPostSuccess: ");
+						JSONObject obj = new JSONObject(result);
+						String return_msg = obj.getString("return_msg");
+						int return_code = obj.getInt("return_code");
+						Message msg = Message.obtain();
+						if (return_code == 0) {
+							msg.what = ClientConstant.HANDLER_SUCCESS;
+							msg.arg1 = type;
+							msg.obj = return_msg;
+						}
+						mHandler.sendMessage(msg);
+					} catch (JSONException e) {
+						// TODO 自动生成的 catch 块
+						e.printStackTrace();
+						Log.i(TAG, "MSG_GET_ILLNESS_POSTURE解析失败");
+					}
 				default:
 					break;
 			}
@@ -144,9 +236,11 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 		rootView = inflater.inflate(R.layout.fragment_activity_main, null, false);
 		initView(rootView);
 		T.showToast(mContext, "游戏敬请期待", 0);
-		getIllnessInfo(GET_TYPE_FOOT);
+		getIllnessInfo(GET_TYPE_FOOT,MSG_GET_ILLNESS_FOOT);
+		getIllnessInfo(GET_TYPE_POSTURE,MSG_GET_ILLNESS_POSTURE);
+//		getIllnessInfo(GET_TYPE_BALANCE,MSG_GET_ILLNESS_BALANCE);
+//		getIllnessInfo(GET_TYPE_GAIT,MSG_GET_ILLNESS_GAIT);
 		Log.e(TAG, "onCreateView: ");
-		Toast.makeText(mContext, test, Toast.LENGTH_SHORT).show();
 		return rootView;
 	}
 
@@ -154,7 +248,11 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 		tv_title = (TextView) view.findViewById(R.id.title_tv);
 		tv_title.setText("活动");
 		view.findViewById(R.id.rl_left).setVisibility(View.GONE);
+
 		recycle_activity_foot = (RecyclerView) view.findViewById(R.id.recycle_activity_foot);
+		recycle_activity_posture = (RecyclerView) view.findViewById(R.id.recycle_activity_posture);
+		recycle_activity_balance = (RecyclerView) view.findViewById(R.id.recycle_activity_balance);
+		recycle_activity_gait = (RecyclerView) view.findViewById(R.id.recycle_activity_gait);
 
 	}
 
@@ -170,7 +268,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 	}
 
 //发送请求的部分
-	public void getIllnessInfo(String type){
+	public void getIllnessInfo(String type,int code){
 		Log.e(TAG, "getIllnessInfo: ");
 		RequestParams params = new RequestParams();
 		params.put("useid", SpfUtil.readUserId(mContext));
@@ -178,7 +276,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 		params.put("certificate", HttpService.getToken());
 		params.put("type", type);
 		PostAsyncTask postTask = new PostAsyncTask(mHandler);
-		postTask.startAsyncTask(mContext, callback, MSG_GET_ILLNESS_FOOT,
+		postTask.startAsyncTask(mContext, callback, code,
 				params, ClientConstant.ILLNESSINFO_URL);
 	}
 

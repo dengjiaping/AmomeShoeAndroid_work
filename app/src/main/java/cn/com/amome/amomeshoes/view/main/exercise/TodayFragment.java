@@ -1,19 +1,23 @@
 package cn.com.amome.amomeshoes.view.main.exercise;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.TimeZone;
-
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import cn.com.amome.amomeshoes.util.BleShoes.shoesGetBatteryInfoCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesReadDailyDataCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesGetHistDataCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesDisconnectCallback;
+import android.annotation.SuppressLint;
+import android.bluetooth.BluetoothAdapter;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.PieChart;
@@ -28,6 +32,16 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.RequestParams;
 
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.TimeZone;
+
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.common.AmomeApp;
 import cn.com.amome.amomeshoes.events.ExerciseEvaluateEvent;
@@ -40,39 +54,21 @@ import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.ExerciseDataInfo;
 import cn.com.amome.amomeshoes.util.BleConstants;
 import cn.com.amome.amomeshoes.util.BleShoes;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesCreCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesDisconnectCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesGetBatteryInfoCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesGetHistDataCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesReadDailyDataCallback;
 import cn.com.amome.amomeshoes.util.BleShoesState;
 import cn.com.amome.amomeshoes.util.DialogUtil;
-import cn.com.amome.amomeshoes.util.ScreenUtil;
+import cn.com.amome.amomeshoes.util.DialogUtil.OnAlertViewClickListener;
 import cn.com.amome.amomeshoes.util.SpfUtil;
 import cn.com.amome.amomeshoes.util.T;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesCreCallback;
-import cn.com.amome.amomeshoes.util.DialogUtil.OnAlertViewClickListener;
 import cn.com.amome.amomeshoes.util.TimeUtils;
-import cn.com.amome.amomeshoes.util.WriteFile;
 import cn.com.amome.amomeshoes.view.main.bind.BindActivity;
-import cn.com.amome.amomeshoes.view.main.health.detection.ReconnectionActivity;
 import cn.com.amome.shoeservice.BleService;
 import cn.com.amome.shoeservice.com.pushDailyProfile.DailyData;
 import de.greenrobot.event.EventBus;
-import android.annotation.SuppressLint;
-import android.bluetooth.BluetoothAdapter;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.support.v4.app.Fragment;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 public class TodayFragment extends Fragment implements OnClickListener,
 		OnChartValueSelectedListener {
@@ -832,8 +828,10 @@ public class TodayFragment extends Fragment implements OnClickListener,
 
 	BleShoes.shoesGetBatteryInfoCallback shoesGetBatteryInfoCallback = new shoesGetBatteryInfoCallback() {
 
+
+
 		@Override
-		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal) {
+		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal,boolean leftCharge, boolean rightCharge) {
 			// TODO Auto-generated method stub
 			DialogUtil.hideProgressDialog();
 			if (arg0) {

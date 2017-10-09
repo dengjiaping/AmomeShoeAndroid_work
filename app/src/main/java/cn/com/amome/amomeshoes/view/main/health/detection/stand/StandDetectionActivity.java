@@ -660,7 +660,7 @@ public class StandDetectionActivity extends Activity implements OnClickListener 
 	BleShoes.shoesGetBatteryInfoCallback shoesGetBatteryInfoCallback = new shoesGetBatteryInfoCallback() {
 
 		@Override
-		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal) {
+		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal,boolean leftCharge, boolean rightCharge) {
 			// TODO Auto-generated method stub
 			DialogUtil.hideProgressDialog();
 			if (arg0) {

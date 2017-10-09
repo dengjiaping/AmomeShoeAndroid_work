@@ -1,28 +1,5 @@
 package cn.com.amome.amomeshoes.view.main.bind;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
-import cn.com.amome.amomeshoes.R;
-import cn.com.amome.amomeshoes.R.id;
-import cn.com.amome.amomeshoes.R.layout;
-import cn.com.amome.amomeshoes.R.menu;
-import cn.com.amome.amomeshoes.common.AmomeApp;
-import cn.com.amome.amomeshoes.util.BleConstants;
-import cn.com.amome.amomeshoes.util.BleShoes;
-import cn.com.amome.amomeshoes.util.BleShoesState;
-import cn.com.amome.amomeshoes.util.DialogUtil;
-import cn.com.amome.amomeshoes.util.SpfUtil;
-import cn.com.amome.amomeshoes.util.T;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesCreCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesDisconnectCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesGetBatteryInfoCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesClickCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesDisconnectCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesSyncTimeCallback;
-import cn.com.amome.amomeshoes.util.DialogUtil.OnAlertViewClickListener;
-import cn.com.amome.amomeshoes.view.main.health.detection.ReconnectionActivity;
-import cn.com.amome.shoeservice.BleService;
 import android.animation.Keyframe;
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
@@ -34,16 +11,29 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+import cn.com.amome.amomeshoes.R;
+import cn.com.amome.amomeshoes.common.AmomeApp;
+import cn.com.amome.amomeshoes.util.BleConstants;
+import cn.com.amome.amomeshoes.util.BleShoes;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesClickCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesCreCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesDisconnectCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesGetBatteryInfoCallback;
+import cn.com.amome.amomeshoes.util.BleShoesState;
+import cn.com.amome.amomeshoes.util.DialogUtil;
+import cn.com.amome.amomeshoes.util.DialogUtil.OnAlertViewClickListener;
+import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.com.amome.amomeshoes.util.T;
+import cn.com.amome.shoeservice.BleService;
 
 public class BindShockActivity extends Activity implements OnClickListener {
 	private String TAG = "BindShockActivity";
@@ -358,8 +348,10 @@ public class BindShockActivity extends Activity implements OnClickListener {
 
 	BleShoes.shoesGetBatteryInfoCallback shoesGetBatteryInfoCallback = new shoesGetBatteryInfoCallback() {
 
+
+
 		@Override
-		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal) {
+		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal,boolean leftCharge, boolean rightCharge) {
 			// TODO Auto-generated method stub
 			DialogUtil.hideProgressDialog();
 			if (arg0) {

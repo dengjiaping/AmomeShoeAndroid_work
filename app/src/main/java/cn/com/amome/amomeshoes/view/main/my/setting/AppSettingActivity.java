@@ -1,53 +1,5 @@
 package cn.com.amome.amomeshoes.view.main.my.setting;
 
-import cn.com.amome.amomeshoes.util.BleShoes.shoesCreCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesDisconnectCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesGetBatteryInfoCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesRebCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesResetCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesReadInfoCallback;
-import cn.com.amome.amomeshoes.util.BleShoes.shoesUpgradeCallback;
-
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import org.apache.http.Header;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import cn.com.amome.amomeshoes.R;
-import cn.com.amome.amomeshoes.common.AmomeApp;
-import cn.com.amome.amomeshoes.events.ExitEvent;
-import cn.com.amome.amomeshoes.http.AsynHttpDowanloadFile;
-import cn.com.amome.amomeshoes.http.ClientConstant;
-import cn.com.amome.amomeshoes.http.HttpService;
-import cn.com.amome.amomeshoes.http.PostAsyncTask;
-import cn.com.amome.amomeshoes.model.ClassType;
-import cn.com.amome.amomeshoes.model.UpgradeShoe;
-import cn.com.amome.amomeshoes.util.BleConstants;
-import cn.com.amome.amomeshoes.util.BleShoes;
-import cn.com.amome.amomeshoes.util.BleShoesState;
-import cn.com.amome.amomeshoes.util.DataCleanManager;
-import cn.com.amome.amomeshoes.util.DialogUtil;
-import cn.com.amome.amomeshoes.util.Environments;
-import cn.com.amome.amomeshoes.util.SpfUtil;
-import cn.com.amome.amomeshoes.util.T;
-import cn.com.amome.amomeshoes.view.main.bind.BindActivity;
-import cn.com.amome.shoeservice.BleService;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.loopj.android.http.RequestParams;
-import com.umeng.analytics.MobclickAgent;
-
-import de.greenrobot.event.EventBus;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
@@ -62,6 +14,53 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ToggleButton;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.loopj.android.http.RequestParams;
+import com.umeng.analytics.MobclickAgent;
+
+import org.apache.http.Header;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import cn.com.amome.amomeshoes.R;
+import cn.com.amome.amomeshoes.common.AmomeApp;
+import cn.com.amome.amomeshoes.events.ExitEvent;
+import cn.com.amome.amomeshoes.http.AsynHttpDowanloadFile;
+import cn.com.amome.amomeshoes.http.ClientConstant;
+import cn.com.amome.amomeshoes.http.HttpService;
+import cn.com.amome.amomeshoes.http.PostAsyncTask;
+import cn.com.amome.amomeshoes.model.ClassType;
+import cn.com.amome.amomeshoes.model.UpgradeShoe;
+import cn.com.amome.amomeshoes.util.BleConstants;
+import cn.com.amome.amomeshoes.util.BleShoes;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesCreCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesDisconnectCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesGetBatteryInfoCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesReadInfoCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesRebCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesResetCallback;
+import cn.com.amome.amomeshoes.util.BleShoes.shoesUpgradeCallback;
+import cn.com.amome.amomeshoes.util.BleShoesState;
+import cn.com.amome.amomeshoes.util.DataCleanManager;
+import cn.com.amome.amomeshoes.util.DialogUtil;
+import cn.com.amome.amomeshoes.util.Environments;
+import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.com.amome.amomeshoes.util.T;
+import cn.com.amome.amomeshoes.view.main.bind.BindActivity;
+import cn.com.amome.shoeservice.BleService;
+import de.greenrobot.event.EventBus;
 
 /**
  * 软件设置
@@ -596,20 +595,30 @@ public class AppSettingActivity extends Activity implements OnClickListener {
 	BleShoes.shoesGetBatteryInfoCallback shoesGetBatteryInfoCallback = new shoesGetBatteryInfoCallback() {
 
 		@Override
-		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal) {
+		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal,boolean leftCharge,boolean rightCharge) {
 			// TODO Auto-generated method stub
 			DialogUtil.hideProgressDialog();
 			if (arg0) {
 				Log.i(TAG, "电量获取第" + getBatteryCount + "次" + leftVal + ","
 						+ rightVal);
 				if (getBatteryCount != 0) {
-					if (leftVal < 5 || rightVal < 5) {
-						T.showToast(mContext, "左鞋电量：" + leftVal + "%，右鞋电量："
-								+ rightVal + "%\n" + "电量不足请充电", 0);
-					} else {
-						T.showToast(mContext, "左鞋电量：" + leftVal + "%，右鞋电量："
-								+ rightVal + "%", 0);
-					}
+
+						if (leftCharge&&rightCharge) {
+							T.showToast(mContext,"左智能鞋电量:"+leftVal+"% 充电中\n右智能鞋电量:"+rightVal+"% 充电中",0);
+						}
+
+					else if (leftCharge) {
+						if (!rightCharge) {
+							T.showToast(mContext,"左智能鞋电量:"+leftVal+"% 充电中\n右智能鞋电量:"+rightVal+"% 未充电",0);
+						}
+					} else if (rightCharge) {
+							if (!leftCharge) {
+								T.showToast(mContext, "左智能鞋电量:" + leftVal + "% 未充电\n右智能鞋电量:" + rightVal + "% 充电中", 0);
+							}
+						} else {
+							T.showToast(mContext,"左智能鞋电量:"+leftVal+"% 未充电\n右智能鞋电量:"+rightVal+"% 未充电",0);
+						}
+
 				} else {
 					getBatteryCount++;
 					AmomeApp.bleShoes

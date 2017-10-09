@@ -1,21 +1,22 @@
 package cn.com.amome.amomeshoes.util;
 
-import cn.com.amome.amomeshoes.model.PressData;
-import cn.com.amome.amomeshoes.util.BleDev.getPressCallback;
-import cn.com.amome.amomeshoes.util.BleDev.readDevInfoCallback;
-import cn.com.amome.amomeshoes.util.BleDev.syncTimeCallback;
-import cn.com.amome.amomeshoes.util.BleDev.resetCallback;
-import cn.com.amome.amomeshoes.util.BleDev.rebCallback;
-import cn.com.amome.amomeshoes.util.BleDev.creCallback;
-import cn.com.amome.amomeshoes.util.BleDev.getHistCallback;
-import cn.com.amome.amomeshoes.util.BleDev.disDevConnectCallback;
-import cn.com.amome.amomeshoes.util.BleDev.clickCallback;
-import cn.com.amome.amomeshoes.util.BleDev.getDevBatteryCallback;
-import cn.com.amome.shoeservice.com.pushDailyProfile.DailyData;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
+
+import cn.com.amome.amomeshoes.model.PressData;
+import cn.com.amome.amomeshoes.util.BleDev.clickCallback;
+import cn.com.amome.amomeshoes.util.BleDev.creCallback;
+import cn.com.amome.amomeshoes.util.BleDev.disDevConnectCallback;
+import cn.com.amome.amomeshoes.util.BleDev.getDevBatteryCallback;
+import cn.com.amome.amomeshoes.util.BleDev.getHistCallback;
+import cn.com.amome.amomeshoes.util.BleDev.getPressCallback;
+import cn.com.amome.amomeshoes.util.BleDev.readDevInfoCallback;
+import cn.com.amome.amomeshoes.util.BleDev.rebCallback;
+import cn.com.amome.amomeshoes.util.BleDev.resetCallback;
+import cn.com.amome.amomeshoes.util.BleDev.syncTimeCallback;
+import cn.com.amome.shoeservice.com.pushDailyProfile.DailyData;
 
 public class BleShoes {
 	private static String TAG = "BleShoes";
@@ -57,6 +58,8 @@ public class BleShoes {
 
 	private int leftValue = -1, rightValue = -1;
 	private boolean areadlyDisConnect = false;
+	private boolean leftCharge=false;
+	private boolean rightCharge=false;
 	private String[] softVerArr = new String[2]; // 用来存放版本号，[0]存放右脚 [1]存放左脚
 
 	@SuppressLint("HandlerLeak")
@@ -196,7 +199,7 @@ public class BleShoes {
 	}
 
 	public interface shoesGetBatteryInfoCallback {
-		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal);
+		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal,boolean leftCharge,boolean rightCharge);
 	}
 
 	public interface shoesUpgradeCallback {
@@ -525,7 +528,7 @@ public class BleShoes {
 	BleDev.getDevBatteryCallback mGetDevBatteryCallback = new getDevBatteryCallback() {
 
 		@Override
-		public void isGetDevBatterySuc(boolean arg0, String addr, int value) {
+		public void isGetDevBatterySuc(boolean arg0, String addr, int value ,boolean isCharge) {
 			// TODO Auto-generated method stub
 			// TODO Auto-generated method stub
 			int flag = Integer.parseInt(addr.substring(16));
@@ -534,9 +537,11 @@ public class BleShoes {
 				if (flag % 2 == 0) {
 					rightGetBattery = 0;
 					rightValue = value;
+					rightCharge=isCharge;
 				} else if (flag % 2 == 1) {
 					leftGetBattery = 0;
 					leftValue = value;
+					leftCharge=isCharge;
 				}
 			} else {
 				Log.i(TAG, addr + "获取电量失败");
@@ -549,13 +554,13 @@ public class BleShoes {
 			if (leftGetBattery == 0 && rightGetBattery == 0) {
 				Log.i(TAG, "智能鞋电量获取成功俩个设备电量" + leftValue + "," + rightValue);
 				mShoesGetBatteryInfoCallback.isGetBatterySucc(true, leftValue,
-						rightValue);
+						rightValue,leftCharge,rightCharge);
 				leftGetBattery = -1;
 				rightGetBattery = -1;
 			} else if ((leftGetBattery == 1 && rightGetBattery != -1)
 					|| (rightGetBattery == 1 && leftGetBattery != -1)) {
 				Log.i(TAG, "智能鞋电量获取失败");
-				mShoesGetBatteryInfoCallback.isGetBatterySucc(false, -1, -1);
+				mShoesGetBatteryInfoCallback.isGetBatterySucc(false, -1, -1,leftCharge,rightCharge);
 			}
 		}
 

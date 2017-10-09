@@ -3,31 +3,30 @@ package cn.com.amome.amomeshoes.util;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.util.Log;
+
 import cn.com.amome.amomeshoes.common.AmomeApp;
 import cn.com.amome.amomeshoes.model.PressData;
-import cn.com.amome.shoeservice.BleService;
 import cn.com.amome.shoeservice.ble.GattPeripheral;
 import cn.com.amome.shoeservice.ble.GattPeripheral.GattPeripheralCallback;
 import cn.com.amome.shoeservice.com.bindProfile;
-import cn.com.amome.shoeservice.com.controlProfile;
 import cn.com.amome.shoeservice.com.bindProfile.BindCallback;
+import cn.com.amome.shoeservice.com.controlProfile;
 import cn.com.amome.shoeservice.com.controlProfile.ControlCallback;
+import cn.com.amome.shoeservice.com.powerBatteryProfile;
 import cn.com.amome.shoeservice.com.powerBatteryProfile.powerBatteryCallback;
+import cn.com.amome.shoeservice.com.pushDailyProfile;
 import cn.com.amome.shoeservice.com.pushDailyProfile.DailyCallback;
 import cn.com.amome.shoeservice.com.pushDailyProfile.DailyData;
-import cn.com.amome.shoeservice.com.pushPressProfile.PressCallback;
-import cn.com.amome.shoeservice.com.readDeviceInfoProfile.DeviceInfoCallback;
-import cn.com.amome.shoeservice.com.syncDailyProfile.SyncDailyCallback;
-import cn.com.amome.shoeservice.com.syncTimeProfile.SyncTimeCallback;
-import cn.com.amome.shoeservice.com.updateBleFirmwareProfile.BleUpdateCallback;
-import cn.com.amome.shoeservice.com.powerBatteryProfile;
-import cn.com.amome.shoeservice.com.pushDailyProfile;
 import cn.com.amome.shoeservice.com.pushPressProfile;
+import cn.com.amome.shoeservice.com.pushPressProfile.PressCallback;
 import cn.com.amome.shoeservice.com.readDeviceInfoProfile;
+import cn.com.amome.shoeservice.com.readDeviceInfoProfile.DeviceInfoCallback;
 import cn.com.amome.shoeservice.com.syncDailyProfile;
+import cn.com.amome.shoeservice.com.syncDailyProfile.SyncDailyCallback;
 import cn.com.amome.shoeservice.com.syncTimeProfile;
+import cn.com.amome.shoeservice.com.syncTimeProfile.SyncTimeCallback;
 import cn.com.amome.shoeservice.com.updateBleFirmwareProfile;
+import cn.com.amome.shoeservice.com.updateBleFirmwareProfile.BleUpdateCallback;
 import cn.com.amome.shoeservice.util.Constant;
 
 public class BleDev {
@@ -85,6 +84,9 @@ public class BleDev {
 	private boolean getDailyFlag = false;
 	private boolean getBatteryFlag = false;
 	private int batteryValue = 100;
+	private boolean isCharge=false;
+
+
 
 	private static final int MSG_GET_PRESS = 0;
 	private static final int MSG_GET_DAILY = 1;
@@ -154,7 +156,7 @@ public class BleDev {
 	}
 
 	public interface getDevBatteryCallback {
-		public void isGetDevBatterySuc(boolean arg0, String addr, int value);
+		public void isGetDevBatterySuc(boolean arg0, String addr, int value,boolean isCharge);
 	}
 
 	// GP
@@ -529,6 +531,7 @@ public class BleDev {
 			if (!getBatteryFlag) {
 				batteryValue = arg1;
 				getBatteryFlag = true;
+				isCharge=arg0;
 				// Log.i(TAG, address + "电量已赋值" + arg1);
 			}
 		}
@@ -984,7 +987,7 @@ public class BleDev {
 
 	public void getDevBattery(getDevBatteryCallback mGetDevBatteryCallback) {
 		this.mGetDevBatteryCallback = mGetDevBatteryCallback;
-		mGetDevBatteryCallback.isGetDevBatterySuc(true, address, batteryValue);
+		mGetDevBatteryCallback.isGetDevBatterySuc(true, address, batteryValue,isCharge);
 		// Log.i(TAG, address + "电量" + batteryValue);
 	}
 

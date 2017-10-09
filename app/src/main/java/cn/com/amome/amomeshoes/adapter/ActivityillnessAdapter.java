@@ -85,7 +85,7 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
 
     }*/
     private Context context;
-    private List<IllnessInfo> list;
+    private List<IllnessInfo> list=null;
 
     public ActivityillnessAdapter(Context context, List<IllnessInfo> list) {
         super();
@@ -123,7 +123,12 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
 
     @Override
     public int getItemCount() {
-        return 5;
+        if (list.size() >= 5) {
+            return 5;
+        } else {
+           return list.size();
+        }
+
     }
 
 
