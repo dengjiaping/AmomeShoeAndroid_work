@@ -2759,7 +2759,6 @@ int id fragment_layout 0x7f0902eb
 int id fragment_ui_exercise 0x7f0902a4
 int id gridView 0x7f0900ab
 int id gridView_problem 0x7f090236
-int id gv_activity_foot 0x7f09027a
 int id gv_foot_all 0x7f090128
 int id gv_footbasic 0x7f0900d7
 int id gv_other 0x7f0900d9
@@ -3098,6 +3097,7 @@ int id radio1 0x7f0901f2
 int id radioGroup1 0x7f0901f0
 int id rb_sex_protab1 0x7f0900e8
 int id rb_sex_protab2 0x7f0900e9
+int id recycle_activity_foot 0x7f09027a
 int id relativeLayout1 0x7f09031b
 int id relativeLayout2 0x7f09031e
 int id restart_preview 0x7f090009

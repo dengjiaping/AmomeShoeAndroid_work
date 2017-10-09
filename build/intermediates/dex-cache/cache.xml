@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/mpandroidchartlibrary-2-1-6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-6_28b7e53dbb490d27107c931f56a526a7bc886664.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/universal-image-loader-1.9.3.jar"
         jumboMode="false"
         optimize="true"
@@ -36,6 +27,51 @@
         revision="26.0.1"
         sha1="2353dd795333a76ae8517e97e85995586b961bb1">
         <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/swipemenulistview_eeeae6d445175c369c97e8521b32cefb7f5e9e03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/ZXing-core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/ZXing-core-3.2.1_c4f630d563062ac701dc71334fe22a0329383942.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/umeng-analytics-v6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/umeng-analytics-v6.0.1_5ee61a21d6a1f7d13e0d06eb1404770f98ffd2f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/weixinlibammsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/weixinlibammsdk_f6128ac624593a17621b71682f1cded493e115ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_5d7f78d99f241bb0599b4ab73b927f72e3cf9497.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-6_28b7e53dbb490d27107c931f56a526a7bc886664.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,15 +129,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/ZXing-core-3.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/ZXing-core-3.2.1_c4f630d563062ac701dc71334fe22a0329383942.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/bugly_crash_release.jar"
         jumboMode="false"
         optimize="true"
@@ -111,39 +138,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/umeng-analytics-v6.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/umeng-analytics-v6.0.1_5ee61a21d6a1f7d13e0d06eb1404770f98ffd2f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/ccf/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
         <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_e6da92fb5dcc28ed043d5e3cfb647a1ee90e2577.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/weixinlibammsdk.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="11b09244aedaa51bfd09269637be7c32c60da314">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/weixinlibammsdk_f6128ac624593a17621b71682f1cded493e115ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_5d7f78d99f241bb0599b4ab73b927f72e3cf9497.jar" />
     </item>
     <item
         is-multidex="false"

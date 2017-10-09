@@ -2925,7 +2925,6 @@ containing a value of this type.
         public static final int fragment_ui_exercise=0x7f0902a4;
         public static final int gridView=0x7f0900ab;
         public static final int gridView_problem=0x7f090236;
-        public static final int gv_activity_foot=0x7f09027a;
         public static final int gv_foot_all=0x7f090128;
         public static final int gv_footbasic=0x7f0900d7;
         public static final int gv_other=0x7f0900d9;
@@ -3264,6 +3263,7 @@ containing a value of this type.
         public static final int radioGroup1=0x7f0901f0;
         public static final int rb_sex_protab1=0x7f0900e8;
         public static final int rb_sex_protab2=0x7f0900e9;
+        public static final int recycle_activity_foot=0x7f09027a;
         public static final int relativeLayout1=0x7f09031b;
         public static final int relativeLayout2=0x7f09031e;
         public static final int restart_preview=0x7f090009;

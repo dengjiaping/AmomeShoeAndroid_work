@@ -11,12 +11,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,13 +45,13 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 	private Context mContext;
 	private View rootView;
 	private TextView tv_title;
-	private GridView gv_activity_foot;
+	private RecyclerView recycle_activity_foot;
 	private Gson gson = new Gson();
 	private List<IllnessInfo> footInfo;
 	private ActivityillnessAdapter footadapter;
 	private static final String GET_TYPE_FOOT="foot";//获取信息的类型
 	private static final int MSG_GET_ILLNESS_FOOT=0;//
-	String test;
+	String test="空";
 
 	private Handler mHandler=new Handler(){
 		@Override
@@ -61,12 +62,13 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 					switch (msg.arg1) {
 						case MSG_GET_ILLNESS_FOOT:
 							String json=(String)msg.obj;
-							test=json;
 							if (json.equals("[{}]")) {
 
 							} else {
 								//通过gson的TypeToken将字符串转为list
 								footInfo = gson.fromJson(json,new TypeToken<List<IllnessInfo>>(){}.getType());
+								Log.e(TAG, footInfo.toString());
+								initData();
 							}
 							break;
 						default:
@@ -78,6 +80,20 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 		}
 	};
 
+	/**
+	 * 将数据放置到recycleView中显示
+	 */
+	private void initData() {
+		/*footadapter=new ActivityillnessAdapter(mContext,footInfo);
+		gv_activity_foot.setAdapter(footadapter);*/
+		//recycleview使用时需要设置LinearLayoutManager
+		LinearLayoutManager linearLayoutManager=new LinearLayoutManager(mContext);
+		linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+		//gv_activity_foot.addItemDecoration(new  SpaceItemDecoration(30));
+		recycle_activity_foot.setLayoutManager(linearLayoutManager);
+		footadapter=new ActivityillnessAdapter(mContext,footInfo);
+		recycle_activity_foot.setAdapter(footadapter);
+	}
 
 
 	//联网请求获取数据
@@ -89,16 +105,18 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 				case MSG_GET_ILLNESS_FOOT:
 					result = new String(responseBody);
 					try {
+						//Log.e(TAG, "onHttpPostSuccess: ");
 						JSONObject obj = new JSONObject(result);
 						String return_msg = obj.getString("return_msg");
+						Log.e(TAG, return_msg);
 						int return_code = obj.getInt("return_code");
 						Message msg = Message.obtain();
-						if (return_code == 0) {
-							msg.what = ClientConstant.HANDLER_SUCCESS;
-							msg.arg1 = type;
-							msg.obj = return_msg;
-						}
-						mHandler.sendMessage(msg);
+                        if (return_code == 0) {
+                            msg.what = ClientConstant.HANDLER_SUCCESS;
+                            msg.arg1 = type;
+                            msg.obj = return_msg;
+                        }
+                        mHandler.sendMessage(msg);
 					} catch (JSONException e) {
 						// TODO 自动生成的 catch 块
 						e.printStackTrace();
@@ -127,8 +145,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 		initView(rootView);
 		T.showToast(mContext, "游戏敬请期待", 0);
 		getIllnessInfo(GET_TYPE_FOOT);
-//		footadapter=new ActivityillnessAdapter(mContext,footInfo);
-//		gv_activity_foot.setAdapter(footadapter);
+		Log.e(TAG, "onCreateView: ");
 		Toast.makeText(mContext, test, Toast.LENGTH_SHORT).show();
 		return rootView;
 	}
@@ -137,9 +154,10 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 		tv_title = (TextView) view.findViewById(R.id.title_tv);
 		tv_title.setText("活动");
 		view.findViewById(R.id.rl_left).setVisibility(View.GONE);
-		gv_activity_foot = (GridView) view.findViewById(R.id.gv_activity_foot);
+		recycle_activity_foot = (RecyclerView) view.findViewById(R.id.recycle_activity_foot);
 
 	}
+
 
 	@Override
 	public void onClick(View v) {
@@ -153,6 +171,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 
 //发送请求的部分
 	public void getIllnessInfo(String type){
+		Log.e(TAG, "getIllnessInfo: ");
 		RequestParams params = new RequestParams();
 		params.put("useid", SpfUtil.readUserId(mContext));
 		params.put("calltype", ClientConstant.GET_TOKEN_TYPE);
