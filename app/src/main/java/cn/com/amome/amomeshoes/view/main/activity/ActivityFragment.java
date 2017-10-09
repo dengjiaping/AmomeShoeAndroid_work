@@ -83,18 +83,17 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 
 							} else {
 								postureInfo = gson.fromJson(jsonposture,new TypeToken<List<IllnessInfo>>(){}.getType());
-                                Log.e(TAG+"po", postureInfo.toString());
+                               // Log.e(TAG+"po", postureInfo.toString());
                                 initData(MSG_GET_ILLNESS_POSTURE);
 							}
 							break;
-						/*case MSG_GET_ILLNESS_BALANCE:
+						case MSG_GET_ILLNESS_BALANCE:
 							String jsonbalance=(String)msg.obj;
 							if (jsonbalance.equals("[{}]")) {
 
 							} else {
-								footInfo = gson.fromJson(jsonbalance,new TypeToken<List<IllnessInfo>>(){}.getType());
-								Log.e(TAG, footInfo.toString());
-								//initData();
+								balanceInfo = gson.fromJson(jsonbalance,new TypeToken<List<IllnessInfo>>(){}.getType());
+								initData(MSG_GET_ILLNESS_BALANCE);
 							}
 							break;
 						case MSG_GET_ILLNESS_GAIT:
@@ -102,11 +101,10 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 							if (jsongait.equals("[{}]")) {
 
 							} else {
-								footInfo = gson.fromJson(jsongait,new TypeToken<List<IllnessInfo>>(){}.getType());
-								Log.e(TAG, footInfo.toString());
-								//initData();
+								gaitInfo = gson.fromJson(jsongait,new TypeToken<List<IllnessInfo>>(){}.getType());
+								initData(MSG_GET_ILLNESS_GAIT);
 							}
-							break;*/
+							break;
 						default:
 							break;
 					}
@@ -133,40 +131,26 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                 recycle_activity_posture.setLayoutManager(linearLayoutManager);
                 postureadapter = new ActivityillnessAdapter(mContext, postureInfo);
                 recycle_activity_posture.setAdapter(postureadapter);
+                break;
+            case MSG_GET_ILLNESS_BALANCE:
+                recycle_activity_balance.setLayoutManager(linearLayoutManager);
+                balanceadapter = new ActivityillnessAdapter(mContext, balanceInfo);
+                recycle_activity_posture.setAdapter(balanceadapter);
+                Log.e(TAG, "initData: MSG_GET_ILLNESS_BALANCE");
+                break;
+            case MSG_GET_ILLNESS_GAIT:
+                recycle_activity_gait.setLayoutManager(linearLayoutManager);
+                gaitadapter = new ActivityillnessAdapter(mContext, gaitInfo);
+                recycle_activity_posture.setAdapter(gaitadapter);
+                Log.e(TAG, "initData: MSG_GET_ILLNESS_BALANCE");
+                break;
+                default:
+                    break;
         }
 
 
-		/*footadapter=new ActivityillnessAdapter(mContext,footInfo);
-		gv_activity_foot.setAdapter(footadapter);*/
-		//recycleview使用时需要设置LinearLayoutManager
-
-
-		//gv_activity_foot.addItemDecoration(new  SpaceItemDecoration(30));
-
-
-//		recycle_activity_balance.setLayoutManager(linearLayoutManager);
-//		recycle_activity_gait.setLayoutManager(linearLayoutManager);
-
-
-//		balanceadapter=new ActivityillnessAdapter(mContext,balanceInfo);
-//		gaitadapter=new ActivityillnessAdapter(mContext,gaitInfo);
-
-
-
-
-			/*case MSG_GET_ILLNESS_POSTURE:
-				LinearLayoutManager linearLayoutManagerPosture=new LinearLayoutManager(mContext);
-				linearLayoutManagerPosture.setOrientation(LinearLayoutManager.HORIZONTAL);
-				recycle_activity_posture.setLayoutManager(linearLayoutManagerPosture);
-				postureadapter=new ActivityillnessAdapter(mContext,postureInfo);
-					recycle_activity_posture.setAdapter(postureadapter);
-                break;*/
 		}
-		private void initPostureData(){
-            LinearLayoutManager linearLayoutManager=new LinearLayoutManager(mContext);
-            linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
 
-        }
 
 
 
@@ -215,6 +199,44 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 						e.printStackTrace();
 						Log.i(TAG, "MSG_GET_ILLNESS_POSTURE解析失败");
 					}
+					case MSG_GET_ILLNESS_BALANCE:
+					result = new String(responseBody);
+					try {
+						//Log.e(TAG, "onHttpPostSuccess: ");
+						JSONObject obj = new JSONObject(result);
+						String return_msg = obj.getString("return_msg");
+						int return_code = obj.getInt("return_code");
+						Message msg = Message.obtain();
+						if (return_code == 0) {
+							msg.what = ClientConstant.HANDLER_SUCCESS;
+							msg.arg1 = type;
+							msg.obj = return_msg;
+						}
+						mHandler.sendMessage(msg);
+					} catch (JSONException e) {
+						// TODO 自动生成的 catch 块
+						e.printStackTrace();
+						Log.i(TAG, "MSG_GET_ILLNESS_BALANCE解析失败");
+					}
+                case MSG_GET_ILLNESS_GAIT:
+                    result = new String(responseBody);
+                    try {
+                        //Log.e(TAG, "onHttpPostSuccess: ");
+                        JSONObject obj = new JSONObject(result);
+                        String return_msg = obj.getString("return_msg");
+                        int return_code = obj.getInt("return_code");
+                        Message msg = Message.obtain();
+                        if (return_code == 0) {
+                            msg.what = ClientConstant.HANDLER_SUCCESS;
+                            msg.arg1 = type;
+                            msg.obj = return_msg;
+                        }
+                        mHandler.sendMessage(msg);
+                    } catch (JSONException e) {
+                        // TODO 自动生成的 catch 块
+                        e.printStackTrace();
+                        Log.i(TAG, "MSG_GET_ILLNESS_GAIT解析失败");
+                    }
 				default:
 					break;
 			}
@@ -238,8 +260,8 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 		T.showToast(mContext, "游戏敬请期待", 0);
 		getIllnessInfo(GET_TYPE_FOOT,MSG_GET_ILLNESS_FOOT);
 		getIllnessInfo(GET_TYPE_POSTURE,MSG_GET_ILLNESS_POSTURE);
-//		getIllnessInfo(GET_TYPE_BALANCE,MSG_GET_ILLNESS_BALANCE);
-//		getIllnessInfo(GET_TYPE_GAIT,MSG_GET_ILLNESS_GAIT);
+		getIllnessInfo(GET_TYPE_BALANCE,MSG_GET_ILLNESS_BALANCE);
+		getIllnessInfo(GET_TYPE_GAIT,MSG_GET_ILLNESS_GAIT);
 		Log.e(TAG, "onCreateView: ");
 		return rootView;
 	}
