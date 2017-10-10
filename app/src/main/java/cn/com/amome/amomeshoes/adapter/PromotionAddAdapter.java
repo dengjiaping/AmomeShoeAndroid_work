@@ -1,27 +1,85 @@
 package cn.com.amome.amomeshoes.adapter;
 
+import android.content.Context;
+import android.graphics.Color;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
-import cn.com.amome.amomeshoes.model.PromotionInfo;
-import android.content.Context;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.TextView;
+import cn.com.amome.amomeshoes.model.IllnessInfo;
 
 /**
  * 健康促进主页面适配器
- * 
- * @author css
  *
+ * @author css
  */
-public class PromotionAddAdapter extends BaseAdapter {
+public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapter.ViewHolder> {
+    private Context context;
+    private List<IllnessInfo> list = null;
 
-	private Context context;
-	private List<PromotionInfo> list;
 
-	public PromotionAddAdapter(Context context, List<PromotionInfo> list) {
+    public PromotionAddAdapter(Context context, List<IllnessInfo> list) {
+        this.context = context;
+        this.list = list;
+    }
+
+    static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView illness_name, isAdd;
+        ImageView illness_photo;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+            illness_name = (TextView) itemView.findViewById(R.id.manager_illness_name);
+            illness_photo = (ImageView) itemView.findViewById(R.id.iv_manager_illness);
+            isAdd = (TextView) itemView.findViewById(R.id.manager_illness_ischecked);
+        }
+    }
+
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(context).inflate(R.layout.item_footreport_manager, parent, false);
+        ViewHolder holder = new ViewHolder(view);
+        return holder;
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        IllnessInfo info = list.get(position);
+        holder.illness_name.setText(info.getType());
+        Picasso.with(context).load(info.getIcon())
+                .fit()
+                .placeholder(R.drawable.weijiazai_zubu)
+                .error(R.drawable.weijiazai_zubu)
+                .into(holder.illness_photo);
+        if (info.getIs_user_related().equals("1")) {
+            holder.isAdd.setText("已添加");
+            holder.isAdd.setBackgroundColor(Color.TRANSPARENT);
+        } else {
+            holder.isAdd.setText("未添加");
+            holder.isAdd.setBackgroundColor(Color.WHITE);
+        }
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return list.size();
+    }
+
+
+	/*private Context context;
+    private List<IllnessInfo> list=null;
+
+	public PromotionAddAdapter(Context context, List<IllnessInfo> list) {
 		super();
 		this.context = context;
 		this.list = list;
@@ -44,23 +102,37 @@ public class PromotionAddAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		ViewHolder holder = null;
+		ViewHolder holder=null;
 		if (convertView == null) {
 			holder = new ViewHolder();
-			convertView = View.inflate(context,
-					R.layout.item_health_promotion_add, null);
-			holder.tv_title = (TextView) convertView
-					.findViewById(R.id.tv_title);
+			convertView = View.inflate(context, R.layout.item_footreport_manager, null);
+			holder.illness_name = (TextView) convertView.findViewById(R.id.manager_illness_name);
+			holder.illness_photo = (ImageView) convertView.findViewById(R.id.iv_manager_illness);
+			holder.isAdd = (TextView) convertView.findViewById(R.id.manager_illness_ischecked);
 			convertView.setTag(holder);
 		} else {
-			holder = (ViewHolder) convertView.getTag();
+			holder= (ViewHolder) convertView.getTag();
 		}
-		holder.tv_title.setText(list.get(position).type);
+		IllnessInfo info= (IllnessInfo) getItem(position);
+		holder.illness_name.setText(info.getType());
+		Picasso.with(context).load(info.getIcon())
+				.fit()
+				.placeholder(R.drawable.weijiazai_zubu)
+				.error(R.drawable.weijiazai_zubu)
+				.into(holder.illness_photo);
+		if (info.getIs_user_related().equals("1")) {
+			holder.isAdd.setText("已添加");
+			holder.isAdd.setBackgroundColor(Color.TRANSPARENT);
+		} else {
+			holder.isAdd.setText("未添加");
+			holder.isAdd.setBackgroundColor(Color.WHITE);
+		}
 		return convertView;
 	}
 
 	class ViewHolder {
-		TextView tv_title;
-	}
+		TextView illness_name,isAdd;
+		ImageView illness_photo;
+	}*/
 
 }

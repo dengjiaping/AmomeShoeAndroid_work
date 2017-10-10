@@ -63,13 +63,14 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
         Log.e(TAG, info.getType());
         holder.illness_name.setText(info.getType());
         //holder.illness_photo.setImageBitmap();
-        *//**
-         * 根据ImageView大小，显示图片
-         * .fit()                                  说明：控件不能设置成wrap_content,也就是必须有大小才行,fit()才让图片的宽高等于控件的宽高，设置fit()，不能再调用resize()
-         * .placeholder()      说明：当图片没有加载上的时候，显示的图片
-         * .error()            说明：当图片加载错误的时候，显示图片
-         * .into(holder.illness_photo)                          说明：将图片加载到哪个控件中
-         *//*
+        */
+    /**
+     * 根据ImageView大小，显示图片
+     * .fit()                                  说明：控件不能设置成wrap_content,也就是必须有大小才行,fit()才让图片的宽高等于控件的宽高，设置fit()，不能再调用resize()
+     * .placeholder()      说明：当图片没有加载上的时候，显示的图片
+     * .error()            说明：当图片加载错误的时候，显示图片
+     * .into(holder.illness_photo)                          说明：将图片加载到哪个控件中
+     *//*
         //TODO 添加错误显示的图片
         Picasso.with(context).load(info.getIcon())
                 .fit()
@@ -85,7 +86,7 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
 
     }*/
     private Context context;
-    private List<IllnessInfo> list=null;
+    private List<IllnessInfo> list = null;
 
     public ActivityillnessAdapter(Context context, List<IllnessInfo> list) {
         super();
@@ -93,7 +94,7 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
         this.list = list;
     }
 
-    static class ViewHolder extends RecyclerView.ViewHolder{
+    static class ViewHolder extends RecyclerView.ViewHolder {
         TextView illness_name;
         ImageView illness_photo;
 
@@ -103,21 +104,22 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
             illness_photo = (ImageView) itemView.findViewById(R.id.iv_activity_gr);
         }
     }
+
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_activity_foot, parent, false);
-        ViewHolder holder=new ViewHolder(view);
+        ViewHolder holder = new ViewHolder(view);
         return holder;
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        IllnessInfo info= list.get(position);
+        IllnessInfo info = list.get(position);
         holder.illness_name.setText(info.getType());
         Picasso.with(context).load(info.getIcon())
                 .fit()
-                //.placeholder()
-                //.error()
+                .placeholder(R.drawable.weijiazai_zubu)
+                .error(R.drawable.weijiazai_zubu)
                 .into(holder.illness_photo);
     }
 
@@ -126,7 +128,7 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
         if (list.size() >= 5) {
             return 5;
         } else {
-           return list.size();
+            return list.size();
         }
 
     }

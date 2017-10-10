@@ -199,7 +199,7 @@ public class BleShoes {
 	}
 
 	public interface shoesGetBatteryInfoCallback {
-		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal,boolean leftCharge,boolean rightCharge);
+		public void isGetBatterySucc(boolean arg0, int leftVal, int rightVal, boolean leftCharge, boolean rightCharge);
 	}
 
 	public interface shoesUpgradeCallback {

@@ -531,7 +531,7 @@ public class BleDev {
 			if (!getBatteryFlag) {
 				batteryValue = arg1;
 				getBatteryFlag = true;
-				isCharge=arg0;
+				isCharge = arg0;
 				// Log.i(TAG, address + "电量已赋值" + arg1);
 			}
 		}
