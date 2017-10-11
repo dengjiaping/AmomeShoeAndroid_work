@@ -612,6 +612,13 @@
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
+        <!-- 疾病的显示全部页面 -->
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.IllnessDetailActivity"
+            android:label="@string/title_activity_illness_detail"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

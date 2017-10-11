@@ -1,6 +1,7 @@
 package cn.com.amome.amomeshoes.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +15,7 @@ import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.model.IllnessInfo;
+import cn.com.amome.amomeshoes.view.main.health.promotion.IllnessDetailActivity;
 
 /**
  * Created by ccf on 17-9-30.
@@ -95,11 +97,13 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
+        View mView;
         TextView illness_name;
         ImageView illness_photo;
 
         public ViewHolder(View itemView) {
             super(itemView);
+            mView=itemView;
             illness_name = (TextView) itemView.findViewById(R.id.activity_illness_name);
             illness_photo = (ImageView) itemView.findViewById(R.id.iv_activity_gr);
         }
@@ -108,19 +112,35 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_activity_foot, parent, false);
-        ViewHolder holder = new ViewHolder(view);
+         ViewHolder holder = new ViewHolder(view);
+
         return holder;
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
-        IllnessInfo info = list.get(position);
+    public void onBindViewHolder(final ViewHolder holder, int position) {
+        final IllnessInfo info = list.get(position);
         holder.illness_name.setText(info.getType());
         Picasso.with(context).load(info.getIcon())
                 .fit()
                 .placeholder(R.drawable.weijiazai_zubu)
                 .error(R.drawable.weijiazai_zubu)
                 .into(holder.illness_photo);
+
+        //设置点击监听
+        holder.illness_photo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (info.getIs_user_related().equals("0")) {
+                    Intent intent = new Intent(context, IllnessDetailActivity.class);
+                    intent.putExtra("name", info.getType());
+                    context.startActivity(intent);
+                } else {
+                    //TODO: 如果已添加直接进入的页面
+                }
+
+            }
+        });
     }
 
     @Override

@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.com.amome.amomeshoes"
-    android:versionCode="3"
-    android:versionName="1.0.3" >
+          package="cn.com.amome.amomeshoes"
+          android:versionCode="3"
+          android:versionName="1.0.3">
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="21"/>
 
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <!-- 显示悬浮窗 -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
     <!-- 连接网络 -->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <!-- 允许查看当前网络状态 -->
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <!-- 允许查看当前wifi状态 -->
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
     <!-- 允许修改当前网络状态 -->
-    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
     <!-- 连接匹配的蓝牙设备权限 -->
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <!-- 发现匹配的蓝牙设备权限 -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <!-- 震动权限 -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <!-- 读取数据权限 -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <!-- 写数据权限 -->
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <!-- 允许读取手机状态的权限 -->
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA"/>
     <!-- 允许相机权限 -->
-    <uses-permission android:name="android.permission.GET_TASKS" />
-    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
 
     <application
         android:name=".common.AmomeApp"
@@ -43,57 +43,57 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:logo="@drawable/ic_launcher"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".view.account.WelcomeActivity"
             android:alwaysRetainTaskState="true"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <!-- 介绍 -->
         <activity
             android:name=".view.account.IntroductionActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 登录 -->
         <activity
             android:name=".view.account.LoginActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 忘记密码 -->
         <activity
             android:name=".view.account.ForgetPwActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 注册 -->
         <activity
             android:name=".view.account.RegisterActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 网页 -->
         <activity
             android:name=".view.account.RegProtoActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 选择支付 -->
         <activity
             android:name=".view.account.ChoosePayActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 扫描界面 -->
         <activity
@@ -101,429 +101,429 @@
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 支付界面 -->
         <activity
             android:name=".view.account.PayActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 支付结果界面 -->
         <activity
             android:name=".view.account.PayResultActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 主页 -->
         <activity
             android:name=".view.main.MainFragmentActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 商城 -->
         <activity
             android:name=".view.main.health.MarketWebviewActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 京东众筹 -->
         <activity
             android:name=".view.main.my.setting.JDWebviewActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 微博 -->
         <activity
             android:name=".view.main.my.setting.WeiboWebviewActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 看一看-主页 -->
         <activity
             android:name=".view.main.health.service.look.LookMainActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 看一看-总览 -->
         <activity
             android:name=".view.main.health.service.look.FootLookActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 看一看-脚痛 -->
         <activity
             android:name=".view.main.health.service.look.LookFootpainActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 看一看-脚病 -->
         <activity
             android:name=".view.main.health.service.look.LookFootdiseasActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 看一看-脚颜色 -->
         <activity
             android:name=".view.main.health.service.look.LookFootcolorActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 看一看-脚印 -->
         <activity
             android:name=".view.main.health.service.look.LookFootprintsActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 看一看-脚型 -->
         <activity
             android:name=".view.main.health.service.look.LookShapActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 看一看-脚大小 -->
         <activity
             android:name=".view.main.health.service.look.LookSizeActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 量一量-介绍量脚板 -->
         <activity
             android:name=".view.main.health.service.ruler.RulerIntroductionActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 量一量-右脚 -->
         <activity
             android:name=".view.main.health.service.ruler.RulerFootRightActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 量一量-左脚 -->
         <activity
             android:name=".view.main.health.service.ruler.RulerFootLeftActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 量一量-量一量结果 -->
         <activity
             android:name=".view.main.health.service.ruler.RulerResultActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我的鞋-我的鞋主页面 -->
         <activity
             android:name=".view.main.health.service.shoebox.MainShoesBoxActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我的鞋-添加 -->
         <activity
             android:name=".view.main.health.service.shoebox.AddShoesBoxActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我的鞋-裁剪图片 -->
         <activity
             android:name=".view.main.health.service.shoebox.ClipPictureActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我的鞋-品牌 -->
         <activity
             android:name=".view.main.health.service.shoebox.ShoeBrandListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 我的鞋-种类 -->
         <activity
             android:name=".view.main.health.service.shoebox.ShoeCategoryListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 我的鞋-材质 -->
         <activity
             android:name=".view.main.health.service.shoebox.ShoeMaterialListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 我的鞋-材质 -->
         <activity
             android:name=".view.main.health.service.shoebox.ShoeHeelListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 我的鞋-列表 -->
         <activity
             android:name=".view.main.health.service.shoebox.ShoesBoxListActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我的鞋-详细信息 -->
         <activity
             android:name=".view.main.health.service.shoebox.ShoesBoxInfoActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 我的鞋-修改鞋信息 -->
         <activity
             android:name=".view.main.health.service.shoebox.EditShoesBoxActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustPan|stateHidden" >
+            android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
         <!-- 我的鞋-删除鞋问题 -->
         <activity
             android:name=".view.main.health.service.shoebox.ShoesDelReasonActivity"
             android:label="@string/title_activity_shoes_del_pro"
-            android:theme="@style/DialogStyle" >
+            android:theme="@style/DialogStyle">
         </activity>
         <!-- 我的鞋-饼图 -->
         <activity
             android:name=".view.main.health.service.shoebox.charts.ShoeChartMainFragmentActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 爱心助手-主界面 -->
         <activity
             android:name=".view.main.health.service.assistant.AssistMainActivity"
             android:label="@string/title_activity_assist_main"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 爱心助手-选项页面 -->
         <activity
             android:name=".view.main.health.service.assistant.AssistOptionActivity"
             android:label="@string/title_activity_assist_option"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-脚的秘密 -->
         <activity
             android:name=".view.main.my.secret.FootSecretActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-鞋的秘密 -->
         <activity
             android:name=".view.main.my.secret.ShoeSecretActivity"
             android:label="@string/title_activity_shoe_secret"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-裁剪图片 -->
         <activity
             android:name=".view.main.my.user.ClipAvatarActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-个人信息 -->
         <activity
             android:name=".view.main.my.user.MyInfomationActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 我-设置 -->
         <activity
             android:name=".view.main.my.setting.AppSettingActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
 
         <!-- 我-设置-账户管理 -->
         <activity
             android:name=".view.main.my.setting.AccountManagementActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-设置-修改密码 -->
         <activity
             android:name=".view.main.my.setting.ChangPwActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-设置-用户帮助 -->
         <activity
             android:name=".view.main.my.setting.UserHelpActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 我-软件设置-amome升级 -->
         <activity
             android:name=".view.main.my.setting.UpgradeAmomeActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-设置-联系我们 -->
         <activity
             android:name=".view.main.my.setting.ContactUsActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-设置-绑定智能鞋 -->
         <activity
             android:name=".view.main.bind.BindActivity"
             android:label="@string/title_activity_bind"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我-职业 -->
         <activity
             android:name=".view.main.my.user.JobListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 我-兴趣 -->
         <activity
             android:name=".view.main.my.user.HobbyListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
         </activity>
         <!-- 我-问题反馈 -->
         <activity
             android:name=".view.main.my.SendOpinionActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
             android:name=".view.main.my.setting.MoreSettingActivity"
             android:label="@string/title_activity_more_setting"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 绑定-硬件检测 -->
         <activity
             android:name=".view.main.bind.ScanBluetoothActivity"
             android:label="@string/title_activity_scan_bluetooth"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 绑定-震动测试 -->
         <activity
             android:name=".view.main.bind.BindShockActivity"
             android:label="@string/title_activity_bind_shock"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 绑定-压力测试 -->
         <activity
             android:name=".view.main.bind.BindStressActivity"
             android:label="@string/title_activity_bind_stress"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 绑定_走步测试 -->
         <activity
             android:name=".view.main.bind.BindWalkActivity"
             android:label="@string/title_activity_bind_walk"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 扫码绑定智能鞋 -->
         <activity
             android:name=".view.main.bind.SweepShoesActivity"
             android:label="@string/title_activity_sweep_shoes"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 我的智能鞋 -->
         <activity
             android:name=".view.main.my.setting.MyShoesActivity"
             android:label="@string/title_activity_my_shoes"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 测试重连 -->
         <activity
             android:name=".view.main.health.detection.ReconnectionActivity"
             android:label="@string/title_activity_reconnection"
-            android:theme="@style/DialogStyle" >
+            android:theme="@style/DialogStyle">
         </activity>
         <!-- 蹲一蹲测试 -->
         <activity
             android:name=".view.main.health.detection.squat.SquatDetectionActivity"
             android:label="@string/title_activity_detection_squat"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 蹲一蹲测试 -->
         <activity
             android:name=".view.main.health.detection.squat.SquatRecDetectionActivity"
             android:label="@string/title_activity_detection_squat"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 蹲一蹲测试报告 -->
         <activity
             android:name=".view.main.health.detection.squat.SquatReportActivity"
             android:label="@string/title_activity_detection_squat_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 蹲一蹲教程 -->
         <activity
             android:name=".view.main.health.detection.squat.SquatTeachingActivity"
             android:label="@string/title_activity_squat_teaching"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 站一站测试 -->
         <activity
             android:name=".view.main.health.detection.stand.StandDetectionActivity"
             android:label="@string/title_activity_detection_stand"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 站一站测试报告 -->
         <activity
             android:name=".view.main.health.detection.stand.StandReportActivity"
             android:label="@string/title_activity_detection_stand_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 站一站教程 -->
         <activity
             android:name=".view.main.health.detection.stand.StandTeachingActivity"
             android:label="@string/title_activity_stand_teaching"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 摇一摇测试 -->
         <activity
             android:name=".view.main.health.detection.shake.ShakeDetectionActivity"
             android:label="@string/title_activity_detection_shake"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 摇一摇测试报告 -->
         <activity
             android:name=".view.main.health.detection.shake.ShakeReportActivity"
             android:label="@string/title_activity_detection_shake_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 摇一摇教程 -->
         <activity
             android:name=".view.main.health.detection.shake.ShakeTeachingActivity"
             android:label="@string/title_activity_stand_teaching"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
 
         <!-- 走一走测试 -->
@@ -531,21 +531,21 @@
             android:name=".view.main.health.detection.walk.WalkDetectionActivity"
             android:label="@string/title_activity_detection_walk"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 走一走测试报告 -->
         <activity
             android:name=".view.main.health.detection.walk.WalkReportActivity"
             android:label="@string/title_activity_detection_walk_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 走一走教程 -->
         <activity
             android:name=".view.main.health.detection.walk.WalkTeachingActivity"
             android:label="@string/title_activity_walk_teaching"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
 
         <!-- 健康报告-足部报告 -->
@@ -553,46 +553,46 @@
             android:name=".view.main.health.report.FootReportActivity"
             android:label="@string/title_activity_foot_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 健康报告-姿态报告 -->
         <activity
             android:name=".view.main.health.report.PostureReportActivity"
             android:label="@string/title_activity_posture_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 健康报告-平衡报告 -->
         <activity
             android:name=".view.main.health.report.BalanceReportActivity"
             android:label="@string/title_activity_balance_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 健康报告-步态报告 -->
         <activity
             android:name=".view.main.health.report.WalkingReportActivity"
             android:label="@string/title_activity_walk_report"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 健康促进-添加 -->
         <activity
-            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.PromotionFootAddActivity"
+            android:name=".view.main.health.promotion.PromotionFootAddActivity"
             android:label="@string/title_activity_promotion_add"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <!-- 绑定-准备扫描 -->
         <activity
             android:name=".view.main.bind.PrepareScanActivity"
             android:label="@string/title_activity_bind_shoes"
-            android:theme="@style/DialogStyle" >
+            android:theme="@style/DialogStyle">
         </activity>
 
-        <service android:name=".http.HttpService" >
+        <service android:name=".http.HttpService">
         </service>
-        <service android:name="cn.com.amome.shoeservice.BleService" >
+        <service android:name="cn.com.amome.shoeservice.BleService">
         </service>
         <!-- 发布版本key -->
         <!-- android:value="5864699e3eae255903000663" -->
@@ -600,18 +600,25 @@
         <!-- android:value="5747b64ae0f55ad8c700055c" -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="5747b64ae0f55ad8c700055c" >
+            android:value="5747b64ae0f55ad8c700055c">
         </meta-data>
         <meta-data
             android:name="UMENG_CHANNEL"
-            android:value="test" />
+            android:value="test"/>
         <!-- 微信支付回调 -->
         <activity
             android:name=".wxapi.WXPayEntryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
+        <!--疾病的显示全部页面-->
+        <activity
+            android:name=".view.main.health.promotion.IllnessDetailActivity"
+            android:label="@string/title_activity_illness_detail"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

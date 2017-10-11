@@ -1,13 +1,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/bg_gray"
-    android:orientation="vertical" >
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_gray"
+              android:orientation="vertical">
 
     <include
         android:id="@+id/title"
-        layout="@layout/head_title" />
+        layout="@layout/head_title"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,69 +23,73 @@
                 android:layout_height="200dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/activity_use_tmp"/>
-<!--上面是图片，下面为活动开始部分-->
+            <!--上面是图片，下面为活动开始部分-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="3dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
                 android:background="#FF9A4A"
                 android:gravity="center"
                 android:padding="5dp"
                 android:text="活动"
                 android:textColor="#FFFFFF"
-                android:textSize="16sp"
-                android:layout_marginLeft="3dp"
-                android:layout_marginRight="3dp"/>
-<!--足部-->
+                android:textSize="16sp"/>
+            <!--足部-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
                 android:orientation="horizontal"
                 android:padding="1dp">
+
                 <View
                     android:layout_width="5dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:background="#FF9A4A"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="足部"
-                    android:layout_marginLeft="5dp"/>
+                    android:layout_marginLeft="5dp"
+                    android:text="足部"/>
+
                 <TextView
                     android:id="@+id/checkmore_foot"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="查看更多"
+                    android:layout_marginRight="10dp"
                     android:gravity="right"
-                    android:layout_marginRight="10dp"/>
+                    android:text="查看更多"/>
 
             </LinearLayout>
 
-           <!-- <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fillViewport="true">
+            <!-- <HorizontalScrollView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fillViewport="true">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"> <GridView
-                    android:id="@+id/gv_activity_foot"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:numColumns="5"
-                    ></GridView></LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="horizontal"> <GridView
+                     android:id="@+id/gv_activity_foot"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:numColumns="5"
+                     ></GridView></LinearLayout>
 
 
 
-            </HorizontalScrollView>-->
+             </HorizontalScrollView>-->
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycle_activity_foot"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="10dp"
                 ></android.support.v7.widget.RecyclerView>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -97,23 +101,26 @@
                 android:layout_height="20dp"
                 android:orientation="horizontal"
                 android:padding="1dp">
+
                 <View
                     android:layout_width="5dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:background="#FF9A4A"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="姿态"
-                    android:layout_marginLeft="5dp"/>
+                    android:layout_marginLeft="5dp"
+                    android:text="姿态"/>
+
                 <TextView
                     android:id="@+id/checkmore_posture"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="查看更多"
+                    android:layout_marginRight="10dp"
                     android:gravity="right"
-                    android:layout_marginRight="10dp"/>
+                    android:text="查看更多"/>
 
             </LinearLayout>
 
@@ -124,6 +131,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="10dp"
                 ></android.support.v7.widget.RecyclerView>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -134,23 +142,26 @@
                 android:layout_height="20dp"
                 android:orientation="horizontal"
                 android:padding="1dp">
+
                 <View
                     android:layout_width="5dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:background="#FF9A4A"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="平衡"
-                    android:layout_marginLeft="5dp"/>
+                    android:layout_marginLeft="5dp"
+                    android:text="平衡"/>
+
                 <TextView
                     android:id="@+id/checkmore_balance"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="查看更多"
+                    android:layout_marginRight="10dp"
                     android:gravity="right"
-                    android:layout_marginRight="10dp"/>
+                    android:text="查看更多"/>
 
             </LinearLayout>
 
@@ -161,6 +172,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="10dp"
                 ></android.support.v7.widget.RecyclerView>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -172,23 +184,26 @@
                 android:layout_height="20dp"
                 android:orientation="horizontal"
                 android:padding="1dp">
+
                 <View
                     android:layout_width="5dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:background="#FF9A4A"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="步态"
-                    android:layout_marginLeft="5dp"/>
+                    android:layout_marginLeft="5dp"
+                    android:text="步态"/>
+
                 <TextView
                     android:id="@+id/checkmore_gait"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="查看更多"
+                    android:layout_marginRight="10dp"
                     android:gravity="right"
-                    android:layout_marginRight="10dp"/>
+                    android:text="查看更多"/>
 
             </LinearLayout>
 
@@ -199,6 +214,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="10dp"
                 ></android.support.v7.widget.RecyclerView>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"

@@ -73,9 +73,11 @@ public class PromotionFootAddActivity extends Activity implements
             title = (String) bundle.get("title");
             mInfoList = (List<IllnessInfo>) bundle.get("info");
         }
+        if (mInfoList != null) {
+            initData();
+        }
 
         //getFootPromotionData();
-        initData();
     }
 
     private void initData() {

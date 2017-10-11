@@ -301,7 +301,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         switch (v.getId()) {
             case R.id.checkmore_foot:
                 bundle.clear();
-                bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) footInfo);
+                if (footInfo!=null) {
+                    bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) footInfo);
+                }
                 bundle.putString("title", "足部");
 
                 intent.putExtras(bundle);
@@ -310,7 +312,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.checkmore_posture:
                 bundle.clear();
-                bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) postureInfo);
+                if (postureInfo!=null) {
+                    bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) postureInfo);
+                }
                 bundle.putString("title", "姿态");
 
                 intent.putExtras(bundle);
@@ -318,7 +322,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.checkmore_balance:
                 bundle.clear();
-                bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) balanceInfo);
+                if (balanceInfo != null) {
+                    bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) balanceInfo);
+                }
                 bundle.putString("title", "平衡");
 
                 intent.putExtras(bundle);
@@ -326,7 +332,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.checkmore_gait:
                 bundle.clear();
-                bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) gaitInfo);
+                if (gaitInfo != null) {
+                    bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) gaitInfo);
+                }
                 bundle.putString("title", "步态");
 
                 intent.putExtras(bundle);
