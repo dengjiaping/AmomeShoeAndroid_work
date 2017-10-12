@@ -201,5 +201,6 @@
     <string name="p2refresh_refresh_lasttime">最近更新</string>
     <string name="title_activity_promotion_add">PromotionAddActivity</string>
     <string name="title_activity_illness_detail">IllnessDetailActivity</string>
+    <string name="title_activity_detail_describe">DetailDescribeActivity</string>
 
 </resources>

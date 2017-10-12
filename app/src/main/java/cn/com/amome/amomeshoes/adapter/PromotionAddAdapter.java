@@ -1,6 +1,7 @@
 package cn.com.amome.amomeshoes.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -15,6 +16,7 @@ import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.model.IllnessInfo;
+import cn.com.amome.amomeshoes.view.main.health.promotion.IllnessDetailActivity;
 
 /**
  * 健康促进主页面适配器
@@ -53,7 +55,7 @@ public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapte
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        IllnessInfo info = list.get(position);
+        final IllnessInfo info = list.get(position);
         holder.illness_name.setText(info.getType());
         Picasso.with(context).load(info.getIcon())
                 .fit()
@@ -67,6 +69,22 @@ public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapte
             holder.isAdd.setText("未添加");
             holder.isAdd.setBackgroundColor(Color.WHITE);
         }
+
+
+        //设置点击监听
+        holder.illness_photo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (info.getIs_user_related().equals("0")) {
+                    Intent intent = new Intent(context, IllnessDetailActivity.class);
+                    intent.putExtra("name", info.getType());
+                    context.startActivity(intent);
+                } else {
+                    //TODO: 如果已添加直接进入的页面
+                }
+
+            }
+        });
 
     }
 

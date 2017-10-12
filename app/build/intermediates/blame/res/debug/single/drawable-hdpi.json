@@ -128,12 +128,12 @@
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-hdpi/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_pressed_holo_dark.9.png",

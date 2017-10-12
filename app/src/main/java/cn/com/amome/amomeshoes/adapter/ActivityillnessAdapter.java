@@ -97,13 +97,11 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
-        View mView;
         TextView illness_name;
         ImageView illness_photo;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            mView=itemView;
             illness_name = (TextView) itemView.findViewById(R.id.activity_illness_name);
             illness_photo = (ImageView) itemView.findViewById(R.id.iv_activity_gr);
         }

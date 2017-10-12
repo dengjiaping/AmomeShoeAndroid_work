@@ -2,6 +2,7 @@ package cn.com.amome.amomeshoes.view.main.health.promotion;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -48,7 +49,26 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
 
     private Gson gson = new Gson();
     private String disease = null;
+
+
     private IllnessDetailInfo info;
+    private String mIllnessname;
+    private String mDefinition;
+    private String mReason;
+    private String mInfluence;
+    private String mIcon;
+    private List<IllnessDetailInfo.HealthschemeBean> mHealthscheme;
+    private IllnessDetailInfo.HealthschemeBean mHealthschemeBean;
+    private List<IllnessDetailInfo.HealthschemeBean.NursingBean> mNursing;
+    private IllnessDetailInfo.HealthschemeBean.NursingBean mNursingBean;
+    private List<IllnessDetailInfo.HealthschemeBean.TrainingBean> mTraining;
+    private IllnessDetailInfo.HealthschemeBean.TrainingBean mTrainingBean;
+    private String mNum_training;
+    private String mName_training;
+    private String mDetail_training;
+    private String mNum_nursing;
+    private String mName_nursing;
+    private String mDetail_nursing;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +105,10 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         btn_onekey_add = (Button) findViewById(R.id.btn_onekey_add);
 
         iv_left.setOnClickListener(this);
+        iv_describe_detail.setOnClickListener(this);
+        iv_training_detail.setOnClickListener(this);
+        iv_fitting_detail.setOnClickListener(this);
+        iv_nursing_detail.setOnClickListener(this);
     }
 
     /**
@@ -183,25 +207,25 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
     };
 
     private void initData() {
-        final String illnessname = info.getType();
-        final String definition = info.getDefinition();
-        final String reason = info.getReason();
-        final String influence = info.getInfluence();
-        final String icon = info.getIcon();
+        mIllnessname = info.getType();
+        mDefinition = info.getDefinition();
+        mReason = info.getReason();
+        mInfluence = info.getInfluence();
+        mIcon = info.getIcon();
 
-        final List<IllnessDetailInfo.HealthschemeBean> healthscheme = info.getHealthscheme();
-        final IllnessDetailInfo.HealthschemeBean healthschemeBean = healthscheme.get(0);
-        final List<IllnessDetailInfo.HealthschemeBean.NursingBean> nursing = healthschemeBean.getNursing();
-        final IllnessDetailInfo.HealthschemeBean.NursingBean nursingBean = nursing.get(0);
-        final List<IllnessDetailInfo.HealthschemeBean.TrainingBean> training = healthschemeBean.getTraining();
-        final IllnessDetailInfo.HealthschemeBean.TrainingBean trainingBean = training.get(0);
+        mHealthscheme = info.getHealthscheme();
+        mHealthschemeBean = mHealthscheme.get(0);
+        mNursing = mHealthschemeBean.getNursing();
+        mNursingBean = mNursing.get(0);
+        mTraining = mHealthschemeBean.getTraining();
+        mTrainingBean = mTraining.get(0);
 
-        final String num_training = trainingBean.getNum();
-        final String name_training = trainingBean.getName();
-        final String detail_training = trainingBean.getDetail();
-        final String num_nursing = nursingBean.getNum();
-        final String name_nursing = nursingBean.getName();
-        final String detail_nursing = nursingBean.getDetail();
+        mNum_training = mTrainingBean.getNum();
+        mName_training = mTrainingBean.getName();
+        mDetail_training = mTrainingBean.getDetail();
+        mNum_nursing = mNursingBean.getNum();
+        mName_nursing = mNursingBean.getName();
+        mDetail_nursing = mNursingBean.getDetail();
 
 
         Picasso.with(mContext).load(info.getIcon())
@@ -209,18 +233,18 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
                 .placeholder(R.drawable.weijiazai_zubu)
                 .error(R.drawable.weijiazai_zubu)
                 .into(iv_illnessdetail_first);
-        tv_detail_illness_name.setText(illnessname);
-        tv_describe.setText(definition);
+        tv_detail_illness_name.setText(mIllnessname);
+        tv_describe.setText(mDefinition);
         //这里先设置健康配件部分不显示
         //TODO:暂时没有数据，等待有数据了再添加
         ll_fitting.setVisibility(View.GONE);
 
-        tv_num_training.setText(num_training);
-        tv_name_training.setText(name_training);
-        tv_detail_training.setText(detail_training);
-        tv_num_nursing.setText(num_nursing);
-        tv_name_nursing.setText(name_nursing);
-        tv_detail_nursing.setText(detail_nursing);
+        tv_num_training.setText(mNum_training);
+        tv_name_training.setText(mName_training);
+        tv_detail_training.setText(mDetail_training);
+        tv_num_nursing.setText(mNum_nursing);
+        tv_name_nursing.setText(mName_nursing);
+        tv_detail_nursing.setText(mDetail_nursing);
 
     }
 
@@ -229,6 +253,21 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.iv_left:
                 finish();
+                break;
+            case R.id.iv_describe_detail:
+                Intent intent_describe = new Intent(mContext, DetailDescribeActivity.class);
+                intent_describe.putExtra("definition", mDefinition);
+                intent_describe.putExtra("reason", mReason);
+                intent_describe.putExtra("influence", mInfluence);
+                startActivity(intent_describe);
+                break;
+            case R.id.iv_training_detail:
+                Intent intent_training = new Intent(mContext, DetailTrainingActivity.class);
+                break;
+            case R.id.iv_fitting_detail:
+                //TODO: 有配件的信息后显示配件的ll模块并完成点击事件的处理
+                break;
+            case R.id.iv_nursing_detail:
                 break;
             default:
                 break;

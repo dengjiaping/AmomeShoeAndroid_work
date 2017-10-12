@@ -612,12 +612,24 @@
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"/>
-        <!--疾病的显示全部页面-->
+        <!-- 疾病的显示全部页面 -->
         <activity
             android:name=".view.main.health.promotion.IllnessDetailActivity"
             android:label="@string/title_activity_illness_detail"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".view.main.health.promotion.DetailDescribeActivity"
+            android:label="@string/title_activity_detail_describe"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity android:name=".view.main.health.promotion.DetailTrainingActivity">
+        </activity>
+        <activity android:name=".view.main.health.promotion.DetailFittingActivity">
+        </activity>
+        <activity android:name=".view.main.health.promotion.DetailNursingActivity">
         </activity>
     </application>
 

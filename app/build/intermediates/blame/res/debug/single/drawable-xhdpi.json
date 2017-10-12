@@ -8,20 +8,20 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_stand_posture.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_arch.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_arch.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_footshap_gray.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_footshap_gray.png"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png",
+        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/ruler_left_mark.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/ruler_left_mark.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_footshap_gray.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_footshap_gray.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_palm_s.png",
@@ -60,12 +60,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/my_top_bg.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_2_disk.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_2_disk.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/stand_dise_right_high.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/stand_dise_right_high.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_2_disk.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_2_disk.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/health_service.png",
@@ -112,12 +112,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_walk_8.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/detection_squat_bg_pre.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/detection_squat_bg_pre.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/login_underline.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/login_underline.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/detection_squat_bg_pre.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/detection_squat_bg_pre.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/health_report_bg.png",
@@ -240,12 +240,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_foot_instep_normal.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_wheat_s.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_wheat_s.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/test_foot_instep_high.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_foot_instep_high.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_wheat_s.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_wheat_s.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_chocolate_s.png",
@@ -348,12 +348,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/ruler_left.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/squat_teaching2.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/squat_teaching2.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/squat_teaching2.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/squat_teaching2.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/progressbar_bar.png",
@@ -460,20 +460,20 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/et_pure_gray_bg_rec.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/bind_fail_tip_logo.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_fail_tip_logo.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_statisitc_background.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_statisitc_background.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/bind_scan_double.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_scan_double.png"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/bind_fail_tip_logo.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_fail_tip_logo.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/assist_select_bg.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/assist_select_bg.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/bind_scan_double.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_scan_double.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/test_foot_spin_front.png",
@@ -488,12 +488,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/shoe_catton.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/bind_right_click_tip.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_right_click_tip.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/service_test_shoes_gray.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/service_test_shoes_gray.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/bind_right_click_tip.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_right_click_tip.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_payfail.png",
@@ -508,12 +508,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/btn_blue_bg_pre.9.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/detection_squat_bg_nor.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/detection_squat_bg_nor.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_sole.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_sole.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/detection_squat_bg_nor.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/detection_squat_bg_nor.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/my_myshoeline_bg.png",
@@ -668,16 +668,16 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/stand_dise_normal.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_1_shadow.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_1_shadow.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/loadingpic.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/loadingpic.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/motions_hollowpoint.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/motions_hollowpoint.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_1_shadow.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_1_shadow.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_2_dot.png",
@@ -696,12 +696,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/squat_instep_high.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_heel.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_heel.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/shoe_nobg_catton.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/shoe_nobg_catton.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_heel.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_heel.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/icon_default.png",
@@ -968,12 +968,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bin_scan_5.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/test_foot_spin_normal.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_foot_spin_normal.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/test_foot_spin_normal.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_foot_spin_normal.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/my_secret_shoe.png",
@@ -1000,12 +1000,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_hv_s.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/my_unbind_bg.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/my_unbind_bg.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_back_blue.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/ic_back_blue.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/my_unbind_bg.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/my_unbind_bg.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/squat_countdown1.png",
@@ -1076,12 +1076,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_foot_spin_gray.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_1_background.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_1_background.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/bind_walk_11.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_walk_11.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_1_background.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_1_background.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_back_rosered.png",
@@ -1148,12 +1148,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/service_btn_bg_s.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_footsize_gray.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_footsize_gray.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/stand_dise2_right_turn.png",
@@ -1176,12 +1176,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_walk_2.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/detection_stand_bg_nor.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/detection_stand_bg_nor.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_roman.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_roman.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/detection_stand_bg_nor.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/detection_stand_bg_nor.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/assist_child.png",
@@ -1196,12 +1196,12 @@
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_greek_s.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_greek_s.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_shoe_right.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/ic_shoe_right.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_greek_s.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_greek_s.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_sit.png",
@@ -1244,16 +1244,16 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/bind_walk_19.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/test_foot_instep_gray.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_foot_instep_gray.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_1_four_background.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/exercise_1_four_background.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/btn_short_blue_bind.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/btn_short_blue_bind.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/test_foot_instep_gray.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/test_foot_instep_gray.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/exercise_hollowpoint.png",
@@ -1708,12 +1708,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/stand_dise2_left_turn.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_egypt.png",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_egypt.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/rulerscale_horzion.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/rulerscale_horzion.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/look_foot_egypt.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-xhdpi/look_foot_egypt.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-xhdpi/progressbar_pattern.png",

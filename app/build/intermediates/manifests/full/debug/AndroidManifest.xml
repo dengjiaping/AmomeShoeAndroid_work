@@ -619,6 +619,18 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailDescribeActivity"
+            android:label="@string/title_activity_detail_describe"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailTrainingActivity" >
+        </activity>
+        <activity android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailFittingActivity" >
+        </activity>
+        <activity android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailNursingActivity" >
+        </activity>
     </application>
 
 </manifest>

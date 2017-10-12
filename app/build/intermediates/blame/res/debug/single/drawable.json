@@ -8,12 +8,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/jbshape.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/list_item_bg.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/list_item_bg.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_short_turkeygreen_bg_selector.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_short_turkeygreen_bg_selector.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/list_item_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/list_item_bg.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/animation_squat.xml",
@@ -36,48 +36,48 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_service_shoebox_selector.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/check_left_btn.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/check_left_btn.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/check_left_btn.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/check_left_btn.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_short_blue_bg_selector.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_short_blue_bg_selector.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/dialog_menu_selector.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/dialog_menu_selector.xml"
-    },
-    {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_short_rosered_bg_selector.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_short_rosered_bg_selector.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_red_bg_rectangle.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_red_bg_rectangle.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_short_rosered_bg_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_short_rosered_bg_selector.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/dialog_menu_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/dialog_menu_selector.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab3_activity.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab3_activity.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/photo_choose_bg.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/photo_choose_bg.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/dialog_menu_normal.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/dialog_menu_normal.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/photo_choose_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/photo_choose_bg.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_service_assist_selector.xml",
@@ -164,32 +164,32 @@
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/donghua_scan.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/donghua_scan.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/selector_marketlogo.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/selector_marketlogo.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab1_health.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab1_health.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/donghua_scan.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/donghua_scan.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab1_health.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab1_health.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab4_my.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab4_my.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_detection_shake_selector.xml",
@@ -280,12 +280,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/service_bg.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_detection_walk_selector.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_detection_walk_selector.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_green_gradient_vbg.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_green_gradient_vbg.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_detection_walk_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_detection_walk_selector.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_green_gradient_vbg2.xml",
@@ -296,12 +296,12 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_green_gradient_hbg.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_rosered_gradient_hbg.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_rosered_gradient_hbg.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_blue_sky_rectangle_radius_3dp.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_blue_sky_rectangle_radius_3dp.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_rosered_gradient_hbg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_rosered_gradient_hbg.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_red_solid_bg.xml",

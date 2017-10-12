@@ -28,12 +28,12 @@
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/dialog_out_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/dialog_out_anim.xml"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/dialog_out_anim.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/dialog_out_anim.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
