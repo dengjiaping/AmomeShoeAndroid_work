@@ -202,5 +202,8 @@
     <string name="title_activity_promotion_add">PromotionAddActivity</string>
     <string name="title_activity_illness_detail">IllnessDetailActivity</string>
     <string name="title_activity_detail_describe">DetailDescribeActivity</string>
+    <string name="title_activity_detail_training">DetailTrainingActivity</string>
+    <string name="title_activity_detail_fitting">DetailFittingActivity</string>
+    <string name="title_activity_detail_nursing">DetailNursingActivity</string>
 
 </resources>

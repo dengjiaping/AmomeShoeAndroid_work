@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="cn.com.amome.amomeshoes.view.main.health.promotion.DetailTrainingActivity">
+    android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_detail_training"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/y50"
+        android:src="@drawable/houtui_white"
+        android:layout_marginTop="@dimen/y20"
+        android:layout_marginLeft="@dimen/x15"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y50"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/y50">
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/y30"
+            android:layout_marginLeft="@dimen/x100"
+            android:src="@drawable/zuo"/>
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="top"/>
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/y30"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x100"
+            android:src="@drawable/you"/>
+    </RelativeLayout>
+
+
+
+</FrameLayout>

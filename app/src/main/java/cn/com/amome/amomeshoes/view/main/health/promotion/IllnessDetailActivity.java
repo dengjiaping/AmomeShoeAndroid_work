@@ -263,6 +263,9 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
                 break;
             case R.id.iv_training_detail:
                 Intent intent_training = new Intent(mContext, DetailTrainingActivity.class);
+                intent_training.putExtra("disease", disease);
+                intent_training.putExtra("type", "training");
+                startActivity(intent_training);
                 break;
             case R.id.iv_fitting_detail:
                 //TODO: 有配件的信息后显示配件的ll模块并完成点击事件的处理

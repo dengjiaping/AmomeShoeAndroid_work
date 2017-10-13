@@ -1,11 +1,11 @@
 package cn.com.amome.amomeshoes.view.main.health.promotion;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
 import cn.com.amome.amomeshoes.R;
 
-public class DetailNursingActivity extends ActionBarActivity {
+public class DetailNursingActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

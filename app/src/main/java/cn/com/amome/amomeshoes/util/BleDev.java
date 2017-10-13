@@ -530,9 +530,10 @@ public class BleDev {
 			// TODO Auto-generated method stub
 			if (!getBatteryFlag) {
 				batteryValue = arg1;
-				getBatteryFlag = true;
+				//是否只获取一次
+				//getBatteryFlag = true;
 				isCharge = arg0;
-				// Log.i(TAG, address + "电量已赋值" + arg1);
+				 //Log.i(TAG, address + "获取是否充电" + arg0);
 			}
 		}
 

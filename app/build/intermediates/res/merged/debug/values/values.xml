@@ -2599,6 +2599,9 @@
     <string name="title_activity_bind_stress">BindStressActivity</string>
     <string name="title_activity_bind_walk">BindWalkActivity</string>
     <string name="title_activity_detail_describe">DetailDescribeActivity</string>
+    <string name="title_activity_detail_fitting">DetailFittingActivity</string>
+    <string name="title_activity_detail_nursing">DetailNursingActivity</string>
+    <string name="title_activity_detail_training">DetailTrainingActivity</string>
     <string name="title_activity_detection_shake">ShakeDetectionActivity</string>
     <string name="title_activity_detection_shake_report">ShakeReportActivity</string>
     <string name="title_activity_detection_squat">SquatDetectionActivity</string>

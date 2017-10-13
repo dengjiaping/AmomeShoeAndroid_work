@@ -619,17 +619,30 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
+        <!-- 下面是四个显示疾病详细信息的页面（描述   和    训练/配件/养护） -->
         <activity
             android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailDescribeActivity"
             android:label="@string/title_activity_detail_describe"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
-        <activity android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailTrainingActivity" >
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailTrainingActivity"
+            android:label="@string/title_activity_detail_training"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
-        <activity android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailFittingActivity" >
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailFittingActivity"
+            android:label="@string/title_activity_detail_fitting"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
-        <activity android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailNursingActivity" >
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailNursingActivity"
+            android:label="@string/title_activity_detail_nursing"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
     </application>
 
