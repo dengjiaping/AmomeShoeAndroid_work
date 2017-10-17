@@ -74,6 +74,7 @@ public class PromotionFootAddActivity extends Activity implements
             mInfoList = (List<IllnessInfo>) bundle.get("info");
         }
         if (mInfoList != null) {
+
             initData();
         }
 
@@ -118,11 +119,26 @@ public class PromotionFootAddActivity extends Activity implements
         }
     }
 
+   /* @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
+            case 0:
+                if (resultCode == RESULT_OK) {
+                    //promotionAddAdapter.changeSelectStatus(data.getBooleanExtra("isSelect", false), data.getIntExtra("position", 0));
+                    //promotionAddAdapter.notifyDataSetChanged();
+                }
+                break;
+            default:
+                break;
+        }
+    }*/
+
     /**
      * 获取脚长数据
      */
     /*private void getFootPromotionData() {
-		// DialogUtil.showCancelProgressDialog(mContext, "", "请稍等",
+        // DialogUtil.showCancelProgressDialog(mContext, "", "请稍等",
 		// true, true);
 		RequestParams params = new RequestParams();
 		params.put("useid", SpfUtil.readUserId(mContext));

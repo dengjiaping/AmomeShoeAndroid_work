@@ -123,6 +123,16 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         }
     };
 
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
+        getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
+        getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
+        getIllnessInfo(GET_TYPE_GAIT, MSG_GET_ILLNESS_GAIT);
+    }
+
     /**
      * 将数据放置到recycleView中显示
      */
@@ -378,4 +388,6 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         super.setUserVisibleHint(isVisibleToUser);
         Log.i(TAG, TAG + "===setUserVisibleHint====");
     }
+
+
 }

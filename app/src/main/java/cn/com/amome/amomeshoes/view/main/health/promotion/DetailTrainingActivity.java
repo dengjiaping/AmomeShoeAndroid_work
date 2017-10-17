@@ -44,7 +44,7 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
     private static final int MSG_GET_DATA = 0;
     private List<DetailTrainingInfo> mTrainingInfo;
     private int pagerNum = 0;
-    private int currentNum = 1;
+    private int currentNum = 0;
 
     private ImageView iv_back, iv_left, iv_right;
     private TextView tv_num;
@@ -75,7 +75,8 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
         iv_left.setOnClickListener(this);
         iv_right.setOnClickListener(this);
 
-        vp_detail_training.setOnPageChangeListener(this);
+        vp_detail_training.addOnPageChangeListener(this);
+        vp_detail_training.setOffscreenPageLimit(0);
     }
 
 
@@ -176,10 +177,10 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
 
     private void initData() {
         pagerNum = mTrainingInfo.size();
-        tv_num.setText((currentNum) + "/" + pagerNum);
-
+        tv_num.setText((currentNum + 1) + "/" + pagerNum);
         adapter = new DetailTrainingAdapter(mTrainingInfo, mContext);
         vp_detail_training.setAdapter(adapter);
+        adapter.start_video();
 
 
     }
@@ -191,17 +192,19 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
                 finish();
                 break;
             case R.id.iv_left:
-                if (currentNum > 1 && currentNum <= pagerNum) {
+                if (currentNum > 0 && currentNum <= pagerNum - 1) {
                     currentNum--;
                     vp_detail_training.setCurrentItem(currentNum);
-                    tv_num.setText(currentNum + "/" + pagerNum);
+                    tv_num.setText((currentNum + 1) + "/" + pagerNum);
+
                 }
                 break;
             case R.id.iv_right:
-                if (currentNum < pagerNum) {
+                if (currentNum < pagerNum - 1) {
                     currentNum++;
                     vp_detail_training.setCurrentItem(currentNum);
-                    tv_num.setText(currentNum + "/" + pagerNum);
+                    tv_num.setText((currentNum + 1) + "/" + pagerNum);
+
                 }
                 break;
             default:
@@ -211,19 +214,25 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-        if ((position + 1) == currentNum) {
+       /* if ((position + 1) == currentNum) {
+            adapter.stop_Video();
+        }*/
+        if (position != currentNum) {
             adapter.stop_Video();
         }
     }
 
     @Override
     public void onPageSelected(int position) {
-        currentNum = position+1;
-        tv_num.setText(currentNum + "/" + pagerNum);
+        currentNum = position;
+        tv_num.setText((currentNum + 1) + "/" + pagerNum);
+
+        adapter.start_video();
     }
 
     @Override
     public void onPageScrollStateChanged(int state) {
+
 
     }
 }

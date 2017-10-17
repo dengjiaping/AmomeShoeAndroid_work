@@ -20,6 +20,10 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-mdpi/moredetail.png"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/tishijuxing.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-mdpi/tishijuxing.png"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_popup_background_mtrl_mult.9.png",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png"
     },
@@ -120,6 +124,10 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-mdpi/bianpingzu.png"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/more_white.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-mdpi/more_white.png"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -172,12 +180,12 @@
         "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/houtui_white.png",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-mdpi/houtui_white.png"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-mdpi/dui.png",

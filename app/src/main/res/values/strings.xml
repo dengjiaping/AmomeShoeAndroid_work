@@ -205,5 +205,6 @@
     <string name="title_activity_detail_training">DetailTrainingActivity</string>
     <string name="title_activity_detail_fitting">DetailFittingActivity</string>
     <string name="title_activity_detail_nursing">DetailNursingActivity</string>
+    <string name="title_activity_illness_detail_true">IllnessDetailTrueActivity</string>
 
 </resources>

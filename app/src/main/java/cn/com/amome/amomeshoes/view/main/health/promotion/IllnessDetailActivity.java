@@ -20,6 +20,7 @@ import com.loopj.android.http.RequestParams;
 import com.squareup.picasso.Picasso;
 
 import org.apache.http.Header;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -37,6 +38,8 @@ import cn.com.amome.amomeshoes.util.SpfUtil;
 
 public class IllnessDetailActivity extends Activity implements View.OnClickListener {
     private static final int MSG_GET_DATA = 0;
+    private static final int ONE_KEY_ADD = 1;
+
     private String TAG = "IllnessDetailActivity";
     private Context mContext;
     private ImageView iv_illnessdetail_first, iv_left, iv_describe_detail, iv_training_detail,
@@ -49,6 +52,7 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
 
     private Gson gson = new Gson();
     private String disease = null;
+    private int position;
 
 
     private IllnessDetailInfo info;
@@ -77,6 +81,7 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         mContext = this;
         initView();
         disease = getIntent().getStringExtra("name");
+        //position = getIntent().getIntExtra("position", 0);
         getIllnessDetailInfo();
     }
 
@@ -109,6 +114,7 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         iv_training_detail.setOnClickListener(this);
         iv_fitting_detail.setOnClickListener(this);
         iv_nursing_detail.setOnClickListener(this);
+        btn_onekey_add.setOnClickListener(this);
     }
 
     /**
@@ -122,6 +128,18 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         params.put("certificate", HttpService.getToken());
         PostAsyncTask postTask = new PostAsyncTask(mHandler);
         postTask.startAsyncTask(mContext, callback, MSG_GET_DATA, params,
+                ClientConstant.PROMOTION_URL);
+    }
+
+
+    private void oneKeyAddPost() {
+        RequestParams params = new RequestParams();
+        params.put("useid", SpfUtil.readUserId(mContext));
+        params.put("calltype", ClientConstant.ONE_KEY_ADD);
+        params.put("disease", disease);
+        params.put("certificate", HttpService.getToken());
+        PostAsyncTask postTask = new PostAsyncTask(mHandler);
+        postTask.startAsyncTask(mContext, callback, ONE_KEY_ADD, params,
                 ClientConstant.PROMOTION_URL);
     }
 
@@ -152,7 +170,36 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
                     } catch (JSONException e) {
                         // TODO 自动生成的 catch 块
                         e.printStackTrace();
-                        Log.i(TAG, "MSG_GET_FOOT_DATA解析失败");
+                        Log.i(TAG, "MSG_GET_DATA解析失败");
+
+                    }
+                    break;
+                case ONE_KEY_ADD:
+                    result = new String(responseBody);
+                    try {
+                        JSONObject obj = new JSONObject(result);
+                        JSONArray return_msg = obj.getJSONArray("return_msg");
+                        JSONObject msg = (JSONObject) return_msg.get(0);
+
+                        int return_code = obj.getInt("return_code");
+                        if (return_code == 0) {
+                            if (msg.getString("retval").equals("0x00")) {
+                                Intent intent = new Intent(mContext, IlldessDetailTrueActivity.class);
+                                intent.putExtra("disease", disease);
+                                startActivity(intent);
+
+                                //返回值改变list内的值
+                                Intent intent_result = new Intent();
+                                intent_result.putExtra("isSelect", true);
+                                intent_result.putExtra("position", position);
+                                setResult(RESULT_OK, intent);
+                                finish();
+                            }
+                        }
+                    } catch (JSONException e) {
+                        // TODO 自动生成的 catch 块
+                        e.printStackTrace();
+                        Log.i(TAG, "ONE_KEY_ADD解析失败");
 
                     }
                     break;
@@ -194,6 +241,8 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
                                 initData();
                             }
                             break;
+
+
                         default:
                             break;
                     }
@@ -228,7 +277,7 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         mDetail_nursing = mNursingBean.getDetail();
 
 
-        Picasso.with(mContext).load(info.getIcon())
+        Picasso.with(mContext).load(mIcon)
                 .fit()
                 .placeholder(R.drawable.weijiazai_zubu)
                 .error(R.drawable.weijiazai_zubu)
@@ -271,9 +320,17 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
                 //TODO: 有配件的信息后显示配件的ll模块并完成点击事件的处理
                 break;
             case R.id.iv_nursing_detail:
+                Intent intent_nursing = new Intent(mContext, DetailNursingActivity.class);
+                intent_nursing.putExtra("disease", disease);
+                intent_nursing.putExtra("type", "nursing");
+                startActivity(intent_nursing);
                 break;
+            case R.id.btn_onekey_add:
+                oneKeyAddPost();
             default:
                 break;
         }
     }
+
+
 }

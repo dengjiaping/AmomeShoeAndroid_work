@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.VideoView;
 
@@ -52,7 +53,8 @@ public class DetailTrainingAdapter extends PagerAdapter {
         DetailTrainingInfo info = list.get(position);
         Log.e("TAG", "instantiateItem: " + info.getIcon());
         vv_Training.setVideoURI(Uri.parse(info.getIcon()));
-        start_video();
+        vv_Training.setMediaController(new MediaController(mContext));
+//        start_video();
         tv_name.setText(info.getName());
         tv_detail.setText(info.getDetail());
         vv_Training.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {

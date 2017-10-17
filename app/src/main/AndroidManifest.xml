@@ -619,7 +619,7 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
-        <!--下面是四个显示疾病详细信息的页面（描述   和    训练/配件/养护）-->
+        <!-- 下面是四个显示疾病详细信息的页面（描述   和    训练/配件/养护） -->
         <activity
             android:name=".view.main.health.promotion.DetailDescribeActivity"
             android:label="@string/title_activity_detail_describe"
@@ -641,6 +641,12 @@
         <activity
             android:name=".view.main.health.promotion.DetailNursingActivity"
             android:label="@string/title_activity_detail_nursing"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".view.main.health.promotion.IlldessDetailTrueActivity"
+            android:label="@string/title_activity_illness_detail_true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>

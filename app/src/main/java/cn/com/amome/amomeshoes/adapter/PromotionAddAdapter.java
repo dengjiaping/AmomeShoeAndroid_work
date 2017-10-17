@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +17,9 @@ import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.model.IllnessInfo;
+import cn.com.amome.amomeshoes.view.main.health.promotion.IlldessDetailTrueActivity;
 import cn.com.amome.amomeshoes.view.main.health.promotion.IllnessDetailActivity;
+import cn.com.amome.amomeshoes.view.main.health.promotion.PromotionFootAddActivity;
 
 /**
  * 健康促进主页面适配器
@@ -26,6 +29,7 @@ import cn.com.amome.amomeshoes.view.main.health.promotion.IllnessDetailActivity;
 public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapter.ViewHolder> {
     private Context context;
     private List<IllnessInfo> list = null;
+
 
 
     public PromotionAddAdapter(Context context, List<IllnessInfo> list) {
@@ -54,7 +58,7 @@ public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapte
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, final int position) {
         final IllnessInfo info = list.get(position);
         holder.illness_name.setText(info.getType());
         Picasso.with(context).load(info.getIcon())
@@ -75,12 +79,16 @@ public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapte
         holder.illness_photo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.e("TAG", "onClick: "+info.getIs_user_related());
                 if (info.getIs_user_related().equals("0")) {
                     Intent intent = new Intent(context, IllnessDetailActivity.class);
                     intent.putExtra("name", info.getType());
-                    context.startActivity(intent);
+                    intent.putExtra("position", position);
+                    ((PromotionFootAddActivity) context).startActivityForResult(intent, 0);
                 } else {
-                    //TODO: 如果已添加直接进入的页面
+                    Intent intent = new Intent(context, IlldessDetailTrueActivity.class);
+                    intent.putExtra("disease", info.getType());
+                    context.startActivity(intent);
                 }
 
             }
@@ -93,6 +101,16 @@ public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapte
         return list.size();
     }
 
+/*
+    public void changeSelectStatus(Boolean isSelect ,int position) {
+
+        if (isSelect) {
+            list.get(position).setIs_user_related("1");
+        } else {
+            list.get(position).setIs_user_related("0");
+        }
+
+    }*/
 
 	/*private Context context;
     private List<IllnessInfo> list=null;

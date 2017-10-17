@@ -88,6 +88,7 @@ public class ClientConstant {
 	public static final String GET_PROMOTION_INFO_TYPE = "0x01";// 获取用户促进列表
 	public static final String GET_PROMOTION_DETAIL_INFO_TYPE = "0x04";// 获取某种病症的配件养护训练方案的详细信息
 	public static final String GET_PROMOTION_DETAIL = "0x40";// 获取某种病症的配件养护训练方案的(训练/配件/养护)信息
+	public static final String ONE_KEY_ADD = "0x80";// 一键加入健康促进
 
 	public static final String GETBLEDEV_TYPE = "0x08";// 获取某用户所有的蓝牙设备列表
 	public static final String UNBINDBLEDEV_TYPE = "0x02";// 蓝牙解绑

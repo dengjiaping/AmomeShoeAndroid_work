@@ -644,6 +644,12 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.IlldessDetailTrueActivity"
+            android:label="@string/title_activity_illness_detail_true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

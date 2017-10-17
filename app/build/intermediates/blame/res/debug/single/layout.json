@@ -112,6 +112,10 @@
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_squat_report.xml"
     },
     {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_illdess_detail_true.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_illdess_detail_true.xml"
+    },
+    {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_detail_describe.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_detail_describe.xml"
     },
@@ -262,6 +266,10 @@
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_stand_teaching.xml",
         "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/activity_stand_teaching.xml"
+    },
+    {
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/item_detail_nursing_recycler.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/layout/item_detail_nursing_recycler.xml"
     },
     {
         "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/layout/activity_my_sendopinion.xml",
