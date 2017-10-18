@@ -4,12 +4,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_hv.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_turkeygreen_bg_nor.9.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\btn_turkeygreen_bg_nor.9.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\look_foot_tan.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_tan.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_turkeygreen_bg_nor.9.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\btn_turkeygreen_bg_nor.9.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\recipent_selected.png",
@@ -128,20 +128,20 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\shoe_sandals_s.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shake_single.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\shake_single.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\look_foot_pf.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_pf.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_qq.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\icon_qq.png"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shake_single.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\shake_single.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\et_gray_bg.9.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\et_gray_bg.9.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_qq.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\icon_qq.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\squat_countdown2.png",
@@ -232,6 +232,10 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\icon_payfail.png"
     },
     {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\again_btn.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\again_btn.png"
+    },
+    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_weichat.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\icon_weichat.png"
     },
@@ -320,20 +324,20 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\health_promotion_bg.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bind_scan_left.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\bind_scan_left.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\stand_health.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\stand_health.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\report_balance.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\report_balance.png"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bind_scan_left.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\bind_scan_left.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\exercise_2_walk.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\exercise_2_walk.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\report_balance.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\report_balance.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\health_detection_selected.png",
@@ -360,12 +364,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\progressbar_pattern.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\health_promotion.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\health_promotion.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\service_btn_bg2_s.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\service_btn_bg2_s.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\health_promotion.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\health_promotion.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\stand_dise2_back.png",
@@ -412,12 +416,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\bin_scan_3.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\demo_stand.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\demo_stand.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\footprint_gray.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\footprint_gray.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\demo_stand.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\demo_stand.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab1_selected.png",
@@ -484,12 +488,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\shoe_nobg_pumps.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab4_normal.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\tab4_normal.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_short_blue_bind.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\btn_short_blue_bind.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tab4_normal.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\tab4_normal.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_short_blue_bg.png",
@@ -684,12 +688,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\bind_step_complete.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bind_right_shoe.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\bind_right_shoe.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\exercise_2_disk.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\exercise_2_disk.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bind_right_shoe.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\bind_right_shoe.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_market_logo_s.png",
@@ -704,12 +708,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\tab3_selected.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\look_foot_normal_s.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_normal_s.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\health_promotion_selected.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\health_promotion_selected.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\look_foot_normal_s.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_normal_s.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\footshap_gray.png",
@@ -740,12 +744,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\bind_step_before.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\look_foot_periostitis_s.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_periostitis_s.png"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\my_secret.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\my_secret.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\look_foot_periostitis_s.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_periostitis_s.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\stand_dise_normal.png",
@@ -1066,6 +1070,10 @@
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\look_foot_beriberi.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\look_foot_beriberi.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\begin_btn.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\begin_btn.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\et_9_gray_bg.9.png",
@@ -1562,6 +1570,10 @@
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\test_foot_instep_flat.png",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\test_foot_instep_flat.png"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\continue_btn.png",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-xhdpi\\continue_btn.png"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shoe_leather_s.png",

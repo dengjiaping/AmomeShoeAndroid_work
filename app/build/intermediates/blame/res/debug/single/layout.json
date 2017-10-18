@@ -28,12 +28,12 @@
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\layout\\fragment_my_bottom.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_avatar.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\layout\\activity_my_avatar.xml"
-    },
-    {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_changepw.xml",
         "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\layout\\activity_account_changepw.xml"
+    },
+    {
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_avatar.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\layout\\activity_my_avatar.xml"
     },
     {
         "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_shoes.xml",

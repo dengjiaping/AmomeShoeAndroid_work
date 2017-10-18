@@ -1,5 +1,6 @@
 package cn.com.amome.amomeshoes.view.main.health.promotion;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -7,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.model.DetailTrainingInfo;
@@ -21,13 +24,15 @@ public class TrainingVideoFragment extends Fragment {
     private View view;
     private DetailTrainingInfo info;
     private int index;
+    private Context mContext;
 
     private MyVideoView vv;
     private TextView tv_name, tv_detail;
 
 
-    public TrainingVideoFragment setIndex(int index, DetailTrainingInfo info) {
+    public TrainingVideoFragment setIndex(int index, DetailTrainingInfo info, Context context) {
         this.index = index;
+        mContext = context;
         this.info = info;
         return this;
     }
@@ -43,6 +48,11 @@ public class TrainingVideoFragment extends Fragment {
         tv_detail = (TextView) view.findViewById(R.id.tv_detail);
 
         vv.setUp(info.getIcon(), JZVideoPlayer.SCREEN_LAYOUT_NORMAL);
+        Picasso.with(mContext).load(info.getImg())
+                .fit()
+                .placeholder(R.drawable.weijiazai_zubu)
+                .error(R.drawable.weijiazai_zubu)
+                .into(vv.thumbImageView);
         tv_name.setText(info.getName());
         tv_detail.setText(info.getDetail());
 

@@ -252,7 +252,7 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
             }
         }
 
-        ;
+
     };
 
     private void initData() {

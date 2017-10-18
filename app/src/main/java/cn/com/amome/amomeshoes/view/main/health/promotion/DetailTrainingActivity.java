@@ -176,7 +176,7 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
             }
         }
 
-        ;
+
     };
 
 
@@ -184,7 +184,7 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
         pagerNum = mTrainingInfo.size();
         tv_num.setText((currentNum + 1) + "/" + pagerNum);
         for (int i = 0; i < mTrainingInfo.size(); i++) {
-            fragmentList.add(new TrainingVideoFragment().setIndex(i, mTrainingInfo.get(i)));
+            fragmentList.add(new TrainingVideoFragment().setIndex(i, mTrainingInfo.get(i), mContext));
         }
         TrainingVideoAdapter adapter = new TrainingVideoAdapter(getSupportFragmentManager());
 
@@ -264,8 +264,6 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
         public TrainingVideoAdapter(FragmentManager fm) {
             super(fm);
         }
-
-
 
 
         @Override
