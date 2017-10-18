@@ -1,66 +1,66 @@
 [
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/start_fullscreen.xml",
-        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/anim/start_fullscreen.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_slide_in_top.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/pophidden_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/pophidden_anim.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\start_fullscreen.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\anim\\start_fullscreen.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/home/ccf/.android/build-cache/24518a2e174f05ee1ec05aa8fe349bc38dadc42b/output/res/anim/abc_popup_exit.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pophidden_anim.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\anim\\pophidden_anim.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/ccf/.android/build-cache/24518a2e174f05ee1ec05aa8fe349bc38dadc42b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_out_anim.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\anim\\dialog_out_anim.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/dialog_in_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/dialog_in_anim.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/home/ccf/.android/build-cache/24518a2e174f05ee1ec05aa8fe349bc38dadc42b/output/res/anim/abc_popup_enter.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_fade_in.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_in_anim.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\anim\\dialog_in_anim.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/quit_fullscreen.xml",
-        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/anim/quit_fullscreen.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/ccf/.android/build-cache/24518a2e174f05ee1ec05aa8fe349bc38dadc42b/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/popshow_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/popshow_anim.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popshow_anim.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\anim\\popshow_anim.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_slide_out_top.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/dialog_out_anim.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/anim/dialog_out_anim.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\quit_fullscreen.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\anim\\quit_fullscreen.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/res/anim/abc_fade_out.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\anim\\abc_popup_enter.xml"
     }
 ]
