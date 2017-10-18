@@ -1,12 +1,15 @@
 package cn.com.amome.amomeshoes.view.main.health.promotion;
 
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.text.TextUtils;
 import android.util.Log;
@@ -23,10 +26,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
-import cn.com.amome.amomeshoes.adapter.DetailTrainingAdapter;
 import cn.com.amome.amomeshoes.http.ClientConstant;
 import cn.com.amome.amomeshoes.http.HttpError;
 import cn.com.amome.amomeshoes.http.HttpService;
@@ -34,8 +37,9 @@ import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.ClassType;
 import cn.com.amome.amomeshoes.model.DetailTrainingInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.jzvd.JZVideoPlayer;
 
-public class DetailTrainingActivity extends Activity implements View.OnClickListener, ViewPager.OnPageChangeListener {
+public class DetailTrainingActivity extends FragmentActivity implements View.OnClickListener, ViewPager.OnPageChangeListener {
     private String TAG = "DetailTrainingActivity";
     private Context mContext;
     private Gson gson = new Gson();
@@ -43,6 +47,7 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
     private String type = null;
     private static final int MSG_GET_DATA = 0;
     private List<DetailTrainingInfo> mTrainingInfo;
+    private List<TrainingVideoFragment> fragmentList = new ArrayList<>();
     private int pagerNum = 0;
     private int currentNum = 0;
 
@@ -50,7 +55,7 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
     private TextView tv_num;
     private ViewPager vp_detail_training;
 
-    private DetailTrainingAdapter adapter;
+    //private DetailTrainingAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -178,9 +183,15 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
     private void initData() {
         pagerNum = mTrainingInfo.size();
         tv_num.setText((currentNum + 1) + "/" + pagerNum);
-        adapter = new DetailTrainingAdapter(mTrainingInfo, mContext);
+        for (int i = 0; i < mTrainingInfo.size(); i++) {
+            fragmentList.add(new TrainingVideoFragment().setIndex(i, mTrainingInfo.get(i)));
+        }
+        TrainingVideoAdapter adapter = new TrainingVideoAdapter(getSupportFragmentManager());
+
+
+        //adapter = new DetailTrainingAdapter(mTrainingInfo, mContext);
         vp_detail_training.setAdapter(adapter);
-        adapter.start_video();
+        //adapter.start_video();
 
 
     }
@@ -214,20 +225,16 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-       /* if ((position + 1) == currentNum) {
-            adapter.stop_Video();
-        }*/
-        if (position != currentNum) {
-            adapter.stop_Video();
-        }
+
     }
 
     @Override
     public void onPageSelected(int position) {
+        JZVideoPlayer.releaseAllVideos();
         currentNum = position;
         tv_num.setText((currentNum + 1) + "/" + pagerNum);
 
-        adapter.start_video();
+
     }
 
     @Override
@@ -235,4 +242,41 @@ public class DetailTrainingActivity extends Activity implements View.OnClickList
 
 
     }
+
+
+    @Override
+    public void onBackPressed() {
+        if (JZVideoPlayer.backPress()) {
+            return;
+        }
+        super.onBackPressed();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        JZVideoPlayer.releaseAllVideos();
+    }
+
+
+    public class TrainingVideoAdapter extends FragmentPagerAdapter {
+
+        public TrainingVideoAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+
+
+
+        @Override
+        public Fragment getItem(int position) {
+            return fragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return fragmentList.size();
+        }
+    }
 }
+

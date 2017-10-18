@@ -628,6 +628,7 @@
         </activity>
         <activity
             android:name="cn.com.amome.amomeshoes.view.main.health.promotion.DetailTrainingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_detail_training"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >

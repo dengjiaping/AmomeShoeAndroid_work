@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <VideoView
-        android:id="@+id/vv_viewpager_promotion"
+    <cn.com.amome.amomeshoes.view.main.health.promotion.MyVideoView
+        android:id="@+id/vv"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"/>

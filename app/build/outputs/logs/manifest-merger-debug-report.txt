@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-655:12
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-656:12
 	package
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:3:11-44
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
@@ -21,6 +21,7 @@ MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.android/buil
 MERGED from [com.android.support:appcompat-v7:21.0.3] /home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:support-v4:23.4.0] /home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.android/build-cache/198a6f5137af4c3ae28769d42dd8a93ea0a59b5d/output/AndroidManifest.xml:5:5-7:41
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
@@ -39,6 +40,7 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:15:5-78
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:15:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -94,7 +96,7 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:38:22-68
 application
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-653:19
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-654:19
 MERGED from [com.android.support:appcompat-v7:21.0.3] /home/ccf/.android/build-cache/75f5daf76db977c65e9e258582951ebdb154bc20/output/AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:support-v4:23.4.0] /home/ccf/.android/build-cache/e5f8410a76c4a3c01209ab368a6e103d901d8f82/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.android/build-cache/198a6f5137af4c3ae28769d42dd8a93ea0a59b5d/output/AndroidManifest.xml:9:5-20
@@ -927,42 +929,44 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:624:13-78
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.DetailTrainingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:629:9-634:20
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:629:9-635:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:632:13-49
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:633:13-49
 	android:label
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:631:13-67
+	android:configChanges
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:632:13-74
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:633:13-72
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:634:13-72
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:630:13-78
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.DetailFittingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:635:9-640:20
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:636:9-641:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:638:13-49
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:639:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:637:13-66
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:638:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:639:13-72
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:640:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:636:13-77
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:637:13-77
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.DetailNursingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:641:9-646:20
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:642:9-647:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:644:13-49
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:645:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:643:13-66
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:644:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:645:13-72
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:646:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:642:13-77
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:643:13-77
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.IlldessDetailTrueActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:647:9-652:20
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:648:9-653:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:650:13-49
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:651:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:649:13-71
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:650:13-71
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:651:13-72
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:652:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:648:13-81
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:649:13-81

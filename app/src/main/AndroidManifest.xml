@@ -629,6 +629,7 @@
         <activity
             android:name=".view.main.health.promotion.DetailTrainingActivity"
             android:label="@string/title_activity_detail_training"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>

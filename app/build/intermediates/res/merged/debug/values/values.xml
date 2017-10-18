@@ -332,6 +332,8 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="jz_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="jz_start_button_w_h_normal">45dp</dimen>
     <dimen name="x1">1.44px</dimen>
     <dimen name="x10">14.4px</dimen>
     <dimen name="x100">144.0px</dimen>
@@ -2430,6 +2432,8 @@
     <item name="encode_succeeded" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="jz_fullscreen_id" type="id"/>
+    <item name="jz_tiny_id" type="id"/>
     <item name="launch_product_query" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -2540,6 +2544,7 @@
     <string name="my_shoes_secret">鞋的秘密</string>
     <string name="my_userhelp">用户帮助</string>
     <string name="nickname">昵称</string>
+    <string name="no_url">No url</string>
     <string name="ok">完成</string>
     <string name="othermeasure">或，在A4纸上绘制脚的轮廓，进行测量</string>
     <string name="p2refresh_doing_end_refresh">加载中</string>
@@ -2567,6 +2572,7 @@
     <string name="register_inputpw_agin">再次输入密码</string>
     <string name="register_now">立即注册</string>
     <string name="register_tip">注册即是同意</string>
+    <string name="replay">Replay</string>
     <string name="ruler_foot_height">脚长:</string>
     <string name="ruler_foot_height1">脚长</string>
     <string name="ruler_foot_reference">买鞋参考脚:</string>
@@ -2590,6 +2596,9 @@
     <string name="test_foot_type">足型：</string>
     <string name="test_report_tip">魔秘提示：“测一侧”的信息会实时同步在“脚的秘密”中</string>
     <string name="test_save_phone">保存到手机</string>
+    <string name="tips_not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_cancel">Stop play</string>
+    <string name="tips_not_wifi_confirm">Resume</string>
     <string name="title_activity_assist_main">AssistMainActivity</string>
     <string name="title_activity_assist_option">AssistOptionActivity</string>
     <string name="title_activity_balance_report">BalanceReportActivity</string>
@@ -3742,6 +3751,16 @@
         <item name="android:drawablePadding">2dip</item>
         <item name="android:paddingTop">0dp</item>
         <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="jz_popup_toast_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="jz_style_dialog_progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/jz_popup_toast_anim</item>
+        <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="main_menu_animstyle">
         <item name="android:windowEnterAnimation">@anim/dialog_in_anim</item>
