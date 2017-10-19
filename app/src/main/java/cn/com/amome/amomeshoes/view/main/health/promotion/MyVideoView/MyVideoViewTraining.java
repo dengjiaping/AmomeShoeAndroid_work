@@ -1,4 +1,4 @@
-package cn.com.amome.amomeshoes.view.main.health.promotion;
+package cn.com.amome.amomeshoes.view.main.health.promotion.MyVideoView;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -10,12 +10,12 @@ import cn.jzvd.JZVideoPlayerStandard;
  * Created by ccf on 17-10-18.
  */
 
-public class MyVideoView extends JZVideoPlayerStandard {
-    public MyVideoView(Context context) {
+public class MyVideoViewTraining extends JZVideoPlayerStandard {
+    public MyVideoViewTraining(Context context) {
         super(context);
     }
 
-    public MyVideoView(Context context, AttributeSet attrs) {
+    public MyVideoViewTraining(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 

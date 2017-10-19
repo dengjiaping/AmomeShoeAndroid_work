@@ -1,16 +1,17 @@
-package cn.com.amome.amomeshoes.view.main.health.promotion;
+package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -24,79 +25,59 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
+import cn.com.amome.amomeshoes.adapter.DetailNursingAdapter;
 import cn.com.amome.amomeshoes.http.ClientConstant;
 import cn.com.amome.amomeshoes.http.HttpError;
 import cn.com.amome.amomeshoes.http.HttpService;
 import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.ClassType;
-import cn.com.amome.amomeshoes.model.IllnessDetailInfo;
+import cn.com.amome.amomeshoes.model.DetailNursingInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
 
-public class IlldessDetailTrueActivity extends Activity implements View.OnClickListener {
+public class DetailNursingActivity extends Activity implements View.OnClickListener {
     private Context mContext;
-    private static final String TAG = "IlldessDetailTrueActivity";
-    private Gson mGson = new Gson();
+    private String TAG = "DetailNursingActivity";
+    private String disease, type;
+    private Gson gson = new Gson();
+
+    private ImageView iv_left;
+    private RecyclerView rv_nursing;
     private static final int MSG_GET_DATA = 0;
-    private String disease = null;
-
-    private ImageView iv_first, iv_left, iv_right, iv_training, iv_training_enter, iv_fitting, iv_fitting_enter, iv_nursing, iv_nursing_enter;
-    private TextView tv_name, tv_training_name, tv_training_num, tv_fitting_name, tv_fitting_num, tv_nursing_name, tv_nursing_num;
-    private LinearLayout ll_training, ll_fitting, ll_nursing;
-
+    private List<DetailNursingInfo> nursingInfo;
+    private DetailNursingAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_illdess_detail_true);
+        setContentView(R.layout.activity_detail_nursing);
         mContext = this;
-        disease = getIntent().getStringExtra("disease");
+        Intent intent = getIntent();
+        disease = intent.getStringExtra("disease");
+        type = intent.getStringExtra("type");
         initView();
-        getIllnessDetailInfo();
+        getNursingData();
+
+
     }
 
-    private void initView() {
-        iv_first = findViewById(R.id.iv_first);
-        iv_left = findViewById(R.id.iv_left);
-        iv_right = findViewById(R.id.iv_right);
-        iv_training = findViewById(R.id.iv_training);
-        iv_training_enter = findViewById(R.id.iv_training_enter);
-        iv_fitting = findViewById(R.id.iv_fitting);
-        iv_fitting_enter = findViewById(R.id.iv_fitting_enter);
-        iv_nursing = findViewById(R.id.iv_nursing);
-        iv_nursing_enter = findViewById(R.id.iv_nursing_enter);
-        tv_name = findViewById(R.id.tv_name);
-        tv_training_name = findViewById(R.id.tv_training_name);
-        tv_training_num = findViewById(R.id.tv_training_num);
-        tv_fitting_name = findViewById(R.id.tv_fitting_name);
-        tv_fitting_num = findViewById(R.id.tv_fitting_num);
-        tv_nursing_name = findViewById(R.id.tv_nursing_name);
-        tv_nursing_num = findViewById(R.id.tv_nursing_num);
-        ll_training = findViewById(R.id.ll_training);
-        ll_fitting = findViewById(R.id.ll_fitting);
-        ll_nursing = findViewById(R.id.ll_nursing);
-
-        iv_left.setOnClickListener(this);
-        iv_right.setOnClickListener(this);
-        iv_training.setOnClickListener(this);
-        iv_training_enter.setOnClickListener(this);
-        iv_fitting.setOnClickListener(this);
-        iv_fitting_enter.setOnClickListener(this);
-        iv_nursing.setOnClickListener(this);
-        iv_nursing_enter.setOnClickListener(this);
-    }
-
-    private void getIllnessDetailInfo() {
+    private void getNursingData() {
         RequestParams params = new RequestParams();
         params.put("useid", SpfUtil.readUserId(mContext));
-        params.put("calltype", ClientConstant.GET_FINISH_DATA);
+        params.put("calltype", ClientConstant.GET_PROMOTION_DETAIL);
         params.put("disease", disease);
+        params.put("type", type);
         params.put("certificate", HttpService.getToken());
         PostAsyncTask postTask = new PostAsyncTask(mHandler);
         postTask.startAsyncTask(mContext, callback, MSG_GET_DATA, params,
                 ClientConstant.PROMOTION_URL);
     }
 
+    private void initView() {
+        iv_left = (ImageView) findViewById(R.id.iv_left);
+        rv_nursing = (RecyclerView) findViewById(R.id.rv_nursing);
+        iv_left.setOnClickListener(this);
 
+    }
 
     HttpService.ICallback callback = new HttpService.ICallback() {
 
@@ -124,22 +105,28 @@ public class IlldessDetailTrueActivity extends Activity implements View.OnClickL
                     } catch (JSONException e) {
                         // TODO 自动生成的 catch 块
                         e.printStackTrace();
-                        Log.i(TAG, "MSG_GET_DATA解析失败");
+                        Log.i(TAG, "MSG_GET_FOOT_DATA解析失败");
+
                     }
                     break;
+
                 default:
                     break;
             }
+
         }
+
         @Override
         public void onHttpPostFailure(int type, int statusCode, Header[] arg1,
                                       byte[] responseBody, Throwable error) {
             // TODO Auto-generated method stub
             //DialogUtil.hideProgressDialog();
-            Log.e(TAG, "IllnessDetailTrueActivity>onHttpPostFailure: 获取疾病完成数据失败");
-        }
-    };
+            Log.e(TAG, "DetailNursingActivity>onHttpPostFailure: 获取训练详细数据失败");
 
+        }
+
+
+    };
 
 
     private Handler mHandler = new Handler() {
@@ -152,16 +139,12 @@ public class IlldessDetailTrueActivity extends Activity implements View.OnClickL
                             String str = (String) msg.obj;
                             if (TextUtils.isEmpty(str)) {
                             } else {
-                                Type type = new TypeToken<List<IllnessDetailInfo>>() {
+                                Type type = new TypeToken<List<DetailNursingInfo>>() {
                                 }.getType();
-                                List<IllnessDetailInfo> list;
-                                list = mGson.fromJson(str, type);
-                                //info = list.get(0);
-                                //initData();
+                                nursingInfo = gson.fromJson(str, type);
+                                initData();
                             }
                             break;
-
-
                         default:
                             break;
                     }
@@ -171,12 +154,18 @@ public class IlldessDetailTrueActivity extends Activity implements View.OnClickL
             }
         }
 
-
+        ;
     };
 
+    private void initData() {
+        mAdapter = new DetailNursingAdapter(mContext, nursingInfo);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        rv_nursing.setLayoutManager(layoutManager);
+        rv_nursing.setAdapter(mAdapter);
+    }
 
     @Override
-    public void onClick(View view) {
-
+    public void onClick(View v) {
+        finish();
     }
 }

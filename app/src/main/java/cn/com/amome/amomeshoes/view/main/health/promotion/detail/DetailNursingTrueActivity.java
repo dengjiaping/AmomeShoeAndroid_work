@@ -1,4 +1,4 @@
-package cn.com.amome.amomeshoes.view.main.health.promotion;
+package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -25,45 +27,60 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
-import cn.com.amome.amomeshoes.adapter.DetailNursingAdapter;
+import cn.com.amome.amomeshoes.adapter.DetailNursingTrueAdapter;
 import cn.com.amome.amomeshoes.http.ClientConstant;
 import cn.com.amome.amomeshoes.http.HttpError;
 import cn.com.amome.amomeshoes.http.HttpService;
 import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.ClassType;
-import cn.com.amome.amomeshoes.model.DetailNursingInfo;
+import cn.com.amome.amomeshoes.model.NursingTrueInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
 
-public class DetailNursingActivity extends Activity implements View.OnClickListener {
+public class DetailNursingTrueActivity extends Activity implements View.OnClickListener, DetailNursingTrueAdapter.MyItemClickListener {
+    private String disease = null;
+    private String type = null;
     private Context mContext;
-    private String TAG = "DetailNursingActivity";
-    private String disease, type;
-    private Gson gson = new Gson();
+    private static final String TAG = "DetailNursingTrueActivity";
+    private static final int MSG_GET_DATA = 0;
 
     private ImageView iv_left;
-    private RecyclerView rv_nursing;
-    private static final int MSG_GET_DATA = 0;
-    private List<DetailNursingInfo> nursingInfo;
-    private DetailNursingAdapter mAdapter;
+    private RecyclerView rv_nursing_true;
+    private FrameLayout fl_red, fl_blue;
+    private TextView tv_red, tv_blue, tv_bottom;
+    private List<NursingTrueInfo> infoList;
+    private DetailNursingTrueAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_nursing);
+        setContentView(R.layout.activity_detail_nursing_true);
         mContext = this;
         Intent intent = getIntent();
         disease = intent.getStringExtra("disease");
         type = intent.getStringExtra("type");
         initView();
-        getNursingData();
-
-
+        getNursingTureData();
     }
 
-    private void getNursingData() {
+
+    private void initView() {
+        iv_left = findViewById(R.id.iv_left);
+        rv_nursing_true = findViewById(R.id.rv_nursing_true);
+        fl_red = findViewById(R.id.fl_red);
+        fl_blue = findViewById(R.id.fl_blue);
+        tv_red = findViewById(R.id.tv_red);
+        tv_blue = findViewById(R.id.tv_blue);
+        tv_bottom = findViewById(R.id.tv_bottom);
+
+        iv_left.setOnClickListener(this);
+        fl_red.setOnClickListener(this);
+        fl_blue.setOnClickListener(this);
+    }
+
+    private void getNursingTureData() {
         RequestParams params = new RequestParams();
         params.put("useid", SpfUtil.readUserId(mContext));
-        params.put("calltype", ClientConstant.GET_PROMOTION_DETAIL);
+        params.put("calltype", ClientConstant.GET_DETAIL_DATA);
         params.put("disease", disease);
         params.put("type", type);
         params.put("certificate", HttpService.getToken());
@@ -72,12 +89,6 @@ public class DetailNursingActivity extends Activity implements View.OnClickListe
                 ClientConstant.PROMOTION_URL);
     }
 
-    private void initView() {
-        iv_left = (ImageView) findViewById(R.id.iv_left);
-        rv_nursing = (RecyclerView) findViewById(R.id.rv_nursing);
-        iv_left.setOnClickListener(this);
-
-    }
 
     HttpService.ICallback callback = new HttpService.ICallback() {
 
@@ -105,7 +116,7 @@ public class DetailNursingActivity extends Activity implements View.OnClickListe
                     } catch (JSONException e) {
                         // TODO 自动生成的 catch 块
                         e.printStackTrace();
-                        Log.i(TAG, "MSG_GET_FOOT_DATA解析失败");
+                        Log.i(TAG, "MSG_DETAIL_DATA解析失败");
 
                     }
                     break;
@@ -121,7 +132,7 @@ public class DetailNursingActivity extends Activity implements View.OnClickListe
                                       byte[] responseBody, Throwable error) {
             // TODO Auto-generated method stub
             //DialogUtil.hideProgressDialog();
-            Log.e(TAG, "DetailNursingActivity>onHttpPostFailure: 获取训练详细数据失败");
+            Log.e(TAG, "DetailNursingTrueActivity>onHttpPostFailure: 获取训练详细数据失败");
 
         }
 
@@ -139,9 +150,10 @@ public class DetailNursingActivity extends Activity implements View.OnClickListe
                             String str = (String) msg.obj;
                             if (TextUtils.isEmpty(str)) {
                             } else {
-                                Type type = new TypeToken<List<DetailNursingInfo>>() {
+                                Type type = new TypeToken<List<NursingTrueInfo>>() {
                                 }.getType();
-                                nursingInfo = gson.fromJson(str, type);
+                                Gson gson = new Gson();
+                                infoList = gson.fromJson(str, type);
                                 initData();
                             }
                             break;
@@ -158,14 +170,52 @@ public class DetailNursingActivity extends Activity implements View.OnClickListe
     };
 
     private void initData() {
-        mAdapter = new DetailNursingAdapter(mContext, nursingInfo);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        rv_nursing.setLayoutManager(layoutManager);
-        rv_nursing.setAdapter(mAdapter);
+
+        StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
+        rv_nursing_true.setLayoutManager(layoutManager);
+        adapter = new DetailNursingTrueAdapter(mContext, infoList, infoList.size());
+        rv_nursing_true.setAdapter(adapter);
+        adapter.setOnItemClickListener(this);
+
+    }
+
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.iv_left:
+                finish();
+                break;
+            case R.id.fl_red:
+                break;
+            case R.id.fl_blue:
+                break;
+            default:
+                break;
+        }
+
     }
 
     @Override
-    public void onClick(View v) {
-        finish();
+    public void onItemClick(View view, int postion) {
+
+        if (postion < infoList.size()) {
+
+            if (infoList.get(postion).isChecked()) {
+                infoList.get(postion).setChecked(false);
+            } else {
+                infoList.get(postion).setChecked(true);
+            }
+            if (infoList.get(postion).isChecked()) {
+                infoList.get(postion).setIs_done("1");
+            }else{
+                infoList.get(postion).setIs_done("0");
+            }
+            //adapter.reLoading(infoList);
+            adapter.notifyDataSetChanged();
+
+        }
+
+
     }
 }

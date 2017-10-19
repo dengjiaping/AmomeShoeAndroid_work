@@ -1,4 +1,4 @@
-package cn.com.amome.amomeshoes.view.main.health.promotion;
+package cn.com.amome.amomeshoes.view.main.health.promotion.MyVideoView;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -26,7 +26,7 @@ public class TrainingVideoFragment extends Fragment {
     private int index;
     private Context mContext;
 
-    private MyVideoView vv;
+    private MyVideoViewTraining vv;
     private TextView tv_name, tv_detail;
 
 
@@ -43,7 +43,7 @@ public class TrainingVideoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         view = inflater.inflate(R.layout.layout_detail_promotion_viewpage, container, false);
-        vv = (MyVideoView) view.findViewById(R.id.vv);
+        vv = (MyVideoViewTraining) view.findViewById(R.id.vv);
         tv_name = (TextView) view.findViewById(R.id.tv_name);
         tv_detail = (TextView) view.findViewById(R.id.tv_detail);
 
@@ -55,7 +55,23 @@ public class TrainingVideoFragment extends Fragment {
                 .into(vv.thumbImageView);
         tv_name.setText(info.getName());
         tv_detail.setText(info.getDetail());
+        if (index==0) {
+            if (vv != null) {
+                vv.startButton.performClick();
+            }
+        }
 
         return view;
+    }
+
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+
+        if (vv != null) {
+            vv.startButton.performClick();
+        }
+
     }
 }

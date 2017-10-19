@@ -1,4 +1,4 @@
-package cn.com.amome.amomeshoes.view.main.health.promotion;
+package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 
 import android.content.Context;
@@ -37,6 +37,7 @@ import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.ClassType;
 import cn.com.amome.amomeshoes.model.DetailTrainingInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.com.amome.amomeshoes.view.main.health.promotion.MyVideoView.TrainingVideoFragment;
 import cn.jzvd.JZVideoPlayer;
 
 public class DetailTrainingActivity extends FragmentActivity implements View.OnClickListener, ViewPager.OnPageChangeListener {

@@ -1,4 +1,4 @@
-package cn.com.amome.amomeshoes.view.main.health.promotion;
+package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 import android.app.Activity;
 import android.content.Intent;

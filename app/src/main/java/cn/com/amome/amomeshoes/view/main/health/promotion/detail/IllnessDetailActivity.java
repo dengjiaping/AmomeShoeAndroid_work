@@ -1,4 +1,4 @@
-package cn.com.amome.amomeshoes.view.main.health.promotion;
+package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 import android.app.Activity;
 import android.content.Context;
@@ -180,11 +180,12 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
                         JSONObject obj = new JSONObject(result);
                         JSONArray return_msg = obj.getJSONArray("return_msg");
                         JSONObject msg = (JSONObject) return_msg.get(0);
+                        //JSONObject msg=obj.getJSONObject("return_msg");
 
                         int return_code = obj.getInt("return_code");
                         if (return_code == 0) {
                             if (msg.getString("retval").equals("0x00")) {
-                                Intent intent = new Intent(mContext, IlldessDetailTrueActivity.class);
+                                Intent intent = new Intent(mContext, IllnessDetailTrueActivity.class);
                                 intent.putExtra("disease", disease);
                                 startActivity(intent);
 

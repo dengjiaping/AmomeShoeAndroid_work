@@ -15,8 +15,8 @@ import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.model.IllnessInfo;
-import cn.com.amome.amomeshoes.view.main.health.promotion.IlldessDetailTrueActivity;
-import cn.com.amome.amomeshoes.view.main.health.promotion.IllnessDetailActivity;
+import cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailTrueActivity;
+import cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailActivity;
 
 /**
  * Created by ccf on 17-9-30.
@@ -135,7 +135,7 @@ public class ActivityillnessAdapter extends RecyclerView.Adapter<Activityillness
                     intent.putExtra("name", info.getType());
                     context.startActivity(intent);
                 } else {
-                    Intent intent = new Intent(context, IlldessDetailTrueActivity.class);
+                    Intent intent = new Intent(context, IllnessDetailTrueActivity.class);
                     intent.putExtra("disease", info.getType());
                     context.startActivity(intent);
                 }

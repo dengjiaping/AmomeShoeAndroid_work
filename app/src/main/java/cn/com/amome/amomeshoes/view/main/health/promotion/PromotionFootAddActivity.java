@@ -67,12 +67,14 @@ public class PromotionFootAddActivity extends Activity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_promotion_add);
         mContext = this;
-        initView();
+
         if (getIntent() != null) {
             Bundle bundle = getIntent().getExtras();
             title = (String) bundle.get("title");
             mInfoList = (List<IllnessInfo>) bundle.get("info");
+
         }
+        initView();
         if (mInfoList != null) {
 
             initData();
