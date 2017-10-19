@@ -6695,6 +6695,11 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0800a3;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f08000b;
         public static final int AppTheme=0x7f0800a4;
@@ -6866,6 +6871,8 @@ containing a value of this type.
         public static final int Platform_V25_AppCompat=0x7f08009e;
         public static final int Platform_V25_AppCompat_Light=0x7f08009f;
         public static final int Platform_Widget_AppCompat_Spinner=0x7f080023;
+        /**  指定消失的动画xml 
+         */
         public static final int PopupAnimation=0x7f0800d2;
         public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f080032;
         public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f080033;
@@ -7052,6 +7059,8 @@ containing a value of this type.
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f080165;
         public static final int Widget_ProgressBar=0x7f080166;
         public static final int Widget_ProgressBar_RegularProgressBar=0x7f080167;
+        /**  Customize your theme here. 
+         */
         public static final int Widget_MyGiftView=0x7f080168;
         public static final int exerciese_radio_tab=0x7f080169;
         public static final int jz_popup_toast_anim=0x7f08016a;

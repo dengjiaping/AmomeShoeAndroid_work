@@ -35,6 +35,7 @@ import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.ClassType;
 import cn.com.amome.amomeshoes.model.NursingTrueInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.com.amome.amomeshoes.util.T;
 
 public class DetailNursingTrueActivity extends Activity implements View.OnClickListener, DetailNursingTrueAdapter.MyItemClickListener {
     private String disease = null;
@@ -170,7 +171,6 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
     };
 
     private void initData() {
-
         StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
         rv_nursing_true.setLayoutManager(layoutManager);
         adapter = new DetailNursingTrueAdapter(mContext, infoList, infoList.size());
@@ -189,6 +189,17 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
             case R.id.fl_red:
                 break;
             case R.id.fl_blue:
+                int num = 0;
+                for (int i = 0; i < infoList.size(); i++) {
+                    if (infoList.get(i).isChecked()) {
+                        num++;
+                    }
+                }
+                if (num == 0) {
+                    T.showToast(mContext, "请至少选择一项！", 0);
+                } else {
+                    //TODO:页面的跳转
+                }
                 break;
             default:
                 break;
@@ -208,7 +219,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
             }
             if (infoList.get(postion).isChecked()) {
                 infoList.get(postion).setIs_done("1");
-            }else{
+            } else {
                 infoList.get(postion).setIs_done("0");
             }
             //adapter.reLoading(infoList);
