@@ -1,14 +1,6 @@
 [
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable-hdpi/ic_launcher.png"
     }
 ]

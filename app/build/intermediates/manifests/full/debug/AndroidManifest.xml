@@ -661,6 +661,24 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.detail.NursingFinishActivity"
+            android:label="@string/title_activity_nursing_finish"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.detail.NursingNotFinishActivity"
+            android:label="@string/title_activity_nursing_not_finish"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailTrainingTrueActivity"
+            android:label="@string/title_activity_detail_training_true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

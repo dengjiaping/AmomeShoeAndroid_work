@@ -2766,6 +2766,7 @@
     <string name="title_activity_detail_nursing">DetailNursingActivity</string>
     <string name="title_activity_detail_nursing_true">DetailNursingTrueActivity</string>
     <string name="title_activity_detail_training">DetailTrainingActivity</string>
+    <string name="title_activity_detail_training_true">DetailTrainingTrueActivity</string>
     <string name="title_activity_detection_shake">ShakeDetectionActivity</string>
     <string name="title_activity_detection_shake_report">ShakeReportActivity</string>
     <string name="title_activity_detection_squat">SquatDetectionActivity</string>
@@ -2779,6 +2780,8 @@
     <string name="title_activity_illness_detail_true">IllnessDetailTrueActivity</string>
     <string name="title_activity_more_setting">MoreSettingActivity</string>
     <string name="title_activity_my_shoes">MyShoesActivity</string>
+    <string name="title_activity_nursing_finish">NursingFinishActivity</string>
+    <string name="title_activity_nursing_not_finish">NursingNotFinishActivity</string>
     <string name="title_activity_posture_report">PostureReportActivity</string>
     <string name="title_activity_promotion_add">PromotionAddActivity</string>
     <string name="title_activity_reconnection">ReconnectionActivity</string>

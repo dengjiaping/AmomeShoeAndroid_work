@@ -37,6 +37,8 @@ import cn.com.amome.amomeshoes.model.NursingTrueInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
 import cn.com.amome.amomeshoes.util.T;
 
+
+
 public class DetailNursingTrueActivity extends Activity implements View.OnClickListener, DetailNursingTrueAdapter.MyItemClickListener {
     private String disease = null;
     private String type = null;
@@ -182,23 +184,35 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
 
     @Override
     public void onClick(View view) {
+        int num = 0;
+        for (int i = 0; i < infoList.size(); i++) {
+            if (infoList.get(i).isChecked()) {
+                num++;
+            }
+        }
         switch (view.getId()) {
             case R.id.iv_left:
                 finish();
                 break;
             case R.id.fl_red:
-                break;
-            case R.id.fl_blue:
-                int num = 0;
-                for (int i = 0; i < infoList.size(); i++) {
-                    if (infoList.get(i).isChecked()) {
-                        num++;
-                    }
-                }
                 if (num == 0) {
                     T.showToast(mContext, "请至少选择一项！", 0);
                 } else {
-                    //TODO:页面的跳转
+                    Intent intent_nursingnot = new Intent(mContext, NursingNotFinishActivity.class);
+                    startActivity(intent_nursingnot);
+
+                }
+                break;
+            case R.id.fl_blue:
+
+                if (num == 0) {
+                    T.showToast(mContext, "请至少选择一项！", 0);
+                } else {
+                    Intent intent_nursingfinish = new Intent(mContext, NursingFinishActivity.class);
+                    intent_nursingfinish.putExtra("disease", disease);
+                    intent_nursingfinish.putExtra("type", type);
+                    startActivity(intent_nursingfinish);
+                    finish();
                 }
                 break;
             default:

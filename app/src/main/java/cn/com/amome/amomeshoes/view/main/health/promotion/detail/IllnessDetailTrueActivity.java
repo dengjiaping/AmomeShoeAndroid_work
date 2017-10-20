@@ -100,6 +100,18 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
     }
 
 
+    private void getVideoData() {
+        RequestParams params = new RequestParams();
+        params.put("useid", SpfUtil.readUserId(mContext));
+        params.put("calltype", ClientConstant.GET_PROMOTION_DETAIL);
+        params.put("disease", disease);
+        params.put("certificate", HttpService.getToken());
+        PostAsyncTask postTask = new PostAsyncTask(mHandler);
+        postTask.startAsyncTask(mContext, callback, MSG_GET_DATA, params,
+                ClientConstant.PROMOTION_URL);
+    }
+
+
     HttpService.ICallback callback = new HttpService.ICallback() {
 
         @Override
@@ -247,10 +259,15 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                 finish();
                 break;
             case R.id.iv_right:
+                //TODO:Dialog
                 break;
             case R.id.iv_training:
                 break;
             case R.id.iv_training_enter:
+                Intent intent_training_true = new Intent(mContext, DetailTrainingTrueActivity.class);
+                intent_training_true.putExtra("disease", disease);
+                startActivity(intent_training_true);
+
                 break;
             case R.id.iv_nursing:
                 Intent intent_nursing = new Intent(mContext, DetailNursingActivity.class);

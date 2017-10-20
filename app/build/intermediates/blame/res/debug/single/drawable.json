@@ -1,1010 +1,514 @@
 [
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_shake_close_eyes.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\animation_shake_close_eyes.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jbshape.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/jbshape.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_3dp_stroke_gray_rectangle.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_3dp_stroke_gray_rectangle.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_3dp_stroke_gray_rectangle.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_3dp_stroke_gray_rectangle.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab4_my.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\rb_tab4_my.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_service_shoebox_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_service_shoebox_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/check_left_btn.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/check_left_btn.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_click_back_selector.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_click_back_selector.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_seek_thumb_pressed.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_seek_thumb_pressed.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/dialog_menu_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/dialog_menu_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_white_point.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\circle_white_point.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab3_activity.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab3_activity.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_stroke_black_rectangle_radius_3dp.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_stroke_black_rectangle_radius_3dp.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_click_replay_selector.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_click_replay_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_look_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_service_look_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_service_assist_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_service_assist_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_btn.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\left_btn.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/single_btn.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/single_btn.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_bg.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_bottom_bg.9.png"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/animation_bind_scan_list.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/animation_bind_scan_list.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_single_btn.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\check_single_btn.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/circle_white_point.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/circle_white_point.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_rosered_gradient_hbg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_rosered_gradient_hbg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_click_share_selector.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_click_share_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_btn_select.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\single_btn_select.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_bottom_progress.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_bottom_progress.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_bg_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_blue_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\photo_choose_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\photo_choose_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_bottom_seek_thumb.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_bottom_seek_thumb.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_ruler_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_service_ruler_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/buleandred_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/buleandred_bg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab4_my.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\rb_tab4_my.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_solid_green_grass_rectangle_radius_3dp.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_solid_green_grass_rectangle_radius_3dp.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_white_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_white_bg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_seek_thumb.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_bottom_seek_thumb.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_click_pause_selector.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_click_pause_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/check_single_btn.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/check_single_btn.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_short_blue_bg_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_short_blue_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_bottom_bg.9.png",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_bottom_bg.9.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_dark_gray.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\stroke_dark_gray.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_menu_pressed.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\dialog_menu_pressed.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/donghua_scan.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/donghua_scan.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_white_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_white_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_blue_rectangle_radius_3dp.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_blue_rectangle_radius_3dp.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab1_health.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab1_health.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_title_bg.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_title_bg.9.png"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\footsize_background.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\footsize_background.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_detection_shake_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_detection_shake_selector.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_assist_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_service_assist_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_red_bg_rectangle.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_red_bg_rectangle.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/left_btn.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/left_btn.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_seek_thumb.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_bottom_seek_thumb.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/progress_select_nursing.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/progress_select_nursing.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_menu_normal.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\dialog_menu_normal.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/introduct_rbt_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/introduct_rbt_bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_bg_selector_left.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\sex_bg_selector_left.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_loading.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_loading.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_blue_bg_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_blue_bg_selector.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/sex_bg_selector_right.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/sex_bg_selector_right.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\list_item_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab2_motion.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab2_motion.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\service_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/sex_bg_selector_left.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/sex_bg_selector_left.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_menu_pressed.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\dialog_menu_pressed.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_turkeygreen_bg_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_turkeygreen_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab3_activity.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\rb_tab3_activity.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_rosered_bg_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_rosered_bg_selector.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/recipent_item_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/recipent_item_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_squat.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\animation_squat.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_stand_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_detection_stand_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/dialog_menu_pressed.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/dialog_menu_pressed.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\list_item_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/service_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/service_bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\switchbutton_selected.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\switchbutton_selected.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/progress_dra_nursing.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/progress_dra_nursing.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_btn.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\right_btn.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_rosered_gradient_hbg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_rosered_gradient_hbg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_detection_walk_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_detection_walk_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_marketlogo.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\selector_marketlogo.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_green_gradient_hbg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_green_gradient_hbg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_green_gradient_vbg2.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_green_gradient_vbg2.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/holder_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/holder_bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\progressbar.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/float_box.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/float_box.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_measure_save_data_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_measure_save_data_bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_volume_progress_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_volume_progress_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_green_gradient_hbg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_green_gradient_hbg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_dialog_progress.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_dialog_progress.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_color.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\background_color.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/background_color.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/background_color.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_btn_select.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\right_btn_select.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_short_turkeygreen_bg_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_short_turkeygreen_bg_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_marketlogo.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\selector_marketlogo.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/list_item_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/list_item_bg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_shoebox_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_service_shoebox_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/animation_squat.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/animation_squat.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_detection_squat_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_detection_squat_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_red_solid_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_red_solid_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/animation_shake_close_eyes.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/animation_shake_close_eyes.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_error_selector.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_click_error_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_blue_sky_rectangle_radius_3dp.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_blue_sky_rectangle_radius_3dp.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_menu_normal.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\dialog_menu_normal.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_short_blue_bg_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_short_blue_bg_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_menu_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\dialog_menu_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_red_bg_rectangle.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_red_bg_rectangle.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_rosered_bg_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_rosered_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_short_rosered_bg_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_short_rosered_bg_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_green_gradient_vbg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_green_gradient_vbg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/dialog_menu_normal.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/dialog_menu_normal.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/photo_choose_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/photo_choose_bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_red_bg_rectangle.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_red_bg_rectangle.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_blue_sky_rectangle_radius_3dp.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_blue_sky_rectangle_radius_3dp.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_bg_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_blue_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_gray_bg_rectangle.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_gray_bg_rectangle.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_stroke_black_rectangle_radius_3dp.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_stroke_black_rectangle_radius_3dp.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/right_btn.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/right_btn.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_short_turkeygreen_bg_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_short_turkeygreen_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/check_right_btn.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/check_right_btn.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_gray_bg_rectangle.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_gray_bg_rectangle.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jbshape.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\jbshape.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/right_btn_select.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/right_btn_select.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_gray_rectangle.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_gray_rectangle.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_seek_thumb_pressed.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_seek_thumb_pressed.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/left_btn_select.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/left_btn_select.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab2_motion.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\rb_tab2_motion.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_gray_rectangle.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_gray_rectangle.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_back_tiny_selector.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_click_back_tiny_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\switchbutton_selected.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\switchbutton_selected.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_walk_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_detection_walk_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/selector_marketlogo.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/selector_marketlogo.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\progressbar.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_seek_thumb_pressed.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_seek_thumb_pressed.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\photo_choose_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\photo_choose_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_title_bg.9.png",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_title_bg.9.png"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/rb_tab4_my.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/rb_tab4_my.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_color.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\background_color.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_bottom_seek_progress.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_bottom_seek_progress.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_dialog_progress.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_dialog_progress.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_share_selector.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_click_share_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_white_rectangle.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_white_rectangle.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_dialog_progress_bg.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_dialog_progress_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_measure_save_data_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_measure_save_data_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_dialog_progress_bg.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_dialog_progress_bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/progressbar.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/progressbar.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_pause_selector.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_click_pause_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/stroke_dark_gray.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/stroke_dark_gray.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\holder_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\holder_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_service_ruler_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_service_ruler_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_btn_select.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\left_btn_select.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_turkeygreen_bg_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_turkeygreen_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_click_error_selector.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_click_error_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_bg_selector_right.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\sex_bg_selector_right.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_click_play_selector.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_click_play_selector.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_volume_progress_bg.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_volume_progress_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_shake_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_detection_shake_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_detection_stand_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_detection_stand_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/footsize_background.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/footsize_background.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_turkeygreen_bg_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_turkeygreen_bg_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_short_rosered_bg_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_short_rosered_bg_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/btn_service_look_selector.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/btn_service_look_selector.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab1_health.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\rb_tab1_health.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_green_gradient_vbg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_green_gradient_vbg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_seek_thumb_normal.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_seek_thumb_normal.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_btn.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\left_btn.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_volume_progress_bg.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_volume_progress_bg.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_green_gradient_vbg2.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_green_gradient_vbg2.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_blue_sky_rectangle_radius_3dp.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_blue_sky_rectangle_radius_3dp.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_bg.9.png",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_bottom_bg.9.png"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_rosered_gradient_hbg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_rosered_gradient_hbg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_loading.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_loading.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_red_solid_bg.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_red_solid_bg.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\recipent_item_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\recipent_item_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/jz_click_back_tiny_selector.xml",
+        "source": "/home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/res/drawable/jz_click_back_tiny_selector.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_loading.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_loading.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/conner_blue_rectangle_radius_3dp.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/conner_blue_rectangle_radius_3dp.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/switchbutton_selected.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/switchbutton_selected.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/single_btn_select.xml",
+        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/drawable/single_btn_select.xml"
     },
     {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_short_turkeygreen_bg_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_short_turkeygreen_bg_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\service_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_btn.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\single_btn.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_btn_select.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\right_btn_select.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_btn.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\right_btn.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\donghua_scan.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\donghua_scan.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_replay_selector.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_click_replay_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_look_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_service_look_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_3dp_stroke_gray_rectangle.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_3dp_stroke_gray_rectangle.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_left_btn.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\check_left_btn.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_seek_progress.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_bottom_seek_progress.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_menu_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\dialog_menu_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_short_blue_bg_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_short_blue_bg_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_squat_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_detection_squat_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_gray_rectangle.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_gray_rectangle.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_pause_selector.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_click_pause_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_title_bg.9.png",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_title_bg.9.png"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\float_box.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\float_box.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\holder_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\holder_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\recipent_item_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\recipent_item_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_seek_progress.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_bottom_seek_progress.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_play_selector.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_click_play_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_shake_close_eyes.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\animation_shake_close_eyes.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_dark_gray.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\stroke_dark_gray.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_stroke_black_rectangle_radius_3dp.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_stroke_black_rectangle_radius_3dp.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_bind_scan_list.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\animation_bind_scan_list.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_gray_bg_rectangle.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_gray_bg_rectangle.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_shake_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_detection_shake_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_dialog_progress_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_dialog_progress_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_blue_rectangle_radius_3dp.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_blue_rectangle_radius_3dp.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_green_gradient_hbg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_green_gradient_hbg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buleandred_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\buleandred_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_single_btn.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\check_single_btn.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_bind_scan_list.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\animation_bind_scan_list.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_white_point.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\circle_white_point.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_white_rectangle.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_white_rectangle.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\introduct_rbt_bg.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\introduct_rbt_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_ruler_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_service_ruler_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_play_selector.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_click_play_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_progress.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_bottom_progress.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_btn_select.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\left_btn_select.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_green_gradient_vbg2.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_green_gradient_vbg2.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_share_selector.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_click_share_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_seek_thumb_normal.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_seek_thumb_normal.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab3_activity.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\rb_tab3_activity.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_back_selector.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_click_back_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_back_tiny_selector.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_click_back_tiny_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_white_rectangle.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_white_rectangle.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab2_motion.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\rb_tab2_motion.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\float_box.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\float_box.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_right_btn.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\check_right_btn.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\introduct_rbt_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\introduct_rbt_bg.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_short_rosered_bg_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_short_rosered_bg_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_dialog_progress.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_dialog_progress.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_back_selector.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\714b2b50e9fee52aca4c0f8104bde140ca95074e\\output\\res\\drawable\\jz_click_back_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_error_selector.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_click_error_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_assist_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_service_assist_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_left_btn.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\check_left_btn.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\donghua_scan.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\donghua_scan.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\buleandred_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\buleandred_bg.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_red_solid_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_red_solid_bg.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\bg.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_rosered_bg_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_rosered_bg_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_squat_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_detection_squat_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_btn.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\single_btn.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_solid_green_grass_rectangle_radius_3dp.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_solid_green_grass_rectangle_radius_3dp.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_btn_select.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\single_btn_select.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_green_gradient_vbg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_green_gradient_vbg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_click_replay_selector.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_click_replay_selector.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_bg_selector_left.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\sex_bg_selector_left.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\footsize_background.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\footsize_background.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_bg_selector_right.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\sex_bg_selector_right.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_stand_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_detection_stand_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_white_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\conner_white_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_solid_green_grass_rectangle_radius_3dp.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_solid_green_grass_rectangle_radius_3dp.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_measure_save_data_bg.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_measure_save_data_bg.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_bottom_progress.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_bottom_progress.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\7033f7d165516295b39ed9ff3bd7eaaf4728a3cb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jbshape.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\jbshape.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_tab1_health.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\rb_tab1_health.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jz_seek_thumb_normal.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a26a6a08eaad9cc43e7926b6c84ec34a72796c68\\output\\res\\drawable\\jz_seek_thumb_normal.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_right_btn.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\check_right_btn.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_detection_walk_selector.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\btn_detection_walk_selector.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animation_squat.xml",
-        "source": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\src\\main\\res\\drawable\\animation_squat.xml"
-    },
-    {
-        "merged": "E:\\home\\ccf\\dlp\\as_workspace\\AmomeShoeAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "E:\\home\\ccf\\.android\\build-cache\\30d3ff3417f5623ec029d644d41185c08941f8cd\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\conner_stroke_green_grass_solid_white_rectangle_radius_3dp.xml"
-    },
-    {
-        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_service_shoebox_selector.xml",
-        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\drawable\\btn_service_shoebox_selector.xml"
+        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/res/drawable/abc_switch_thumb_material.xml"
     }
 ]

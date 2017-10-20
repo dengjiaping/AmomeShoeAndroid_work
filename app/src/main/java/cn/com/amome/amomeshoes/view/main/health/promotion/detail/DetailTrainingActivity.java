@@ -92,7 +92,7 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
     private void getTrainingData() {
         RequestParams params = new RequestParams();
         params.put("useid", SpfUtil.readUserId(mContext));
-        params.put("calltype", ClientConstant.GET_PROMOTION_DETAIL);
+        params.put("calltype", ClientConstant.GET_TRAINING_VIDEO);
         params.put("disease", disease);
         params.put("type", type);
         params.put("certificate", HttpService.getToken());
