@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -69,9 +70,16 @@ public class TrainingVideoFragment extends Fragment {
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
 
+        Log.e("TAG", "setUserVisibleHint: 走到这里了");
         if (vv != null) {
-            vv.startButton.performClick();
+            if (isVisibleToUser) {
+                vv.startButton.performClick();
+
+            }
+
         }
 
     }
+
+
 }

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-680:12
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-681:12
 	package
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:3:11-44
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
@@ -105,7 +105,7 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:38:22-68
 application
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-678:19
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-679:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.android/build-cache/7351eb1f0c4f2e44761f4554384e56d14a27d850/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.android/build-cache/9caadaaeb334f6d1df115b33165a9d4422e17ac2/output/AndroidManifest.xml:29:5-20
@@ -1017,11 +1017,13 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:667:13-87
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailTrainingTrueActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:672:9-677:20
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:672:9-678:20
 	android:screenOrientation
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:675:13-49
 	android:label
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:674:13-72
+	android:configChanges
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:677:13-74
 	android:theme
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:676:13-72
 	android:name

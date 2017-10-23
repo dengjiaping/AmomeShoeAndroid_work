@@ -20,6 +20,7 @@ import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.RequestParams;
 
 import org.apache.http.Header;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -38,20 +39,23 @@ import cn.com.amome.amomeshoes.util.SpfUtil;
 import cn.com.amome.amomeshoes.util.T;
 
 
-
 public class DetailNursingTrueActivity extends Activity implements View.OnClickListener, DetailNursingTrueAdapter.MyItemClickListener {
     private String disease = null;
-    private String type = null;
+    private String mType = null;
     private Context mContext;
     private static final String TAG = "DetailNursingTrueActivity";
     private static final int MSG_GET_DATA = 0;
+    private static final int UPLOAD = 1;
+    private static final int UPLOAD_FALSE = 2;
+
 
     private ImageView iv_left;
     private RecyclerView rv_nursing_true;
     private FrameLayout fl_red, fl_blue;
-    private TextView tv_red, tv_blue, tv_bottom;
+    private TextView tv_red, tv_blue, tv_bottom, tv_title;
     private List<NursingTrueInfo> infoList;
     private DetailNursingTrueAdapter adapter;
+    private String mNameAll = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +64,8 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
         mContext = this;
         Intent intent = getIntent();
         disease = intent.getStringExtra("disease");
-        type = intent.getStringExtra("type");
+        mType = intent.getStringExtra("type");
+
         initView();
         getNursingTureData();
     }
@@ -74,10 +79,22 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
         tv_red = findViewById(R.id.tv_red);
         tv_blue = findViewById(R.id.tv_blue);
         tv_bottom = findViewById(R.id.tv_bottom);
+        tv_title = findViewById(R.id.tv_title);
 
         iv_left.setOnClickListener(this);
         fl_red.setOnClickListener(this);
         fl_blue.setOnClickListener(this);
+        if (mType.equals("nursing")) {
+            tv_red.setText("未养护");
+            tv_blue.setText("已养护");
+            tv_bottom.setText("每天记录养护过的项目，会对个人\n\t\t\t\t\t\t身体健康进行记录");
+            tv_title.setText("日常养护");
+        } else if (mType.equals("accessory")) {
+            tv_red.setText("未穿戴");
+            tv_blue.setText("已穿戴");
+            tv_bottom.setText("每天记录穿戴过的配件，会对个人\n\t\t\t\t\t\t身体健康进行记录");
+            tv_title.setText("健康配件");
+        }
     }
 
     private void getNursingTureData() {
@@ -85,10 +102,38 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
         params.put("useid", SpfUtil.readUserId(mContext));
         params.put("calltype", ClientConstant.GET_DETAIL_DATA);
         params.put("disease", disease);
-        params.put("type", type);
+        params.put("type", mType);
         params.put("certificate", HttpService.getToken());
         PostAsyncTask postTask = new PostAsyncTask(mHandler);
         postTask.startAsyncTask(mContext, callback, MSG_GET_DATA, params,
+                ClientConstant.PROMOTION_URL);
+    }
+
+    private void upLoadTrue() {
+        RequestParams params = new RequestParams();
+        params.put("useid", SpfUtil.readUserId(mContext));
+        params.put("calltype", ClientConstant.UPLOAD_NURSING);
+        params.put("disease", disease);
+        params.put("type", mType);
+        params.put("item_name", mNameAll);
+        params.put("switcher", "yes");
+        params.put("certificate", HttpService.getToken());
+        PostAsyncTask postTask = new PostAsyncTask();
+        postTask.startAsyncTask(mContext, callback, UPLOAD, params,
+                ClientConstant.PROMOTION_URL);
+    }
+
+    private void upLoadFalse() {
+        RequestParams params = new RequestParams();
+        params.put("useid", SpfUtil.readUserId(mContext));
+        params.put("calltype", ClientConstant.UPLOAD_NURSING);
+        params.put("disease", disease);
+        params.put("type", mType);
+        params.put("item_name", mNameAll);
+        params.put("switcher", "no");
+        params.put("certificate", HttpService.getToken());
+        PostAsyncTask postTask = new PostAsyncTask();
+        postTask.startAsyncTask(mContext, callback, UPLOAD_FALSE, params,
                 ClientConstant.PROMOTION_URL);
     }
 
@@ -116,6 +161,58 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                             msg.obj = return_msg;
                         }
                         mHandler.sendMessage(msg);
+                    } catch (JSONException e) {
+                        // TODO 自动生成的 catch 块
+                        e.printStackTrace();
+                        Log.i(TAG, "MSG_DETAIL_DATA解析失败");
+
+                    }
+                    break;
+                case UPLOAD:
+                    result = new String(responseBody);
+                    try {
+
+                        JSONObject obj = new JSONObject(result);
+                        JSONArray return_msg = obj.getJSONArray("return_msg");
+                        JSONObject msg = (JSONObject) return_msg.get(0);
+                        //JSONObject msg=obj.getJSONObject("return_msg");
+
+                        int return_code = obj.getInt("return_code");
+                        if (return_code == 0) {
+                            if (msg.getString("retval").equals("0x00")) {
+                                Intent intent_nursingfinish = new Intent(mContext, NursingFinishActivity.class);
+                                intent_nursingfinish.putExtra("disease", disease);
+                                intent_nursingfinish.putExtra("type", mType);
+                                intent_nursingfinish.putExtra("item_name", mNameAll);
+                                startActivity(intent_nursingfinish);
+                                finish();
+                            }
+                        }
+                    } catch (JSONException e) {
+                        // TODO 自动生成的 catch 块
+                        e.printStackTrace();
+                        Log.i(TAG, "MSG_DETAIL_DATA解析失败");
+
+                    }
+                    break;
+                case UPLOAD_FALSE:
+                    result = new String(responseBody);
+                    try {
+
+                        JSONObject obj = new JSONObject(result);
+                        JSONArray return_msg = obj.getJSONArray("return_msg");
+                        JSONObject msg = (JSONObject) return_msg.get(0);
+                        //JSONObject msg=obj.getJSONObject("return_msg");
+
+                        int return_code = obj.getInt("return_code");
+                        if (return_code == 0) {
+                            if (msg.getString("retval").equals("0x00")) {
+                                Intent intent_nursingnot = new Intent(mContext, NursingNotFinishActivity.class);
+                                intent_nursingnot.putExtra("disease", disease);
+                                intent_nursingnot.putExtra("type", mType);
+                                startActivity(intent_nursingnot);
+                            }
+                        }
                     } catch (JSONException e) {
                         // TODO 自动生成的 catch 块
                         e.printStackTrace();
@@ -173,6 +270,11 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
     };
 
     private void initData() {
+        for (int i = 0; i < infoList.size(); i++) {
+            if (infoList.get(i).getIs_done().equals("1")) {
+                infoList.get(i).setChecked(true);
+            }
+        }
         StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
         rv_nursing_true.setLayoutManager(layoutManager);
         adapter = new DetailNursingTrueAdapter(mContext, infoList, infoList.size());
@@ -184,6 +286,11 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
 
     @Override
     public void onClick(View view) {
+        for (int i = 0; i < infoList.size(); i++) {
+            if (infoList.get(i).isChecked()) {
+                mNameAll = mNameAll + "," + infoList.get(i).getName();
+            }
+        }
         int num = 0;
         for (int i = 0; i < infoList.size(); i++) {
             if (infoList.get(i).isChecked()) {
@@ -198,9 +305,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                 if (num == 0) {
                     T.showToast(mContext, "请至少选择一项！", 0);
                 } else {
-                    Intent intent_nursingnot = new Intent(mContext, NursingNotFinishActivity.class);
-                    startActivity(intent_nursingnot);
-
+                    upLoadFalse();
                 }
                 break;
             case R.id.fl_blue:
@@ -208,11 +313,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                 if (num == 0) {
                     T.showToast(mContext, "请至少选择一项！", 0);
                 } else {
-                    Intent intent_nursingfinish = new Intent(mContext, NursingFinishActivity.class);
-                    intent_nursingfinish.putExtra("disease", disease);
-                    intent_nursingfinish.putExtra("type", type);
-                    startActivity(intent_nursingfinish);
-                    finish();
+                    upLoadTrue();
                 }
                 break;
             default:

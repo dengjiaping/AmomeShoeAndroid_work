@@ -93,6 +93,8 @@ public class ClientConstant {
 	public static final String GET_DETAIL_DATA = "0x200";// 获取训练、配件、养护的详细数据（加入健康促进后的）
 	public static final String GET_FINISH = "0x400";// 获取训练、配件、养护的完成数据（加入健康促进后的）
 	public static final String GET_TRAINING_VIDEO = "0x800";// 获取训练的视频数据（加入健康促进后的）
+	public static final String REMOVE_DISEASE = "0x1000";// 移除某项病症
+	public static final String UPLOAD_NURSING = "0x2000";// 上传穿戴效果
 
 	public static final String GETBLEDEV_TYPE = "0x08";// 获取某用户所有的蓝牙设备列表
 	public static final String UNBINDBLEDEV_TYPE = "0x02";// 蓝牙解绑

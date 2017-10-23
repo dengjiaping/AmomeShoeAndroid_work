@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -19,6 +22,7 @@ import com.loopj.android.http.RequestParams;
 import com.squareup.picasso.Picasso;
 
 import org.apache.http.Header;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -26,25 +30,31 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
+import cn.com.amome.amomeshoes.http.AsynHttpDowanloadFile;
 import cn.com.amome.amomeshoes.http.ClientConstant;
 import cn.com.amome.amomeshoes.http.HttpError;
 import cn.com.amome.amomeshoes.http.HttpService;
 import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.ClassType;
 import cn.com.amome.amomeshoes.model.IllnessDetailTrueInfo;
+import cn.com.amome.amomeshoes.model.VideoIconInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.com.amome.amomeshoes.util.T;
 
 public class IllnessDetailTrueActivity extends Activity implements View.OnClickListener {
     private Context mContext;
     private static final String TAG = "IllnessDetailTrueActivity";
     private Gson mGson = new Gson();
     private static final int MSG_GET_DATA = 0;
+    private static final int GET_VIDEO = 1;
+    private static final int REMOVE_DIS = 2;
     private String disease = null;
     private IllnessDetailTrueInfo info;
 
     private ImageView iv_first, iv_left, iv_right, iv_training, iv_training_enter, iv_fitting, iv_fitting_enter, iv_nursing, iv_nursing_enter;
     private TextView tv_name, tv_training_name, tv_training_num, tv_fitting_name, tv_fitting_num, tv_nursing_name, tv_nursing_num;
     private LinearLayout ll_training, ll_fitting, ll_nursing;
+    private VideoIconInfo mVideoIconInfo;
 
 
     @Override
@@ -103,14 +113,24 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
     private void getVideoData() {
         RequestParams params = new RequestParams();
         params.put("useid", SpfUtil.readUserId(mContext));
-        params.put("calltype", ClientConstant.GET_PROMOTION_DETAIL);
+        params.put("calltype", ClientConstant.GET_TRAINING_VIDEO);
         params.put("disease", disease);
         params.put("certificate", HttpService.getToken());
         PostAsyncTask postTask = new PostAsyncTask(mHandler);
-        postTask.startAsyncTask(mContext, callback, MSG_GET_DATA, params,
+        postTask.startAsyncTask(mContext, callback, GET_VIDEO, params,
                 ClientConstant.PROMOTION_URL);
     }
 
+    private void removeDisease() {
+        RequestParams params = new RequestParams();
+        params.put("useid", SpfUtil.readUserId(mContext));
+        params.put("calltype", ClientConstant.REMOVE_DISEASE);
+        params.put("disease", disease);
+        params.put("certificate", HttpService.getToken());
+        PostAsyncTask postTask = new PostAsyncTask(mHandler);
+        postTask.startAsyncTask(mContext, callback, REMOVE_DIS, params,
+                ClientConstant.PROMOTION_URL);
+    }
 
     HttpService.ICallback callback = new HttpService.ICallback() {
 
@@ -141,6 +161,51 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                         Log.i(TAG, "MSG_GET_DATA解析失败");
                     }
                     break;
+                case GET_VIDEO:
+                    result = new String(responseBody);
+                    try {
+                        JSONObject obj = new JSONObject(result);
+                        String return_msg = obj.getString("return_msg");
+                        int return_code = obj.getInt("return_code");
+                        Message msg = Message.obtain();
+                        if (return_code == 0
+                                && HttpError.judgeError(return_msg,
+                                ClassType.PayActivity)) {
+                            msg.what = ClientConstant.HANDLER_SUCCESS;
+                            msg.arg1 = type;
+                            msg.obj = return_msg;
+                        }
+                        mHandler.sendMessage(msg);
+                    } catch (JSONException e) {
+                        // TODO 自动生成的 catch 块
+                        e.printStackTrace();
+                        Log.i(TAG, "GET_VIDEO解析失败");
+                    }
+                    break;
+                case REMOVE_DIS:
+                    result = new String(responseBody);
+                    try {
+                        JSONObject obj = new JSONObject(result);
+                        JSONArray return_msg = obj.getJSONArray("return_msg");
+                        JSONObject msg = (JSONObject) return_msg.get(0);
+                        //JSONObject msg=obj.getJSONObject("return_msg");
+
+                        int return_code = obj.getInt("return_code");
+                        if (return_code == 0) {
+                            if (msg.getString("retval").equals("0x00")) {
+                                T.showToast(mContext, "移除成功", 0);
+                                Intent intent = new Intent(mContext, IllnessDetailActivity.class);
+                                intent.putExtra("name", disease);
+                                startActivity(intent);
+                                finish();
+                            }
+                        }
+                    } catch (JSONException e) {
+                        // TODO 自动生成的 catch 块
+                        e.printStackTrace();
+                        Log.i(TAG, "GET_VIDEO解析失败");
+                    }
+                    break;
                 default:
                     break;
             }
@@ -161,9 +226,10 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
             super.handleMessage(msg);
             switch (msg.what) {
                 case ClientConstant.HANDLER_SUCCESS:
+                    String str = (String) msg.obj;
                     switch (msg.arg1) {
+
                         case MSG_GET_DATA:
-                            String str = (String) msg.obj;
                             if (TextUtils.isEmpty(str)) {
                             } else {
                                 Type type = new TypeToken<List<IllnessDetailTrueInfo>>() {
@@ -173,6 +239,15 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                                 info = list.get(0);
                                 initData();
                             }
+                            break;
+
+                        case GET_VIDEO:
+                            Type type = new TypeToken<List<VideoIconInfo>>() {
+                            }.getType();
+                            List<VideoIconInfo> list;
+                            list = mGson.fromJson(str, type);
+                            mVideoIconInfo = list.get(0);
+                            dowmloadVideo();
                             break;
 
 
@@ -187,6 +262,24 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
 
 
     };
+
+    private void dowmloadVideo() {
+        int total_size = mVideoIconInfo.getTotal_size();
+        List<VideoIconInfo.VideosBean> videos = mVideoIconInfo.getVideos();
+        for (VideoIconInfo.VideosBean iconInfo :
+                videos) {
+            //取得文件名
+            String down_url = iconInfo.getIcon();
+            String filename = down_url.substring(down_url.lastIndexOf('/') + 1);
+            String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Amome/video/";
+            try {
+                AsynHttpDowanloadFile.downloadVideo(down_url, path, filename,
+                        mContext);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
     private void initData() {
         String type = info.getType();
@@ -259,6 +352,7 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                 finish();
                 break;
             case R.id.iv_right:
+                openOptionsMenu();
                 //TODO:Dialog
                 break;
             case R.id.iv_training:
@@ -292,4 +386,28 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         }
 
     }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.download_video_remove, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.download_video:
+                getVideoData();
+                break;
+            case R.id.remove:
+                removeDisease();
+                break;
+            default:
+                break;
+        }
+        return true;
+    }
+
+
 }
