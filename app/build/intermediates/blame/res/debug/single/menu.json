@@ -1,110 +1,110 @@
 [
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/assist_main.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/assist_main.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stress_test.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\stress_test.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/balance_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/balance_report.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\test_reconnection.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\test_reconnection.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/scan_bluetooth.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/scan_bluetooth.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\squat_tip.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\squat_tip.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/shoe_secret.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/shoe_secret.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stand_demo.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\stand_demo.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/stand_demo.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/stand_demo.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bind.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\bind.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/squat_teaching.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/squat_teaching.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\shoes_del.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\shoes_del.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/test_scanshoes.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/test_scanshoes.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\foot_report.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\foot_report.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/squat_tip.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/squat_tip.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\more_setting.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\more_setting.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/welcome.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/welcome.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\download_video_remove.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\download_video_remove.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/walk_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/walk_report.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\promotion_add.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\promotion_add.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/assist_option.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/assist_option.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\walk_report.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\walk_report.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/walk_test.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/walk_test.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bind_shoes.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\bind_shoes.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/test_stress.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/test_stress.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sweep_shoes.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\sweep_shoes.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/bind_shoes.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/bind_shoes.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\welcome.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\welcome.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/download_video_remove.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/download_video_remove.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\test_scanshoes.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\test_scanshoes.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/stress_test.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/stress_test.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\scan_bluetooth.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\scan_bluetooth.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/test_reconnection.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/test_reconnection.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\my_shoes.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\my_shoes.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/my_shoes.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/my_shoes.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\squat_teaching.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\squat_teaching.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/posture_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/posture_report.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\shoe_secret.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\shoe_secret.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/shoes_del.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/shoes_del.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bind_shock.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\bind_shock.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/bind_shock.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/bind_shock.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\assist_main.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\assist_main.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/more_setting.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/more_setting.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\posture_report.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\posture_report.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/promotion_add.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/promotion_add.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\test_stress.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\test_stress.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/foot_report.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/foot_report.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\test_stand.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\test_stand.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/sweep_shoes.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/sweep_shoes.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\walk_test.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\walk_test.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/bind.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/bind.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\assist_option.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\assist_option.xml"
     },
     {
-        "merged": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/res/merged/debug/menu/test_stand.xml",
-        "source": "/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/res/menu/test_stand.xml"
+        "merged": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\res\\merged\\debug\\menu\\balance_report.xml",
+        "source": "E:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\src\\main\\res\\menu\\balance_report.xml"
     }
 ]

@@ -211,6 +211,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                                 intent_nursingnot.putExtra("disease", disease);
                                 intent_nursingnot.putExtra("type", mType);
                                 startActivity(intent_nursingnot);
+                                finish();
                             }
                         }
                     } catch (JSONException e) {
