@@ -212,7 +212,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
         trainingVideoView.startVideo();
         trainingVideoView.setOnFinishListener(this);
         startTimerToSetTextAndProgress();
-        tv_name.setText(nameList.get(size));
+        tv_name.setText(nameList.get(size) + (size + 1) + "/" + nameList.size());
     }
 
     private void startTimerToSetTextAndProgress() {
@@ -245,7 +245,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
             trainingVideoView.setUp(urlList.get(++size), JZVideoPlayer.SCREEN_LAYOUT_NORMAL);
             trainingVideoView.startVideo();
             startTimerToSetTextAndProgress();
-            tv_name.setText(nameList.get(size));
+            tv_name.setText(nameList.get(size) + (size + 1) + "/" + nameList.size());
         } else {
             T.showToast(mContext, "播放完成", 0);
         }
@@ -270,8 +270,22 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                 }
                 break;
             case R.id.iv_left:
+                if (size > 0) {
+                    trainingVideoView.setUp(urlList.get(--size), JZVideoPlayer.SCREEN_LAYOUT_NORMAL);
+                    trainingVideoView.startVideo();
+                    startTimerToSetTextAndProgress();
+                    tv_name.setText(nameList.get(size) + (size + 1) + "/" + nameList.size());
+                }
                 break;
             case R.id.iv_right:
+                if (size < (nameList.size() - 1)) {
+                    trainingVideoView.setUp(urlList.get(++size), JZVideoPlayer.SCREEN_LAYOUT_NORMAL);
+                    trainingVideoView.startVideo();
+                    startTimerToSetTextAndProgress();
+                    tv_name.setText(nameList.get(size) + (size + 1) + "/" + nameList.size());
+                } else {
+                    //TODO:视频直接跳过
+                }
                 break;
             default:
                 break;
