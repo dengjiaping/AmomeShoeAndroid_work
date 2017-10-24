@@ -1,7 +1,4 @@
-#Mon Oct 23 23:03:11 GMT+08:00 2017
-base.0=E\:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c25a454ffdc4c2e40ec0a90c51095e16cf4f90b2
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=E\:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6cc26d113bd45f25c59c65c2145c96ee1b972df0\\classes.dex
-base.1=E\:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6cc26d113bd45f25c59c65c2145c96ee1b972df0
-file.0=E\:\\as_WorkSpace\\AmomeShoeAndroid_work\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c25a454ffdc4c2e40ec0a90c51095e16cf4f90b2\\classes.dex
+#Tue Oct 24 17:45:09 CST 2017
+base.0=/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

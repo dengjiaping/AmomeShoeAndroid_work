@@ -58,6 +58,13 @@ public class DateUtils {
 	   return dateString;
 	}
 
+
+//把long的时间转换成秒  不带单位
+	public static String changeToS(long time){
+		Date date=new Date(time);
+		return new SimpleDateFormat("ss").format(date);
+	}
+
 //	/**
 //	   * 将短时间格式字符串转换为时间 yyyy-MM-dd
 //	   * @param strDate

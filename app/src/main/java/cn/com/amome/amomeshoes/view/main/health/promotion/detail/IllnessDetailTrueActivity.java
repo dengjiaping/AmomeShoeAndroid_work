@@ -26,6 +26,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
 import java.lang.reflect.Type;
 import java.util.List;
 
@@ -65,6 +66,7 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         disease = getIntent().getStringExtra("disease");
         initView();
         getIllnessDetailInfo();
+        getVideoData();
     }
 
     private void initView() {
@@ -247,7 +249,7 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                             List<VideoIconInfo> list;
                             list = mGson.fromJson(str, type);
                             mVideoIconInfo = list.get(0);
-                            dowmloadVideo();
+
                             break;
 
 
@@ -358,9 +360,25 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
             case R.id.iv_training:
                 break;
             case R.id.iv_training_enter:
-                Intent intent_training_true = new Intent(mContext, DetailTrainingTrueActivity.class);
-                intent_training_true.putExtra("disease", disease);
-                startActivity(intent_training_true);
+                if (mVideoIconInfo != null) {
+                    //判断最后一个视频是否存在
+                    List<VideoIconInfo.VideosBean> videos = mVideoIconInfo.getVideos();
+                    VideoIconInfo.VideosBean videosBean = videos.get(videos.size() - 1);
+                    String down_url = videosBean.getIcon();
+                    String filename = down_url.substring(down_url.lastIndexOf('/') + 1);
+                    String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Amome/video/";
+                    File file = new File(path + filename);
+                    if (file.exists()) {
+                        Intent intent_training_true = new Intent(mContext, DetailTrainingTrueActivity.class);
+                        intent_training_true.putExtra("disease", disease);
+                        intent_training_true.putExtra("type", "training");
+                        startActivity(intent_training_true);
+                    } else {
+                        //TODO:dialog
+                        dowmloadVideo();
+                    }
+                }
+
 
                 break;
             case R.id.iv_nursing:
@@ -398,7 +416,10 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.download_video:
-                getVideoData();
+
+                if (mVideoIconInfo != null) {
+                    dowmloadVideo();
+                }
                 break;
             case R.id.remove:
                 removeDisease();

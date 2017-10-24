@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
+import cn.com.amome.amomeshoes.R;
 import cn.jzvd.JZVideoPlayerStandard;
 
 /**
@@ -11,6 +12,8 @@ import cn.jzvd.JZVideoPlayerStandard;
  */
 
 public class TrainingVideoView extends JZVideoPlayerStandard {
+    private int num;
+    private FinishListener lisener;
 
     public TrainingVideoView(Context context) {
         super(context);
@@ -30,6 +33,12 @@ public class TrainingVideoView extends JZVideoPlayerStandard {
         titleTextView.setVisibility(GONE);
         //clarityPopWindow.dismiss();
         bottomContainer.setVisibility(GONE);
+        findViewById(R.id.start_layout).setVisibility(GONE);
+        findViewById(R.id.loading).setVisibility(GONE);
+        findViewById(R.id.retry_text).setVisibility(GONE);
+        findViewById(R.id.bottom_progress).setVisibility(GONE);
+        findViewById(R.id.surface_container).setEnabled(false);
+
 
     }
 
@@ -86,4 +95,39 @@ public class TrainingVideoView extends JZVideoPlayerStandard {
             }
         }
     }
+
+    @Override
+    public void setProgressAndText(int progress, int position, int duration) {
+        super.setProgressAndText(progress, position, duration);
+    }
+
+    @Override
+    public void setUp(String url, int screen, Object... objects) {
+        super.setUp(url, screen, objects);
+    }
+
+    @Override
+    public void onAutoCompletion() {
+        super.onAutoCompletion();
+        if (lisener != null) {
+            lisener.setOnFinish();
+        }
+    }
+
+
+    //播放完成的监听接口
+    public interface FinishListener {
+        void setOnFinish();
+    }
+
+    public void setOnFinishListener(FinishListener lisener) {
+        this.lisener = lisener;
+    }
+
+
+
+
+
+
 }
+
