@@ -266,6 +266,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                     JZMediaManager.instance().mediaPlayer.pause();
                 } else {
                     JZMediaManager.instance().mediaPlayer.start();
+
                 }
                 break;
             case R.id.iv_left:
@@ -287,7 +288,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                 @Override
                 public void run() {
                     long position = trainingVideoView.getCurrentPositionWhenPlaying();
-                    long duration = JZMediaManager.instance().mediaPlayer.getDuration();
+                    long duration = trainingVideoView.getDuration();
                     int progress = (int) (position * 100 / (duration == 0 ? 1 : duration));
                     //setProgressAndText(progress, position, duration);
                     progressBar.setProgress(progress);
