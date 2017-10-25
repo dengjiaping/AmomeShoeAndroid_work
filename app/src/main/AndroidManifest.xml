@@ -671,10 +671,16 @@
         </activity>
         <activity
             android:name=".view.main.health.promotion.detail.DetailTrainingTrueActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_detail_training_true"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
-            android:configChanges="orientation|screenSize|keyboardHidden">
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".view.main.health.promotion.detail.TrainingListActivity"
+            android:label="@string/title_activity_training_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
     </application>
 

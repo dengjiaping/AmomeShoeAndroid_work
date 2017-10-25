@@ -31,36 +31,7 @@ public class PromotionFootAddActivity extends Activity implements
     private String title = null;
     private List<IllnessInfo> mInfoList = null;
 
-	/*private Handler mHandler = new Handler() {
-        public void handleMessage(android.os.Message msg) {
-			super.handleMessage(msg);
-			switch (msg.what) {
-			case ClientConstant.HANDLER_SUCCESS:
-				switch (msg.arg1) {
-				case MSG_GET_FOOT_DATA:
-					String str = (String) msg.obj;
-					if (TextUtils.isEmpty(str)) {
-					} else {
-						footPromotionList = gson.fromJson(str,
-								new TypeToken<List<PromotionInfo>>() {
-								}.getType());
-						if (footPromotionList != null
-								&& footPromotionList.size() > 0) {
-							promotionAddAdapter = new PromotionAddAdapter(
-									mContext, footPromotionList);
-							gv_foot_all.setAdapter(promotionAddAdapter);
-						}
-					}
-					break;
-				default:
-					break;
-				}
-				break;
-			default:
-				break;
-			}
-		};
-	};*/
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -194,5 +165,36 @@ public class PromotionFootAddActivity extends Activity implements
 			// TODO Auto-generated method stub
 			DialogUtil.hideProgressDialog();
 		}
+	};*/
+
+	/*private Handler mHandler = new Handler() {
+        public void handleMessage(android.os.Message msg) {
+			super.handleMessage(msg);
+			switch (msg.what) {
+			case ClientConstant.HANDLER_SUCCESS:
+				switch (msg.arg1) {
+				case MSG_GET_FOOT_DATA:
+					String str = (String) msg.obj;
+					if (TextUtils.isEmpty(str)) {
+					} else {
+						footPromotionList = gson.fromJson(str,
+								new TypeToken<List<PromotionInfo>>() {
+								}.getType());
+						if (footPromotionList != null
+								&& footPromotionList.size() > 0) {
+							promotionAddAdapter = new PromotionAddAdapter(
+									mContext, footPromotionList);
+							gv_foot_all.setAdapter(promotionAddAdapter);
+						}
+					}
+					break;
+				default:
+					break;
+				}
+				break;
+			default:
+				break;
+			}
+		};
 	};*/
 }

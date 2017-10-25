@@ -210,5 +210,6 @@
     <string name="title_activity_nursing_finish">NursingFinishActivity</string>
     <string name="title_activity_nursing_not_finish">NursingNotFinishActivity</string>
     <string name="title_activity_detail_training_true">DetailTrainingTrueActivity</string>
+    <string name="title_activity_training_list">TrainingListActivity</string>
 
 </resources>

@@ -680,6 +680,12 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.detail.TrainingListActivity"
+            android:label="@string/title_activity_training_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

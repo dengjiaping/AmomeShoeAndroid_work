@@ -2,6 +2,8 @@ package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -16,6 +18,7 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.RequestParams;
+import com.squareup.picasso.Picasso;
 
 import org.apache.http.Header;
 import org.json.JSONException;
@@ -235,9 +238,14 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
     @Override
     protected void onPause() {
         super.onPause();
-        JZVideoPlayer.releaseAllVideos();
+        JZMediaManager.instance().mediaPlayer.pause();
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        initData();
+    }
 
     @Override
     public void setOnFinish() {
@@ -258,15 +266,54 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                 finish();
                 break;
             case R.id.iv_more:
-                break;
-            case R.id.iv_detail:
-                break;
-            case R.id.iv_middle:
+                if (mTimer != null) {
+                    mTimer.cancel();
+                }
                 if (JZMediaManager.instance().mediaPlayer.isPlaying()) {
                     JZMediaManager.instance().mediaPlayer.pause();
+                    Picasso.with(mContext).load(R.drawable.bofang)
+                            .fit()
+                            .into(iv_middle);
+                }
+                Intent intent_more = new Intent(mContext, TrainingListActivity.class);
+                intent_more.putExtra("disease", disease);
+                intent_more.putExtra("type", type);
+                startActivity(intent_more);
+
+                break;
+            case R.id.iv_detail:
+                if (mTimer != null) {
+                    mTimer.cancel();
+                }
+                if (JZMediaManager.instance().mediaPlayer.isPlaying()) {
+                    JZMediaManager.instance().mediaPlayer.pause();
+                    Picasso.with(mContext).load(R.drawable.bofang)
+                            .fit()
+                            .into(iv_middle);
+                }
+                Intent intent_detail = new Intent(mContext, DetailTrainingActivity.class);
+                intent_detail.putExtra("disease", disease);
+                intent_detail.putExtra("type", type);
+                startActivity(intent_detail);
+                break;
+            case R.id.iv_middle:
+                if (JZMediaManager.instance().mediaPlayer == null) {
+                    JZMediaManager.instance().mediaPlayer = new MediaPlayer();
+                }
+                if (JZMediaManager.instance().mediaPlayer.isPlaying()) {
+                    if (mTimer != null) {
+                        mTimer.cancel();
+                    }
+                    JZMediaManager.instance().mediaPlayer.pause();
+                    Picasso.with(mContext).load(R.drawable.bofang)
+                            .fit()
+                            .into(iv_middle);
                 } else {
                     JZMediaManager.instance().mediaPlayer.start();
-
+                    Picasso.with(mContext).load(R.drawable.zanting)
+                            .fit()
+                            .into(iv_middle);
+                    startTimerToSetTextAndProgress();
                 }
                 break;
             case R.id.iv_left:

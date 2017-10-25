@@ -55,6 +55,7 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
     private ImageView iv_back, iv_left, iv_right;
     private TextView tv_num;
     private ViewPager vp_detail_training;
+    private int toNum = 0;
 
     //private DetailTrainingAdapter adapter;
 
@@ -66,6 +67,7 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
         Intent intent = getIntent();
         disease = intent.getStringExtra("disease");
         type = intent.getStringExtra("type");
+        toNum = intent.getIntExtra("toNum", 0);
         initView();
         getTrainingData();
     }
@@ -194,6 +196,11 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
         vp_detail_training.setAdapter(adapter);
         //adapter.start_video();
 
+        if (toNum != 0) {
+            vp_detail_training.setCurrentItem(toNum);
+            currentNum=toNum;
+            tv_num.setText((currentNum + 1) + "/" + pagerNum);
+        }
 
     }
 
@@ -257,6 +264,7 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
     protected void onPause() {
         super.onPause();
         JZVideoPlayer.releaseAllVideos();
+        //JZMediaManager.instance().mediaPlayer.release();
     }
 
 
