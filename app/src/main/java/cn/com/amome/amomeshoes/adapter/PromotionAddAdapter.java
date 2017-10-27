@@ -17,9 +17,8 @@ import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.model.IllnessInfo;
-import cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailTrueActivity;
 import cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailActivity;
-import cn.com.amome.amomeshoes.view.main.health.promotion.PromotionFootAddActivity;
+import cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailTrueActivity;
 
 /**
  * 健康促进主页面适配器
@@ -84,7 +83,7 @@ public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapte
                     Intent intent = new Intent(context, IllnessDetailActivity.class);
                     intent.putExtra("name", info.getType());
                     intent.putExtra("position", position);
-                    ((PromotionFootAddActivity) context).startActivityForResult(intent, 0);
+                    context.startActivity(intent);
                 } else {
                     Intent intent = new Intent(context, IllnessDetailTrueActivity.class);
                     intent.putExtra("disease", info.getType());

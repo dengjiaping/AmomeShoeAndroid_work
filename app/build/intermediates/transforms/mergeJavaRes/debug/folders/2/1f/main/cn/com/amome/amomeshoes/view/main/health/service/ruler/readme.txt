@@ -1,4 +1,0 @@
-1、RulerFootRightActivity 量右脚页面，点击量量脚，会先进入该页面，点击如何使用量脚板跳转到介绍页面（RulerIntroductionActivity）。如果设置了右脚脚长脚宽后点击下一步会进入量左脚页面（RulerFootLeftActivity）。
-2、RulerFootLeftActivity 量左脚页面，设置完成后点击下一步会进入量量脚结果页面（RulerResultActivity）。
-3、RulerIntroductionActivity 量量脚介绍页面，介绍如何使用量脚板，点击页面中的继续测量会跳转回量右脚页面（RulerFootRightActivity）开始进行测量。
-4、RulerResultActivity 量量脚结果页面。

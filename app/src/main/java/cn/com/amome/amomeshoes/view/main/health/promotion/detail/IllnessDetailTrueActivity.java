@@ -56,6 +56,8 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
     private TextView tv_name, tv_training_name, tv_training_num, tv_fitting_name, tv_fitting_num, tv_nursing_name, tv_nursing_num;
     private LinearLayout ll_training, ll_fitting, ll_nursing;
     private VideoIconInfo mVideoIconInfo;
+    private String mNewest_id_training;
+    private String mDone_times;
 
 
     @Override
@@ -297,7 +299,8 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         String num_training = trainingBean.getNum();
         String name_training = trainingBean.getName();
         String num_done_training = trainingBean.getNum_done();
-        String newest_id_training = trainingBean.getNewest_id();
+        mNewest_id_training = trainingBean.getNewest_id();
+        mDone_times = trainingBean.getDone_times();
         String num_nursing = nursingBean.getNum();
         String name_nursing = nursingBean.getName();
         String num_done_nursing = nursingBean.getNum_done();
@@ -308,24 +311,24 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                 .placeholder(R.drawable.weijiazai_zubu)
                 .error(R.drawable.weijiazai_zubu)
                 .into(iv_first);
-        if (Integer.valueOf(num_done_training) < Integer.valueOf(num_training)) {
+        if (Integer.parseInt(num_done_training) < Integer.parseInt(num_training)) {
             Picasso.with(mContext).load(R.drawable.begin_btn)
                     .into(iv_training_enter);
             Picasso.with(mContext).load(R.drawable.xunlian)
                     .into(iv_training);
-        } else if (Integer.valueOf(num_done_training) == Integer.valueOf(num_training)) {
+        } else if (Integer.parseInt(num_done_training) == Integer.parseInt(num_training)) {
             Picasso.with(mContext).load(R.drawable.again_btn)
                     .into(iv_training_enter);
             Picasso.with(mContext).load(R.drawable.xunlian_true)
                     .into(iv_training);
         }
 
-        if (Integer.valueOf(num_done_nursing) < Integer.valueOf(num_nursing)) {
+        if (Integer.parseInt(num_done_nursing) < Integer.parseInt(num_nursing)) {
             Picasso.with(mContext).load(R.drawable.begin_btn)
                     .into(iv_fitting_enter);
             Picasso.with(mContext).load(R.drawable.yanghu)
                     .into(iv_fitting);
-        } else if (Integer.valueOf(num_done_training) == Integer.valueOf(num_training)) {
+        } else if (Integer.parseInt(num_done_nursing) == Integer.parseInt(num_nursing)) {
             Picasso.with(mContext).load(R.drawable.again_btn)
                     .into(iv_fitting_enter);
             Picasso.with(mContext).load(R.drawable.yanghu_true)
@@ -344,6 +347,12 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
     @Override
     protected void onResume() {
         super.onResume();
+
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
         getIllnessDetailInfo();
     }
 
@@ -372,6 +381,8 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                         Intent intent_training_true = new Intent(mContext, DetailTrainingTrueActivity.class);
                         intent_training_true.putExtra("disease", disease);
                         intent_training_true.putExtra("type", "training");
+                        intent_training_true.putExtra("newest_id", mNewest_id_training);
+                        intent_training_true.putExtra("done_times", mDone_times);
                         startActivity(intent_training_true);
                     } else {
                         //TODO:dialog

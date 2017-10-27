@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cn.com.amome.amomeshoes.view.main.health.promotion.detail.NursingNotFinishActivity">
+    tools:context="cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingNotFinishActivity">
 
     <ImageView
         android:id="@+id/imageView"

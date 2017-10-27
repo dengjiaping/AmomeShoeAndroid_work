@@ -16,7 +16,7 @@ public class IllnessDetailTrueInfo {
     /**
      * type : 扁平足
      * icon : http://www.iamome.cn/AmomeWebApp/res/healthpromotion/bianping2@2x.png
-     * userdaily : [{"training":[{"num":"6","name":"双足夹物,右脚捡物,左脚捡物,脚跟踩地三连动,足趾屈伸,足趾展收","num_done":"6","newest_id":"3"}],"nursing":[{"num":"2","name":"按摩,异地行走","num_done":"0"}]}]
+     * userdaily : [{"training":[{"num":"6","name":"双足夹物,右脚捡物,左脚捡物,脚跟踩地三连动,足趾屈伸,足趾展收","num_done":"0","newest_id":"0","done_times":"1"}],"nursing":[{"num":"2","name":"按摩,异地行走","num_done":"0"}]}]
      */
 
     private String type;
@@ -97,14 +97,16 @@ public class IllnessDetailTrueInfo {
             /**
              * num : 6
              * name : 双足夹物,右脚捡物,左脚捡物,脚跟踩地三连动,足趾屈伸,足趾展收
-             * num_done : 6
-             * newest_id : 3
+             * num_done : 0
+             * newest_id : 0
+             * done_times : 1
              */
 
             private String num;
             private String name;
             private String num_done;
             private String newest_id;
+            private String done_times;
 
             public static TrainingBean objectFromData(String str, String key) {
 
@@ -149,6 +151,14 @@ public class IllnessDetailTrueInfo {
 
             public void setNewest_id(String newest_id) {
                 this.newest_id = newest_id;
+            }
+
+            public String getDone_times() {
+                return done_times;
+            }
+
+            public void setDone_times(String done_times) {
+                this.done_times = done_times;
             }
         }
 

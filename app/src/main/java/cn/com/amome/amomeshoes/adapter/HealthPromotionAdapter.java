@@ -17,6 +17,7 @@ import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
 import cn.com.amome.amomeshoes.model.PromotionDataInfo;
+import cn.com.amome.amomeshoes.view.main.health.promotion.PromotionFootAddActivity;
 import cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailTrueActivity;
 
 /**
@@ -26,11 +27,18 @@ import cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailTr
 public class HealthPromotionAdapter extends RecyclerView.Adapter<HealthPromotionAdapter.ViewHolder> {
     private Context mContext;
     private List<PromotionDataInfo> infoList;
+    private String title;
+    private String type;
 
-    public HealthPromotionAdapter(Context context, List<PromotionDataInfo> infoList) {
+    public HealthPromotionAdapter(Context context, List<PromotionDataInfo> infoList, String title, String type) {
         mContext = context;
         this.infoList = infoList;
+        this.title = title;
+        this.type = type;
     }
+
+
+
 
     static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView iv_promotion_illness, iv_promotion_fitting, iv_promotion_curing, iv_promotion_action;
@@ -127,7 +135,10 @@ public class HealthPromotionAdapter extends RecyclerView.Adapter<HealthPromotion
             @Override
             public void onClick(View view) {
                 if (position == (infoList.size() - 1)) {
-                    //TODO:修改添加页面的跳转
+                    Intent intent = new Intent(mContext, PromotionFootAddActivity.class);
+                    intent.putExtra("title", title);
+                    intent.putExtra("type", type);
+                    mContext.startActivity(intent);
 
                 } else {
                     Intent intent = new Intent(mContext, IllnessDetailTrueActivity.class);

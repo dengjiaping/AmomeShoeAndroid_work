@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="radar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/radar.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

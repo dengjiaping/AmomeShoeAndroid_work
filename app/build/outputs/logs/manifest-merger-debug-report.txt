@@ -1,6 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-687:12
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/e97ba7772810bf64883620077039d75e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:2:1-11:12
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
 	package
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:3:11-44
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
@@ -9,28 +27,44 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:5:11-38
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:4:11-34
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.android/build-cache/f8e901e43e7a12c74e81724560d9008119c3c8a9/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.android/build-cache/7351eb1f0c4f2e44761f4554384e56d14a27d850/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.android/build-cache/9caadaaeb334f6d1df115b33165a9d4422e17ac2/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.android/build-cache/19c9580e3f4f4006f86466f634352bb1c7180ed6/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.android/build-cache/901e80bacf2431e520ffdfd7a78597a8d8e19387/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.android/build-cache/62af697744382d9df5238cf8f90cc7faa8f9a03f/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.android/build-cache/05ab96d0974eb0b74915f118d1ad5c180b5ab109/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.android/build-cache/87d16f1b51c08ff4d8110eb5a076716f8f1e3320/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.android/build-cache/e3490f10389a6059068fcb609efc6dd6434a95b2/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.android/build-cache/198a6f5137af4c3ae28769d42dd8a93ea0a59b5d/output/AndroidManifest.xml:5:5-7:41
-MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/e97ba7772810bf64883620077039d75e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/e97ba7772810bf64883620077039d75e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:5:5-7:41
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
@@ -49,7 +83,8 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:15:5-78
-MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.android/build-cache/714b2b50e9fee52aca4c0f8104bde140ca95074e/output/AndroidManifest.xml:11:5-79
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:11:5-79
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:15:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -105,23 +140,33 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:38:22-68
 application
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-685:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.android/build-cache/7351eb1f0c4f2e44761f4554384e56d14a27d850/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.android/build-cache/9caadaaeb334f6d1df115b33165a9d4422e17ac2/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.android/build-cache/19c9580e3f4f4006f86466f634352bb1c7180ed6/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.android/build-cache/901e80bacf2431e520ffdfd7a78597a8d8e19387/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.android/build-cache/62af697744382d9df5238cf8f90cc7faa8f9a03f/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.android/build-cache/05ab96d0974eb0b74915f118d1ad5c180b5ab109/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.android/build-cache/87d16f1b51c08ff4d8110eb5a076716f8f1e3320/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.android/build-cache/e3490f10389a6059068fcb609efc6dd6434a95b2/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.android/build-cache/198a6f5137af4c3ae28769d42dd8a93ea0a59b5d/output/AndroidManifest.xml:9:5-20
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-691:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:44:9-41
-	android:allowBackup
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:42:9-36
 	android:icon
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:43:9-45
+	android:allowBackup
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:42:9-36
 	android:theme
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:46:9-40
 	android:logo
@@ -996,7 +1041,7 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:658:13-72
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:655:13-88
-activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.NursingFinishActivity
+activity#cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingFinishActivity
 ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:660:9-665:20
 	android:screenOrientation
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:663:13-49
@@ -1006,7 +1051,7 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:664:13-72
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:661:13-84
-activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.NursingNotFinishActivity
+activity#cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingNotFinishActivity
 ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:666:9-671:20
 	android:screenOrientation
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:669:13-49
@@ -1038,17 +1083,35 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:683:13-72
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:680:13-83
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.android/build-cache/7351eb1f0c4f2e44761f4554384e56d14a27d850/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.android/build-cache/9caadaaeb334f6d1df115b33165a9d4422e17ac2/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.android/build-cache/19c9580e3f4f4006f86466f634352bb1c7180ed6/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.android/build-cache/901e80bacf2431e520ffdfd7a78597a8d8e19387/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.android/build-cache/62af697744382d9df5238cf8f90cc7faa8f9a03f/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.android/build-cache/05ab96d0974eb0b74915f118d1ad5c180b5ab109/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.android/build-cache/87d16f1b51c08ff4d8110eb5a076716f8f1e3320/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.android/build-cache/e3490f10389a6059068fcb609efc6dd6434a95b2/output/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/AndroidManifest.xml:27:9-31
+activity#cn.com.amome.amomeshoes.view.main.health.promotion.finish.TrainingFinishActivity
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:685:9-690:20
+	android:screenOrientation
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:688:13-49
+	android:label
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:687:13-67
+	android:theme
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:689:13-72
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.android/build-cache/30d3ff3417f5623ec029d644d41185c08941f8cd/output/AndroidManifest.xml:26:9-47
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:686:13-85
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:26:9-47

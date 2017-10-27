@@ -14,6 +14,7 @@ import cn.jzvd.JZVideoPlayerStandard;
 public class TrainingVideoView extends JZVideoPlayerStandard {
     private int num;
     private FinishListener lisener;
+    public long currentDuration;
 
     public TrainingVideoView(Context context) {
         super(context);
@@ -114,6 +115,11 @@ public class TrainingVideoView extends JZVideoPlayerStandard {
         }
     }
 
+    @Override
+    public void onStatePlaying() {
+        super.onStatePlaying();
+        currentDuration = getDuration();
+    }
 
     //播放完成的监听接口
     public interface FinishListener {
@@ -123,10 +129,6 @@ public class TrainingVideoView extends JZVideoPlayerStandard {
     public void setOnFinishListener(FinishListener lisener) {
         this.lisener = lisener;
     }
-
-
-
-
 
 
 }

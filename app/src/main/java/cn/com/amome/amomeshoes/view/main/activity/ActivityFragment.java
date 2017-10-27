@@ -11,7 +11,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -31,7 +30,6 @@ import org.apache.http.Header;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import cn.com.amome.amomeshoes.R;
@@ -307,47 +305,55 @@ public class ActivityFragment extends Fragment implements OnClickListener {
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(mContext, PromotionFootAddActivity.class);
-        Bundle bundle = new Bundle();
+//        Bundle bundle = new Bundle();
         switch (v.getId()) {
             case R.id.checkmore_foot:
-                bundle.clear();
+               /* bundle.clear();
                 if (footInfo!=null) {
                     bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) footInfo);
                 }
                 bundle.putString("title", "足部");
 
-                intent.putExtras(bundle);
+                intent.putExtras(bundle);*/
+                intent.putExtra("type", "foot");
+                intent.putExtra("title", "足部");
                 startActivity(intent);
 
                 break;
             case R.id.checkmore_posture:
-                bundle.clear();
+                /*bundle.clear();
                 if (postureInfo!=null) {
                     bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) postureInfo);
                 }
                 bundle.putString("title", "姿态");
 
-                intent.putExtras(bundle);
+                intent.putExtras(bundle);*/
+                intent.putExtra("type", "posture");
+                intent.putExtra("title", "姿态");
                 startActivity(intent);
                 break;
             case R.id.checkmore_balance:
-                bundle.clear();
+                /*bundle.clear();
                 if (balanceInfo != null) {
                     bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) balanceInfo);
                 }
                 bundle.putString("title", "平衡");
 
-                intent.putExtras(bundle);
+                intent.putExtras(bundle);*/
+                intent.putExtra("type", "balance");
+                intent.putExtra("title", "平衡");
                 startActivity(intent);
                 break;
             case R.id.checkmore_gait:
-                bundle.clear();
+                /*bundle.clear();
                 if (gaitInfo != null) {
                     bundle.putParcelableArrayList("info", (ArrayList<? extends Parcelable>) gaitInfo);
                 }
                 bundle.putString("title", "步态");
 
-                intent.putExtras(bundle);
+                intent.putExtras(bundle);*/
+                intent.putExtra("type", "gait");
+                intent.putExtra("title", "步态");
                 startActivity(intent);
                 break;
 

@@ -37,6 +37,8 @@ import cn.com.amome.amomeshoes.model.ClassType;
 import cn.com.amome.amomeshoes.model.NursingTrueInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
 import cn.com.amome.amomeshoes.util.T;
+import cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingFinishActivity;
+import cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingNotFinishActivity;
 
 
 public class DetailNursingTrueActivity extends Activity implements View.OnClickListener, DetailNursingTrueAdapter.MyItemClickListener {
@@ -56,6 +58,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
     private List<NursingTrueInfo> infoList;
     private DetailNursingTrueAdapter adapter;
     private String mNameAll = null;
+    private int mNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -184,6 +187,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                                 intent_nursingfinish.putExtra("disease", disease);
                                 intent_nursingfinish.putExtra("type", mType);
                                 intent_nursingfinish.putExtra("item_name", mNameAll);
+                                intent_nursingfinish.putExtra("times", mNum);
                                 startActivity(intent_nursingfinish);
                                 finish();
                             }
@@ -191,7 +195,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                     } catch (JSONException e) {
                         // TODO 自动生成的 catch 块
                         e.printStackTrace();
-                        Log.i(TAG, "MSG_DETAIL_DATA解析失败");
+                        Log.i(TAG, "UPLOAD解析失败");
 
                     }
                     break;
@@ -217,7 +221,8 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                     } catch (JSONException e) {
                         // TODO 自动生成的 catch 块
                         e.printStackTrace();
-                        Log.i(TAG, "MSG_DETAIL_DATA解析失败");
+                        Log.i(TAG, "UPLOAD_FALSE");
+
 
                     }
                     break;
@@ -291,11 +296,12 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
             if (infoList.get(i).isChecked()) {
                 mNameAll = mNameAll + "," + infoList.get(i).getName();
             }
+
         }
-        int num = 0;
+        mNum = 0;
         for (int i = 0; i < infoList.size(); i++) {
             if (infoList.get(i).isChecked()) {
-                num++;
+                mNum++;
             }
         }
         switch (view.getId()) {
@@ -303,7 +309,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                 finish();
                 break;
             case R.id.fl_red:
-                if (num == 0) {
+                if (mNum == 0) {
                     T.showToast(mContext, "请至少选择一项！", 0);
                 } else {
                     upLoadFalse();
@@ -311,7 +317,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
                 break;
             case R.id.fl_blue:
 
-                if (num == 0) {
+                if (mNum == 0) {
                     T.showToast(mContext, "请至少选择一项！", 0);
                 } else {
                     upLoadTrue();

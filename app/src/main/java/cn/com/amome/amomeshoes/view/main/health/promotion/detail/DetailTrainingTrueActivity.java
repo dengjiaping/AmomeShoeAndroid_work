@@ -21,6 +21,7 @@ import com.loopj.android.http.RequestParams;
 import com.squareup.picasso.Picasso;
 
 import org.apache.http.Header;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -42,6 +43,7 @@ import cn.com.amome.amomeshoes.util.DateUtils;
 import cn.com.amome.amomeshoes.util.SpfUtil;
 import cn.com.amome.amomeshoes.util.T;
 import cn.com.amome.amomeshoes.view.main.health.promotion.MyVideoView.TrainingVideoView;
+import cn.com.amome.amomeshoes.view.main.health.promotion.finish.TrainingFinishActivity;
 import cn.jzvd.JZMediaManager;
 import cn.jzvd.JZVideoPlayer;
 
@@ -50,6 +52,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
     private String TAG = "DetailTrainingTrueActivity";
     private Gson mGson = new Gson();
     private static final int MSG_GET_DATA = 0;
+    private static final int UPLOAD = 1;
     private String disease, type;
     private Gson gson = new Gson();
     private List<DetailTrainingInfo> mTrainingInfo;
@@ -61,8 +64,11 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
     //private LinkedHashMap mMap;
     private List<String> nameList = new ArrayList();
     private List<String> urlList = new ArrayList();
-    private int size = 0;
+    private int size;
     private Timer mTimer;
+    private String done_times;
+    private int group;
+    private long time;
 
 
     @Override
@@ -72,6 +78,8 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
         mContext = this;
         disease = getIntent().getStringExtra("disease");
         type = getIntent().getStringExtra("type");
+        size = Integer.parseInt(getIntent().getStringExtra("newest_id"));
+        done_times = getIntent().getStringExtra("done_times");
         initView();
         getTrainingData();
     }
@@ -94,6 +102,8 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
         iv_middle.setOnClickListener(this);
         iv_left.setOnClickListener(this);
         iv_right.setOnClickListener(this);
+
+        trainingVideoView.setOnFinishListener(this);
     }
 
 
@@ -107,6 +117,26 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
         PostAsyncTask postTask = new PostAsyncTask(mHandler);
         postTask.startAsyncTask(mContext, callback, MSG_GET_DATA, params,
                 ClientConstant.PROMOTION_URL);
+    }
+
+
+    /**
+     * 向服务器返回训练的数据
+     */
+    private void upLoadTraining() {
+        RequestParams params = new RequestParams();
+        params.put("useid", SpfUtil.readUserId(mContext));
+        params.put("calltype", ClientConstant.UPLOAD_NURSING);
+        params.put("disease", disease);
+        params.put("type", type);
+        params.put("item_name", nameList.get(size));
+        params.put("switcher", "yes");
+        params.put("done_times", done_times);
+        params.put("certificate", HttpService.getToken());
+        PostAsyncTask postTask = new PostAsyncTask(mHandler);
+        postTask.startAsyncTask(mContext, callback, UPLOAD, params,
+                ClientConstant.PROMOTION_URL);
+
     }
 
 
@@ -137,6 +167,27 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                         // TODO 自动生成的 catch 块
                         e.printStackTrace();
                         Log.i(TAG, "MSG_GET_DATA解析失败");
+
+                    }
+                    break;
+                case UPLOAD:
+                    result = new String(responseBody);
+                    try {
+
+                        JSONObject obj = new JSONObject(result);
+                        JSONArray return_msg = obj.getJSONArray("return_msg");
+                        JSONObject msg = (JSONObject) return_msg.get(0);
+                        int return_code = obj.getInt("return_code");
+                        if (return_code == 0) {
+                            if (msg.getString("retval").equals("0x00")) {
+                                Log.i(TAG, "onHttpPostSuccess: 上传成功");
+                            }
+                        }
+                    } catch (JSONException e) {
+                        // TODO 自动生成的 catch 块
+                        e.printStackTrace();
+                        Log.i(TAG, "UPLOAD解析失败");
+
 
                     }
                     break;
@@ -176,6 +227,9 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                                 initData();
                             }
                             break;
+                        case UPLOAD:
+
+                            break;
                         default:
                             break;
                     }
@@ -199,7 +253,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
             String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Amome/video/";
             File file = new File(path + filename);
             String name = info.getName();
-            Log.e(TAG, "initData: " + path + filename);
+            Log.i(TAG, "initData: " + path + filename);
             if (file.exists()) {
                 nameList.add(name);
                 urlList.add(path + filename);
@@ -209,13 +263,24 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
             }
         }
 
+        if (size == nameList.size() - 1) {
+            size = 0;
+        }
         //播放视频
 
+        goOnRedio();
+        time = trainingVideoView.currentDuration;
+    }
+
+    private void goOnRedio() {
         trainingVideoView.setUp(urlList.get(size), JZVideoPlayer.SCREEN_LAYOUT_NORMAL);
         trainingVideoView.startVideo();
-        trainingVideoView.setOnFinishListener(this);
+
         startTimerToSetTextAndProgress();
         tv_name.setText(nameList.get(size) + (size + 1) + "/" + nameList.size());
+        Picasso.with(mContext).load(R.drawable.zanting)
+                .fit()
+                .into(iv_middle);
     }
 
     private void startTimerToSetTextAndProgress() {
@@ -238,25 +303,65 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
     @Override
     protected void onPause() {
         super.onPause();
-        JZMediaManager.instance().mediaPlayer.pause();
+        Log.e(TAG, "onPause: " + size + progressBar.getProgress());
+        if (size == (nameList.size()) && progressBar.getProgress() == 0) {
+            try {
+                JZVideoPlayer.releaseAllVideos();
+            } catch (RuntimeException e) {
+                Log.e(TAG, "onPause: 这个地方偶尔会崩溃,估计原因是mediaplayer对象回收了");
+            }
+        } else {
+            try {
+                JZMediaManager.instance().mediaPlayer.pause();
+            } catch (RuntimeException e) {
+            }
+        }
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        initData();
+
+        goOnRedio();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mTimer.cancel();
     }
 
     @Override
     public void setOnFinish() {
         if (size < (nameList.size() - 1)) {
+            group += 1;
+            upLoadTraining();
             trainingVideoView.setUp(urlList.get(++size), JZVideoPlayer.SCREEN_LAYOUT_NORMAL);
             trainingVideoView.startVideo();
             startTimerToSetTextAndProgress();
             tv_name.setText(nameList.get(size) + (size + 1) + "/" + nameList.size());
+
+
+            time = time + trainingVideoView.currentDuration;
         } else {
             T.showToast(mContext, "播放完成", 0);
+            mTimer.cancel();
+            time = time + trainingVideoView.currentDuration;
+            group += 1;
+            upLoadTraining();
+            size++;
+            Intent intent = new Intent(mContext, TrainingFinishActivity.class);
+            intent.putExtra("disease", disease);
+            intent.putExtra("type", type);
+            intent.putExtra("time", time);
+            intent.putExtra("group", group);
+            startActivity(intent);
+            Log.e(TAG, "setOnFinish: " + size);
+            progressBar.setProgress(0);
+            finish();
         }
+
+        Log.i(TAG, "setOnFinish: 自动播放完" + time);
     }
 
     @Override
@@ -322,6 +427,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                     trainingVideoView.startVideo();
                     startTimerToSetTextAndProgress();
                     tv_name.setText(nameList.get(size) + (size + 1) + "/" + nameList.size());
+
                 }
                 break;
             case R.id.iv_right:
@@ -354,9 +460,13 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                     //setProgressAndText(progress, position, duration);
                     progressBar.setProgress(progress);
                     tv_time.setText(DateUtils.changeToS(position) + "/" + DateUtils.changeToS(duration) + "s");
+
+
                 }
             });
 
         }
     }
+
+
 }

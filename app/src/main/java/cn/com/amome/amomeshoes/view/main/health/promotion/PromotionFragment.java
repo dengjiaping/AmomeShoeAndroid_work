@@ -171,6 +171,20 @@ public class PromotionFragment extends Fragment implements OnClickListener {
     };
 
     private void initData() {
+        if (footInfo.get(0).getType() == null) {
+            footInfo.clear();
+        }
+        if (postrueInfo.get(0).getType() == null) {
+            postrueInfo.clear();
+        }
+        if (balanceInfo.get(0).getType() == null) {
+            balanceInfo.clear();
+        }
+        if (gaitInfo.get(0).getType() == null) {
+            gaitInfo.clear();
+        }
+
+
         StaggeredGridLayoutManager layoutManagerFoot = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
         StaggeredGridLayoutManager layoutManagerPosture = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
         StaggeredGridLayoutManager layoutManagerBalance = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
@@ -180,26 +194,26 @@ public class PromotionFragment extends Fragment implements OnClickListener {
         re_promotion_posture.setLayoutManager(layoutManagerPosture);
         re_promotion_balance.setLayoutManager(layoutManagerBalance);
         re_promotion_gait.setLayoutManager(layoutManagerGait);
-        if (footInfo != null) {
+
             footInfo.add(new PromotionDataInfo());
-            footAdapter = new HealthPromotionAdapter(mContext, footInfo);
+            footAdapter = new HealthPromotionAdapter(mContext, footInfo,"足部","foot");
             re_promotion_foot.setAdapter(footAdapter);
-        }
-        if (postrueInfo != null) {
+
+
             postrueInfo.add(new PromotionDataInfo());
-            footAdapter = new HealthPromotionAdapter(mContext, postrueInfo);
-            re_promotion_posture.setAdapter(footAdapter);
-        }
-        if (balanceInfo != null) {
+            postureAdapter = new HealthPromotionAdapter(mContext, postrueInfo,"姿态","posture");
+            re_promotion_posture.setAdapter(postureAdapter);
+
+
             balanceInfo.add(new PromotionDataInfo());
-            footAdapter = new HealthPromotionAdapter(mContext, balanceInfo);
-            re_promotion_balance.setAdapter(footAdapter);
-        }
-        if (gaitInfo != null) {
+            balanceAdapter = new HealthPromotionAdapter(mContext, balanceInfo,"平衡","balance");
+            re_promotion_balance.setAdapter(balanceAdapter);
+
+
             gaitInfo.add(new PromotionDataInfo());
-            footAdapter = new HealthPromotionAdapter(mContext, gaitInfo);
-            re_promotion_gait.setAdapter(footAdapter);
-        }
+            gaitAdapter = new HealthPromotionAdapter(mContext, gaitInfo,"步态","gait");
+            re_promotion_gait.setAdapter(gaitAdapter);
+
 
     }
 

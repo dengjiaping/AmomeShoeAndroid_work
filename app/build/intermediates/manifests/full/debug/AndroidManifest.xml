@@ -44,9 +44,11 @@
     <application
         android:name="cn.com.amome.amomeshoes.common.AmomeApp"
         android:allowBackup="false"
+        android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:logo="@drawable/ic_launcher"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="cn.com.amome.amomeshoes.view.account.WelcomeActivity"
@@ -662,13 +664,13 @@
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
-            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.detail.NursingFinishActivity"
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingFinishActivity"
             android:label="@string/title_activity_nursing_finish"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>
         <activity
-            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.detail.NursingNotFinishActivity"
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingNotFinishActivity"
             android:label="@string/title_activity_nursing_not_finish"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
@@ -683,6 +685,12 @@
         <activity
             android:name="cn.com.amome.amomeshoes.view.main.health.promotion.detail.TrainingListActivity"
             android:label="@string/title_activity_training_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.com.amome.amomeshoes.view.main.health.promotion.finish.TrainingFinishActivity"
+            android:label="@string/title_activity_training_finish"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         </activity>

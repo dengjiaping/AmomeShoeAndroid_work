@@ -64,6 +64,11 @@ public class DateUtils {
 		Date date=new Date(time);
 		return new SimpleDateFormat("ss").format(date);
 	}
+	//把long的时间转换成分  不带单位
+	public static String changeToM(long time){
+		Date date=new Date(time);
+		return new SimpleDateFormat("mm").format(date);
+	}
 
 //	/**
 //	   * 将短时间格式字符串转换为时间 yyyy-MM-dd

@@ -658,13 +658,13 @@
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
-            android:name=".view.main.health.promotion.detail.NursingFinishActivity"
+            android:name=".view.main.health.promotion.finish.NursingFinishActivity"
             android:label="@string/title_activity_nursing_finish"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
         <activity
-            android:name=".view.main.health.promotion.detail.NursingNotFinishActivity"
+            android:name=".view.main.health.promotion.finish.NursingNotFinishActivity"
             android:label="@string/title_activity_nursing_not_finish"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
@@ -679,6 +679,12 @@
         <activity
             android:name=".view.main.health.promotion.detail.TrainingListActivity"
             android:label="@string/title_activity_training_list"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".view.main.health.promotion.finish.TrainingFinishActivity"
+            android:label="@string/title_activity_training_finish"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
