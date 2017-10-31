@@ -287,7 +287,13 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         tv_describe.setText(mDefinition);
         //这里先设置健康配件部分不显示
         //TODO:暂时没有数据，等待有数据了再添加
-        ll_fitting.setVisibility(View.GONE);
+        //ll_fitting.setVisibility(View.GONE);
+        if (mName_training != null) {
+            ll_training.setVisibility(View.VISIBLE);
+        }
+        if (mName_nursing != null) {
+            ll_nursing.setVisibility(View.VISIBLE);
+        }
 
         tv_num_training.setText(mNum_training);
         tv_name_training.setText(mName_training);

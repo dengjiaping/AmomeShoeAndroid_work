@@ -195,24 +195,24 @@ public class PromotionFragment extends Fragment implements OnClickListener {
         re_promotion_balance.setLayoutManager(layoutManagerBalance);
         re_promotion_gait.setLayoutManager(layoutManagerGait);
 
-            footInfo.add(new PromotionDataInfo());
-            footAdapter = new HealthPromotionAdapter(mContext, footInfo,"足部","foot");
-            re_promotion_foot.setAdapter(footAdapter);
+        footInfo.add(new PromotionDataInfo());
+        footAdapter = new HealthPromotionAdapter(mContext, footInfo, "足部", "foot");
+        re_promotion_foot.setAdapter(footAdapter);
 
 
-            postrueInfo.add(new PromotionDataInfo());
-            postureAdapter = new HealthPromotionAdapter(mContext, postrueInfo,"姿态","posture");
-            re_promotion_posture.setAdapter(postureAdapter);
+        postrueInfo.add(new PromotionDataInfo());
+        postureAdapter = new HealthPromotionAdapter(mContext, postrueInfo, "姿态", "posture");
+        re_promotion_posture.setAdapter(postureAdapter);
 
 
-            balanceInfo.add(new PromotionDataInfo());
-            balanceAdapter = new HealthPromotionAdapter(mContext, balanceInfo,"平衡","balance");
-            re_promotion_balance.setAdapter(balanceAdapter);
+        balanceInfo.add(new PromotionDataInfo());
+        balanceAdapter = new HealthPromotionAdapter(mContext, balanceInfo, "平衡", "balance");
+        re_promotion_balance.setAdapter(balanceAdapter);
 
 
-            gaitInfo.add(new PromotionDataInfo());
-            gaitAdapter = new HealthPromotionAdapter(mContext, gaitInfo,"步态","gait");
-            re_promotion_gait.setAdapter(gaitAdapter);
+        gaitInfo.add(new PromotionDataInfo());
+        gaitAdapter = new HealthPromotionAdapter(mContext, gaitInfo, "步态", "gait");
+        re_promotion_gait.setAdapter(gaitAdapter);
 
 
     }

@@ -1,7 +1,9 @@
 package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
@@ -58,6 +60,7 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
     private VideoIconInfo mVideoIconInfo;
     private String mNewest_id_training;
     private String mDone_times;
+    private int mTotal_size;
 
 
     @Override
@@ -251,6 +254,8 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                             List<VideoIconInfo> list;
                             list = mGson.fromJson(str, type);
                             mVideoIconInfo = list.get(0);
+                            //得到总大小
+                            mTotal_size = mVideoIconInfo.getTotal_size();
 
                             break;
 
@@ -268,7 +273,6 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
     };
 
     private void dowmloadVideo() {
-        int total_size = mVideoIconInfo.getTotal_size();
         List<VideoIconInfo.VideosBean> videos = mVideoIconInfo.getVideos();
         for (VideoIconInfo.VideosBean iconInfo :
                 videos) {
@@ -311,29 +315,41 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                 .placeholder(R.drawable.weijiazai_zubu)
                 .error(R.drawable.weijiazai_zubu)
                 .into(iv_first);
-        if (Integer.parseInt(num_done_training) < Integer.parseInt(num_training)) {
-            Picasso.with(mContext).load(R.drawable.begin_btn)
-                    .into(iv_training_enter);
-            Picasso.with(mContext).load(R.drawable.xunlian)
-                    .into(iv_training);
-        } else if (Integer.parseInt(num_done_training) == Integer.parseInt(num_training)) {
-            Picasso.with(mContext).load(R.drawable.again_btn)
-                    .into(iv_training_enter);
-            Picasso.with(mContext).load(R.drawable.xunlian_true)
-                    .into(iv_training);
+
+        if (num_done_training == null) {
+            ll_training.setVisibility(View.GONE);
+        } else {
+            ll_training.setVisibility(View.VISIBLE);
+            if (Integer.parseInt(num_done_training) < Integer.parseInt(num_training)) {
+                Picasso.with(mContext).load(R.drawable.begin_btn)
+                        .into(iv_training_enter);
+                Picasso.with(mContext).load(R.drawable.xunlian)
+                        .into(iv_training);
+            } else if (Integer.parseInt(num_done_training) == Integer.parseInt(num_training)) {
+                Picasso.with(mContext).load(R.drawable.again_btn)
+                        .into(iv_training_enter);
+                Picasso.with(mContext).load(R.drawable.xunlian_true)
+                        .into(iv_training);
+            }
         }
 
-        if (Integer.parseInt(num_done_nursing) < Integer.parseInt(num_nursing)) {
-            Picasso.with(mContext).load(R.drawable.begin_btn)
-                    .into(iv_fitting_enter);
-            Picasso.with(mContext).load(R.drawable.yanghu)
-                    .into(iv_fitting);
-        } else if (Integer.parseInt(num_done_nursing) == Integer.parseInt(num_nursing)) {
-            Picasso.with(mContext).load(R.drawable.again_btn)
-                    .into(iv_fitting_enter);
-            Picasso.with(mContext).load(R.drawable.yanghu_true)
-                    .into(iv_fitting);
+        if (num_done_nursing == null) {
+            ll_nursing.setVisibility(View.GONE);
+        } else {
+            ll_nursing.setVisibility(View.VISIBLE);
+            if (Integer.parseInt(num_done_nursing) < Integer.parseInt(num_nursing)) {
+                Picasso.with(mContext).load(R.drawable.begin_btn)
+                        .into(iv_nursing_enter);
+                Picasso.with(mContext).load(R.drawable.yanghu)
+                        .into(iv_nursing);
+            } else if (Integer.parseInt(num_done_nursing) == Integer.parseInt(num_nursing)) {
+                Picasso.with(mContext).load(R.drawable.again_btn)
+                        .into(iv_nursing_enter);
+                Picasso.with(mContext).load(R.drawable.yanghu_true)
+                        .into(iv_nursing);
+            }
         }
+
 
         tv_training_name.setText(name_training);
         tv_training_num.setText(num_done_training);
@@ -341,7 +357,7 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         tv_nursing_num.setText(num_done_nursing);
 
         //这里先将健康配件部分隐藏
-        ll_fitting.setVisibility(View.GONE);
+        //ll_fitting.setVisibility(View.GONE);
     }
 
     @Override
@@ -385,8 +401,19 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                         intent_training_true.putExtra("done_times", mDone_times);
                         startActivity(intent_training_true);
                     } else {
-                        //TODO:dialog
-                        dowmloadVideo();
+                        Log.i(TAG, "onClick: 大小为" + mTotal_size);
+                        new AlertDialog.Builder(this)
+                                .setTitle("下载视频")
+                                .setMessage("未下载视频，是否下载？\n共" + mTotal_size / 1024 / 1024 + "M")
+                                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        dowmloadVideo();
+                                    }
+                                })
+                                .setNegativeButton("取消", null)
+                                .show();
+
                     }
                 }
 
@@ -429,7 +456,17 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
             case R.id.download_video:
 
                 if (mVideoIconInfo != null) {
-                    dowmloadVideo();
+                    new AlertDialog.Builder(this)
+                            .setTitle("下载视频")
+                            .setMessage("是否下载视频？\n共" + mTotal_size / 1024 / 1024 + "M")
+                            .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                    dowmloadVideo();
+                                }
+                            })
+                            .setNegativeButton("取消", null)
+                            .show();
                 }
                 break;
             case R.id.remove:

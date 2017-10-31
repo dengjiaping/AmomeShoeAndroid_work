@@ -20,14 +20,14 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="230dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/activity_use_tmp"/>
             <!--上面是图片，下面为活动开始部分-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="8dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
                 android:background="#FF9A4A"

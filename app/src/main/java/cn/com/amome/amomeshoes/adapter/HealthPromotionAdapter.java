@@ -3,7 +3,6 @@ package cn.com.amome.amomeshoes.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,8 +37,6 @@ public class HealthPromotionAdapter extends RecyclerView.Adapter<HealthPromotion
     }
 
 
-
-
     static class ViewHolder extends RecyclerView.ViewHolder {
         ImageView iv_promotion_illness, iv_promotion_fitting, iv_promotion_curing, iv_promotion_action;
         TextView tv_promotion_illness_name;
@@ -66,7 +63,6 @@ public class HealthPromotionAdapter extends RecyclerView.Adapter<HealthPromotion
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         final PromotionDataInfo info = infoList.get(position);
-        Log.e("TAG", "onBindViewHolder: "+infoList.size());
         if (position == (infoList.size() - 1)) {
             Picasso.with(mContext).load(R.drawable.add_promotion)
                     .fit()

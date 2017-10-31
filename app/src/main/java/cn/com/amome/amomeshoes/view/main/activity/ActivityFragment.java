@@ -76,8 +76,10 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                                 //通过gson的TypeToken将字符串转为list
                                 footInfo = gson.fromJson(jsonfoot, new TypeToken<List<IllnessInfo>>() {
                                 }.getType());
-                                //Log.e(TAG, footInfo.toString());
-                                initData(MSG_GET_ILLNESS_FOOT);
+                                if (footInfo != null) {
+                                    initData(MSG_GET_ILLNESS_FOOT);
+                                }
+
                             }
                             break;
                         case MSG_GET_ILLNESS_POSTURE:
@@ -87,8 +89,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                             } else {
                                 postureInfo = gson.fromJson(jsonposture, new TypeToken<List<IllnessInfo>>() {
                                 }.getType());
-                                // Log.e(TAG+"po", postureInfo.toString());
-                                initData(MSG_GET_ILLNESS_POSTURE);
+                                if (postureInfo != null) {
+                                    initData(MSG_GET_ILLNESS_POSTURE);
+                                }
                             }
                             break;
                         case MSG_GET_ILLNESS_BALANCE:
@@ -98,7 +101,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                             } else {
                                 balanceInfo = gson.fromJson(jsonbalance, new TypeToken<List<IllnessInfo>>() {
                                 }.getType());
-                                initData(MSG_GET_ILLNESS_BALANCE);
+                                if (balanceInfo != null) {
+                                    initData(MSG_GET_ILLNESS_BALANCE);
+                                }
                             }
                             break;
                         case MSG_GET_ILLNESS_GAIT:
@@ -108,7 +113,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
                             } else {
                                 gaitInfo = gson.fromJson(jsongait, new TypeToken<List<IllnessInfo>>() {
                                 }.getType());
-                                initData(MSG_GET_ILLNESS_GAIT);
+                                if (gaitInfo != null) {
+                                    initData(MSG_GET_ILLNESS_GAIT);
+                                }
                             }
                             break;
                         default:
@@ -151,14 +158,12 @@ public class ActivityFragment extends Fragment implements OnClickListener {
             case MSG_GET_ILLNESS_BALANCE:
                 recycle_activity_balance.setLayoutManager(linearLayoutManager);
                 balanceadapter = new ActivityillnessAdapter(mContext, balanceInfo);
-                recycle_activity_posture.setAdapter(balanceadapter);
-                Log.e(TAG, "initData: MSG_GET_ILLNESS_BALANCE");
+                recycle_activity_balance.setAdapter(balanceadapter);
                 break;
             case MSG_GET_ILLNESS_GAIT:
                 recycle_activity_gait.setLayoutManager(linearLayoutManager);
                 gaitadapter = new ActivityillnessAdapter(mContext, gaitInfo);
-                recycle_activity_posture.setAdapter(gaitadapter);
-                Log.e(TAG, "initData: MSG_GET_ILLNESS_BALANCE");
+                recycle_activity_gait.setAdapter(gaitadapter);
                 break;
             default:
                 break;

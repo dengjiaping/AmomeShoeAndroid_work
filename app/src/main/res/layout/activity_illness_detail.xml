@@ -29,7 +29,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="扁平足"
             android:textColor="#FFFFFF"
             android:textSize="20sp"/>
     </FrameLayout>
@@ -106,7 +105,8 @@
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
                 android:background="#FAFAFA"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="80dp"
@@ -195,7 +195,8 @@
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
                 android:background="#FAFAFA"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="80dp"
@@ -284,7 +285,8 @@
                 android:layout_height="100dp"
                 android:layout_margin="10dp"
                 android:background="#FAFAFA"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="80dp"
