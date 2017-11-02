@@ -1,6 +1,0 @@
-1、ExerciseFragment：运动页面。对应布局文件fragment_exercise_main.xml。
-该页面包含四个可以滑动的分页,依次为ExerciseMotionFragment、ExerciseEvaluateFragment、ExerciseRadarFragment、ExerciseHistoryFragment，滑动依次切换到相应页面。
-2、ExerciseMotionFragment：包含两个子页面，TodayFragment、YesterdayFragment。其中TodayFragment用于和智能鞋建立连接，上传历史数据并实时展现今日坐站走数据和卡路里消耗。YesterdayFragment用于展示昨日的坐站走数据。
-3、ExerciseEvaluateFragment：运动评估页面，根据今日坐站走时间评估人的运动水平。
-4、ExerciseRadarFragment：运动雷达图页面，根据6项指标展示今日的运动信息。
-5、ExerciseHistoryFragment：运动历史数据页面，展示历史坐站走数据和消耗的卡路里。

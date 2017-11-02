@@ -135,7 +135,8 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
         getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
         getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
-        getIllnessInfo(GET_TYPE_GAIT, MSG_GET_ILLNESS_GAIT);
+        //这里用不到先屏蔽
+        //getIllnessInfo(GET_TYPE_GAIT, MSG_GET_ILLNESS_GAIT);
     }
 
     /**
@@ -279,8 +280,8 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
         getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
         getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
-        getIllnessInfo(GET_TYPE_GAIT, MSG_GET_ILLNESS_GAIT);
-        Log.e(TAG, "onCreateView: ");
+        //这里用不到先屏蔽
+        //getIllnessInfo(GET_TYPE_GAIT, MSG_GET_ILLNESS_GAIT);
         return rootView;
     }
 
@@ -297,7 +298,8 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         checkmore_foot.setOnClickListener(this);
         checkmore_posture.setOnClickListener(this);
         checkmore_balance.setOnClickListener(this);
-        checkmore_gait.setOnClickListener(this);
+        //先屏蔽步态的more
+        //checkmore_gait.setOnClickListener(this);
 
         recycle_activity_foot = (RecyclerView) view.findViewById(R.id.recycle_activity_foot);
         recycle_activity_posture = (RecyclerView) view.findViewById(R.id.recycle_activity_posture);
@@ -369,7 +371,6 @@ public class ActivityFragment extends Fragment implements OnClickListener {
 
     //发送请求的部分
     public void getIllnessInfo(String type, int code) {
-        Log.e(TAG, "getIllnessInfo: ");
         RequestParams params = new RequestParams();
         params.put("useid", SpfUtil.readUserId(mContext));
         params.put("calltype", ClientConstant.GET_PROMOTION_INFO_TYPE);
