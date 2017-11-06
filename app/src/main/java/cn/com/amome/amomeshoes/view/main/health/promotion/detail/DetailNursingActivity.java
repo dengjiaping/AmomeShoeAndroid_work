@@ -12,6 +12,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -41,6 +42,7 @@ public class DetailNursingActivity extends Activity implements View.OnClickListe
     private Gson gson = new Gson();
 
     private ImageView iv_left;
+    private TextView title_tv;
     private RecyclerView rv_nursing;
     private static final int MSG_GET_DATA = 0;
     private List<DetailNursingInfo> nursingInfo;
@@ -76,6 +78,12 @@ public class DetailNursingActivity extends Activity implements View.OnClickListe
         iv_left = (ImageView) findViewById(R.id.iv_left);
         rv_nursing = (RecyclerView) findViewById(R.id.rv_nursing);
         iv_left.setOnClickListener(this);
+        title_tv = findViewById(R.id.title_tv);
+        if (type.equals("accessory")) {
+            title_tv.setText("健康配件");
+        } else if (type.equals("nursing")) {
+            title_tv.setText("日常养护");
+        }
 
     }
 

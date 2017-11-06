@@ -73,6 +73,11 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
     private String mNum_nursing;
     private String mName_nursing;
     private String mDetail_nursing;
+    private List<IllnessDetailInfo.HealthschemeBean.AccessoryBean> mAccessory;
+    private IllnessDetailInfo.HealthschemeBean.AccessoryBean mAccessoryBean;
+    private String mNum_accessory;
+    private String mName_accessory;
+    private String mDetail_accessory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -269,6 +274,8 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         mNursingBean = mNursing.get(0);
         mTraining = mHealthschemeBean.getTraining();
         mTrainingBean = mTraining.get(0);
+        mAccessory = mHealthschemeBean.getAccessory();
+        mAccessoryBean = mAccessory.get(0);
 
         mNum_training = mTrainingBean.getNum();
         mName_training = mTrainingBean.getName();
@@ -276,6 +283,9 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         mNum_nursing = mNursingBean.getNum();
         mName_nursing = mNursingBean.getName();
         mDetail_nursing = mNursingBean.getDetail();
+        mNum_accessory = mAccessoryBean.getNum();
+        mName_accessory = mAccessoryBean.getName();
+        mDetail_accessory = mAccessoryBean.getDetail();
 
 
         Picasso.with(mContext).load(mIcon)
@@ -286,13 +296,16 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         tv_detail_illness_name.setText(mIllnessname);
         tv_describe.setText(mDefinition);
         //这里先设置健康配件部分不显示
-        //TODO:暂时没有数据，等待有数据了再添加
+
         //ll_fitting.setVisibility(View.GONE);
         if (mName_training != null) {
             ll_training.setVisibility(View.VISIBLE);
         }
         if (mName_nursing != null) {
             ll_nursing.setVisibility(View.VISIBLE);
+        }
+        if (mName_accessory != null) {
+            ll_fitting.setVisibility(View.VISIBLE);
         }
 
         tv_num_training.setText(mNum_training);
@@ -301,6 +314,9 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
         tv_num_nursing.setText(mNum_nursing);
         tv_name_nursing.setText(mName_nursing);
         tv_detail_nursing.setText(mDetail_nursing);
+        tv_num_fitting.setText(mNum_accessory);
+        tv_name_fitting.setText(mName_accessory);
+        tv_detail_fitting.setText(mDetail_accessory);
 
     }
 
@@ -324,7 +340,10 @@ public class IllnessDetailActivity extends Activity implements View.OnClickListe
                 startActivity(intent_training);
                 break;
             case R.id.iv_fitting_detail:
-                //TODO: 有配件的信息后显示配件的ll模块并完成点击事件的处理
+                Intent intent_fitting = new Intent(mContext, DetailNursingActivity.class);
+                intent_fitting.putExtra("disease", disease);
+                intent_fitting.putExtra("type", "accessory");
+                startActivity(intent_fitting);
                 break;
             case R.id.iv_nursing_detail:
                 Intent intent_nursing = new Intent(mContext, DetailNursingActivity.class);

@@ -25,10 +25,12 @@ public class DetailNursingTrueAdapter extends RecyclerView.Adapter<DetailNursing
     private List<NursingTrueInfo> list;
     private MyItemClickListener mMyItemClickListener;
     private int num;
+    private String type;
 
-    public DetailNursingTrueAdapter(Context context, List<NursingTrueInfo> list, int listsize) {
+    public DetailNursingTrueAdapter(Context context, List<NursingTrueInfo> list, int listsize, String type) {
         mContext = context;
         this.list = list;
+        this.type = type;
         num = listsize;
         if (num < 6) {
             for (int i = num; i < 6; i++) {
@@ -79,7 +81,11 @@ public class DetailNursingTrueAdapter extends RecyclerView.Adapter<DetailNursing
 
             } else if (info.getIs_done().equals("1")) {
                 if (Integer.valueOf(info.getUser_breakdays()) < Integer.valueOf(info.getBreakdays())) {
-                    holder.tv_item_recycler.setText("已养护(" + info.getWeardays() + ")天");
+                    if (type.equals("nursing")) {
+                        holder.tv_item_recycler.setText("已养护(" + info.getWeardays() + ")天");
+                    } else if (type.equals("accessory")) {
+                        holder.tv_item_recycler.setText("已穿戴(" + info.getWeardays() + ")天");
+                    }
                     Picasso.with(mContext).load(info.getIcon_done())
                             .fit()
                             .into(holder.iv_item_recycler);

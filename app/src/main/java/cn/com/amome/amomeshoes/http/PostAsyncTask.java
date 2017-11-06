@@ -1,19 +1,20 @@
 package cn.com.amome.amomeshoes.http;
 
-import cn.com.amome.amomeshoes.util.T;
-import cn.com.amome.shoeencrypt.AmomeEncrypt;
-
-import com.loopj.android.http.AsyncHttpClient;
-import org.apache.http.Header;
-import com.loopj.android.http.AsyncHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
+
+import org.apache.http.Header;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import cn.com.amome.amomeshoes.util.T;
+import cn.com.amome.shoeencrypt.AmomeEncrypt;
 
 public class PostAsyncTask {
 	private static final String TAG = "PostAsyncTask";
@@ -29,11 +30,7 @@ public class PostAsyncTask {
 
 	// private String url;
 
-	/**
-	 * @param context
-	 * @param handler
-	 * @param url
-	 */
+
 
 	public PostAsyncTask() {
 		verify_count = 0;
@@ -43,6 +40,7 @@ public class PostAsyncTask {
 		verify_count = 0;
 		this.handler = handler;
 	}
+
 
 	public void startAsyncTask(Context mCnt, HttpService.ICallback mCb, final int type, RequestParams params, String url) {
 		mOrgPm = params;

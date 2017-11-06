@@ -297,8 +297,10 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         IllnessDetailTrueInfo.UserdailyBean userdailyBean = userdaily.get(0);
         List<IllnessDetailTrueInfo.UserdailyBean.TrainingBean> training = userdailyBean.getTraining();
         List<IllnessDetailTrueInfo.UserdailyBean.NursingBean> nursing = userdailyBean.getNursing();
+        List<IllnessDetailTrueInfo.UserdailyBean.AccessoryBean> accessory = userdailyBean.getAccessory();
         IllnessDetailTrueInfo.UserdailyBean.TrainingBean trainingBean = training.get(0);
         IllnessDetailTrueInfo.UserdailyBean.NursingBean nursingBean = nursing.get(0);
+        IllnessDetailTrueInfo.UserdailyBean.AccessoryBean accessoryBean = accessory.get(0);
 
         String num_training = trainingBean.getNum();
         String name_training = trainingBean.getName();
@@ -308,6 +310,9 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         String num_nursing = nursingBean.getNum();
         String name_nursing = nursingBean.getName();
         String num_done_nursing = nursingBean.getNum_done();
+        String num_accessory = accessoryBean.getNum();
+        String name_accessory = accessoryBean.getName();
+        String num_done_accessory = accessoryBean.getNum_done();
 
         tv_name.setText(type);
         Picasso.with(mContext).load(icon)
@@ -350,14 +355,33 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
             }
         }
 
+        if (num_done_accessory == null) {
+            ll_fitting.setVisibility(View.GONE);
+        } else {
+            ll_fitting.setVisibility(View.VISIBLE);
+            if (Integer.parseInt(num_done_accessory) < Integer.parseInt(num_accessory)) {
+                Picasso.with(mContext).load(R.drawable.begin_btn)
+                        .into(iv_fitting_enter);
+                Picasso.with(mContext).load(R.drawable.peijian)
+                        .into(iv_fitting);
+            } else if (Integer.parseInt(num_done_nursing) == Integer.parseInt(num_nursing)) {
+                Picasso.with(mContext).load(R.drawable.again_btn)
+                        .into(iv_fitting_enter);
+                Picasso.with(mContext).load(R.drawable.peijian_true)
+                        .into(iv_fitting);
+            }
+        }
+
+
 
         tv_training_name.setText(name_training);
         tv_training_num.setText(num_done_training);
         tv_nursing_name.setText(name_nursing);
         tv_nursing_num.setText(num_done_nursing);
+        tv_fitting_name.setText(name_accessory);
+        tv_fitting_num.setText(num_done_accessory);
 
-        //这里先将健康配件部分隐藏
-        //ll_fitting.setVisibility(View.GONE);
+
     }
 
     @Override
@@ -432,10 +456,16 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                 startActivity(intent_nursing_true);
                 break;
             case R.id.iv_fitting:
-                //隐藏的配件界面
+                Intent intent_fitting = new Intent(mContext, DetailNursingActivity.class);
+                intent_fitting.putExtra("disease", disease);
+                intent_fitting.putExtra("type", "accessory");
+                startActivity(intent_fitting);
                 break;
             case R.id.iv_fitting_enter:
-                //隐藏的配件界面
+                Intent intent_fitting_true = new Intent(mContext, DetailNursingTrueActivity.class);
+                intent_fitting_true.putExtra("disease", disease);
+                intent_fitting_true.putExtra("type", "accessory");
+                startActivity(intent_fitting_true);
                 break;
             default:
                 break;

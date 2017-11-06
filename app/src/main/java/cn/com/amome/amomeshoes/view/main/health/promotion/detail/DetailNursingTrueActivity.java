@@ -283,7 +283,7 @@ public class DetailNursingTrueActivity extends Activity implements View.OnClickL
         }
         StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
         rv_nursing_true.setLayoutManager(layoutManager);
-        adapter = new DetailNursingTrueAdapter(mContext, infoList, infoList.size());
+        adapter = new DetailNursingTrueAdapter(mContext, infoList, infoList.size(), mType);
         rv_nursing_true.setAdapter(adapter);
         adapter.setOnItemClickListener(this);
 

@@ -15,8 +15,8 @@ public class IllnessDetailTrueInfo {
 
     /**
      * type : 扁平足
-     * icon : http://www.iamome.cn/AmomeWebApp/res/healthpromotion/bianping2@2x.png
-     * userdaily : [{"training":[{"num":"6","name":"双足夹物,右脚捡物,左脚捡物,脚跟踩地三连动,足趾屈伸,足趾展收","num_done":"0","newest_id":"0","done_times":"1"}],"nursing":[{"num":"2","name":"按摩,异地行走","num_done":"0"}]}]
+     * icon : http://www.iamome.cn/AmomeWebApp/res/healthpromotion/foot/2/bianpingzu2.jpg
+     * userdaily : [{"training":[{"num":"6","name":"脚跟踩地三连动,足趾屈伸,足趾展收,左脚捡物,右脚捡物,双足夹物","num_done":"2","newest_id":"0","done_times":"2"}],"accessory":[{"num":"4","name":"配件一,配件二,配件三,配件四","num_done":"0"}],"nursing":[{"num":"2","name":"按摩,异地行走","num_done":"1"}]}]
      */
 
     private String type;
@@ -62,6 +62,7 @@ public class IllnessDetailTrueInfo {
 
     public static class UserdailyBean {
         private List<TrainingBean> training;
+        private List<AccessoryBean> accessory;
         private List<NursingBean> nursing;
 
         public static UserdailyBean objectFromData(String str, String key) {
@@ -85,6 +86,14 @@ public class IllnessDetailTrueInfo {
             this.training = training;
         }
 
+        public List<AccessoryBean> getAccessory() {
+            return accessory;
+        }
+
+        public void setAccessory(List<AccessoryBean> accessory) {
+            this.accessory = accessory;
+        }
+
         public List<NursingBean> getNursing() {
             return nursing;
         }
@@ -96,10 +105,10 @@ public class IllnessDetailTrueInfo {
         public static class TrainingBean {
             /**
              * num : 6
-             * name : 双足夹物,右脚捡物,左脚捡物,脚跟踩地三连动,足趾屈伸,足趾展收
-             * num_done : 0
+             * name : 脚跟踩地三连动,足趾屈伸,足趾展收,左脚捡物,右脚捡物,双足夹物
+             * num_done : 2
              * newest_id : 0
-             * done_times : 1
+             * done_times : 2
              */
 
             private String num;
@@ -162,11 +171,60 @@ public class IllnessDetailTrueInfo {
             }
         }
 
+        public static class AccessoryBean {
+            /**
+             * num : 4
+             * name : 配件一,配件二,配件三,配件四
+             * num_done : 0
+             */
+
+            private String num;
+            private String name;
+            private String num_done;
+
+            public static AccessoryBean objectFromData(String str, String key) {
+
+                try {
+                    JSONObject jsonObject = new JSONObject(str);
+
+                    return new Gson().fromJson(jsonObject.getString(str), AccessoryBean.class);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                return null;
+            }
+
+            public String getNum() {
+                return num;
+            }
+
+            public void setNum(String num) {
+                this.num = num;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public String getNum_done() {
+                return num_done;
+            }
+
+            public void setNum_done(String num_done) {
+                this.num_done = num_done;
+            }
+        }
+
         public static class NursingBean {
             /**
              * num : 2
              * name : 按摩,异地行走
-             * num_done : 0
+             * num_done : 1
              */
 
             private String num;

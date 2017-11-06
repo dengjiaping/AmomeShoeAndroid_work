@@ -316,6 +316,7 @@ public class AsynHttpDowanloadFile {
     /**
      * @param url 要下载的文件URL
      * @throws Exception
+     * 下载视频的方法
      */
     public static void downloadVideo(final String url, final String path, final String filename,
                                      final Context mContext) throws Exception {
