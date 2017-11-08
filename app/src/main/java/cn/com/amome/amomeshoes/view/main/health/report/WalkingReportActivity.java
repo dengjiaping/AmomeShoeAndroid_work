@@ -58,7 +58,7 @@ public class WalkingReportActivity extends Activity implements OnClickListener {
             tv_left_double_phase_percent, tv_right_double_phase_percent,
             tv_left_stand_phase_percent, tv_right_stand_phase_percent,
             tv_left_swing_phase_percent, tv_right_swing_phase_percent, tv_tip1,
-            tv_tip2, tv_no_data_tip;
+            tv_tip2, tv_no_data_tip, tv_iserror;
     private RelativeLayout rl_walk_progress, rl_step_progress;
     private View view_walk_progress, view_step_progress;
     private Gson gson = new Gson();
@@ -92,6 +92,16 @@ public class WalkingReportActivity extends Activity implements OnClickListener {
                                 walkingInfo = WalkingInfoList.get(0);
                                 tv_report_foot_date.setText("报告日期："
                                         + walkingInfo.create_time);
+                                //2017.11.08 ccf 修改添加异常的显示提示
+                                if (walkingInfo.l_bisptphase.equals("0.00") &&
+                                        walkingInfo.l_pacetime.equals("0.00") &&
+                                        walkingInfo.l_stdphase.equals("0.00") &&
+                                        walkingInfo.l_stridefqc.equals("0.00") &&
+                                        walkingInfo.l_stridetime.equals("0.00") &&
+                                        walkingInfo.l_swingphase.equals("0.00") &&
+                                        walkingInfo.l_unisptphase.equals("0.00")) {
+                                    tv_iserror.setVisibility(View.VISIBLE);
+                                }
                                 tv_walk_result.setText(walkingInfo.symmetry);
                                 tv_step_result.setText(walkingInfo.gait);
                                 tv_tip1.setText(walkingInfo.symmetryreport);
@@ -212,6 +222,7 @@ public class WalkingReportActivity extends Activity implements OnClickListener {
     };
 
     private void initGaitData() {
+
         StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
         re_gait.setLayoutManager(layoutManager);
         promotionAddAdapter = new PromotionAddAdapter(mContext, gaitInfoList);
@@ -259,6 +270,7 @@ public class WalkingReportActivity extends Activity implements OnClickListener {
         tv_right_swing_phase_percent = (TextView) findViewById(R.id.tv_right_swing_phase_percent);
         tv_tip1 = (TextView) findViewById(R.id.tv_tip1);
         tv_tip2 = (TextView) findViewById(R.id.tv_tip2);
+        tv_iserror = (TextView) findViewById(R.id.tv_iserror);
         tv_no_data_tip = (TextView) findViewById(R.id.tv_no_data_tip);
         rl_walk_progress = (RelativeLayout) findViewById(R.id.rl_walk_progress);
         rl_step_progress = (RelativeLayout) findViewById(R.id.rl_step_progress);

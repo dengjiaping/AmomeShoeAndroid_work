@@ -1,26 +1,5 @@
 package cn.com.amome.amomeshoes.view.main.health.detection.walk;
 
-import java.util.List;
-
-import org.apache.http.Header;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.loopj.android.http.RequestParams;
-import com.umeng.analytics.MobclickAgent;
-
-import cn.com.amome.amomeshoes.R;
-import cn.com.amome.amomeshoes.http.ClientConstant;
-import cn.com.amome.amomeshoes.http.HttpService;
-import cn.com.amome.amomeshoes.http.PostAsyncTask;
-import cn.com.amome.amomeshoes.model.FootMeaInfo;
-import cn.com.amome.amomeshoes.model.WalkingInfo;
-import cn.com.amome.amomeshoes.util.SpfUtil;
-import cn.com.amome.amomeshoes.view.main.health.report.FootReportActivity;
-import cn.com.amome.amomeshoes.view.main.health.report.WalkingReportActivity;
-import cn.com.amome.shoeservice.BleService;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
@@ -33,8 +12,28 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.RelativeLayout.LayoutParams;
+import android.widget.TextView;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.loopj.android.http.RequestParams;
+import com.umeng.analytics.MobclickAgent;
+
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.List;
+
+import cn.com.amome.amomeshoes.R;
+import cn.com.amome.amomeshoes.http.ClientConstant;
+import cn.com.amome.amomeshoes.http.HttpService;
+import cn.com.amome.amomeshoes.http.PostAsyncTask;
+import cn.com.amome.amomeshoes.model.WalkingInfo;
+import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.com.amome.amomeshoes.view.main.health.report.WalkingReportActivity;
+import cn.com.amome.shoeservice.BleService;
 
 /**
  * 
@@ -45,7 +44,7 @@ public class WalkReportActivity extends Activity implements OnClickListener {
 	private String TAG = "WalkReportActivity";
 	private Context mContext;
 	private TextView tv_title, tv_walk_result, tv_step_result, tv_tip1,
-			tv_tip2;
+			tv_tip2, tv_tip3;
 	private Gson gson = new Gson();
 	private List<WalkingInfo> WalkingInfoList;
 	private WalkingInfo walkingInfo;
@@ -113,6 +112,17 @@ public class WalkReportActivity extends Activity implements OnClickListener {
 						}
 						view_step_progress
 								.setLayoutParams(lp_view_step_progress);
+
+						//2017.11.08 ccf 修改添加o
+						if (walkingInfo.l_bisptphase.equals("0.00") &&
+								walkingInfo.l_pacetime.equals("0.00")&&
+								walkingInfo.l_stdphase.equals("0.00")&&
+								walkingInfo.l_stridefqc.equals("0.00")&&
+								walkingInfo.l_stridetime.equals("0.00")&&
+								walkingInfo.l_swingphase.equals("0.00")&&
+								walkingInfo.l_unisptphase.equals("0.00")) {
+							tv_tip3.setVisibility(View.VISIBLE);
+						}
 					}
 					break;
 				default:
@@ -141,6 +151,7 @@ public class WalkReportActivity extends Activity implements OnClickListener {
 		tv_step_result = (TextView) findViewById(R.id.tv_step_result);
 		tv_tip1 = (TextView) findViewById(R.id.tv_tip1);
 		tv_tip2 = (TextView) findViewById(R.id.tv_tip2);
+		tv_tip3 = (TextView) findViewById(R.id.tv_tip3);
 		rl_walk_progress = (RelativeLayout) findViewById(R.id.rl_walk_progress);
 		rl_step_progress = (RelativeLayout) findViewById(R.id.rl_step_progress);
 		view_walk_progress = findViewById(R.id.view_walk_progress);

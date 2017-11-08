@@ -21,15 +21,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/darker_gray">
+    <TextView
+        android:id="@+id/tv_report_foot_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/y6"
+        android:text="报告日期："
+        android:textColor="@android:color/white" />
+    <TextView
+        android:id="@+id/tv_iserror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="@dimen/y6"
+        android:text="需重新检测"
+        android:textColor="#FF0808"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"/>
+</LinearLayout>
 
-            <TextView
-                android:id="@+id/tv_report_foot_date"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/darker_gray"
-                android:padding="@dimen/y6"
-                android:text="报告日期："
-                android:textColor="@android:color/white" />
 
             <LinearLayout
                 android:layout_width="match_parent"
