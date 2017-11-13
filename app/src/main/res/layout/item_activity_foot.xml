@@ -24,8 +24,7 @@
             android:layout_height="0dp"
             android:gravity="center"
             android:layout_weight="4"
-            android:text="扁平足"
-            android:textColor="#FF9A4A"
+            android:textColor="#FFFFFF"
             android:textSize="23sp"
             android:textStyle="bold"/>
 
