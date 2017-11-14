@@ -1,1117 +1,1117 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/e97ba7772810bf64883620077039d75e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:2:1-11:12
-MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:1-693:12
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:1-693:12
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:1-693:12
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:1-693:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\94e61f54016a3ceb80f5502706cba736\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fa16a5a6794effeee23755d868beb54a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7ce978248e8615d1b1ee75eed83cc4ba\AndroidManifest.xml:2:1-11:12
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiaozivideoplayer-6.0.2.aar\73e43c81403745f152a8c3d6be732ed5\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\bee79f7b9186ea5cc9eb7210c789f959\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ad35f414556112c08d3a09724fe37fcb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0110baae2e3f0f8debfe74d4bb215056\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4e23195b26bca8c01bcd0e5bca375987\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fbf702b9b64d27c1b836ea25d87701\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5071d77dd4a21e7f37d4a50d677553af\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c011b20c733ef7684b48c62874f8cee3\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:1-693:12
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:1-693:12
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:1-693:12
 	package
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:3:11-44
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:3:11-44
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:5:11-38
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:5:11-38
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:4:11-34
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/e97ba7772810bf64883620077039d75e/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/e97ba7772810bf64883620077039d75e/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:5:5-7:41
-MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:7:5-9:41
-MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:21:5-23:58
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:7:5-9:40
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:7:5-9:40
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:7:5-9:40
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\94e61f54016a3ceb80f5502706cba736\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\94e61f54016a3ceb80f5502706cba736\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fa16a5a6794effeee23755d868beb54a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fa16a5a6794effeee23755d868beb54a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7ce978248e8615d1b1ee75eed83cc4ba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7ce978248e8615d1b1ee75eed83cc4ba\AndroidManifest.xml:5:5-7:41
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiaozivideoplayer-6.0.2.aar\73e43c81403745f152a8c3d6be732ed5\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiaozivideoplayer-6.0.2.aar\73e43c81403745f152a8c3d6be732ed5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\bee79f7b9186ea5cc9eb7210c789f959\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\bee79f7b9186ea5cc9eb7210c789f959\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ad35f414556112c08d3a09724fe37fcb\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ad35f414556112c08d3a09724fe37fcb\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0110baae2e3f0f8debfe74d4bb215056\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0110baae2e3f0f8debfe74d4bb215056\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4e23195b26bca8c01bcd0e5bca375987\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4e23195b26bca8c01bcd0e5bca375987\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fbf702b9b64d27c1b836ea25d87701\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fbf702b9b64d27c1b836ea25d87701\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5071d77dd4a21e7f37d4a50d677553af\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5071d77dd4a21e7f37d4a50d677553af\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c011b20c733ef7684b48c62874f8cee3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c011b20c733ef7684b48c62874f8cee3\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:7:5-9:40
+INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:7:5-9:40
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:8:9-35
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
+		INJECTED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:11:5-77
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:11:5-77
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:11:22-75
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:11:22-75
 uses-permission#android.permission.INTERNET
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:13:5-66
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:13:5-66
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:13:22-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:15:5-78
-MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:11:5-79
-MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/0ae13a545281e23fde37b0ce7fabc338/AndroidManifest.xml:11:5-79
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:15:5-78
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiaozivideoplayer-6.0.2.aar\73e43c81403745f152a8c3d6be732ed5\AndroidManifest.xml:11:5-79
+MERGED from [cn.jzvd:jiaozivideoplayer:6.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiaozivideoplayer-6.0.2.aar\73e43c81403745f152a8c3d6be732ed5\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:15:22-76
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:17:5-75
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:17:22-73
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:17:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:19:5-75
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:19:5-75
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:19:22-73
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:19:22-73
 uses-permission#android.permission.BLUETOOTH
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:21:5-67
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:21:22-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:21:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:23:5-73
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:23:5-73
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:23:22-71
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:23:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:25:5-80
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:25:5-80
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:25:22-78
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:25:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:26:5-65
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:26:5-65
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:26:22-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:26:22-63
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:28:5-79
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:28:5-79
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:28:22-77
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:28:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:30:5-80
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:30:5-80
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:30:22-78
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:30:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:32:5-74
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:32:5-74
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:32:22-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:32:22-72
 uses-permission#android.permission.CAMERA
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:34:5-64
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:34:5-64
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:34:22-62
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:34:22-62
 uses-permission#android.permission.GET_TASKS
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:36:5-67
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:36:5-67
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:36:22-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:36:22-65
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:37:5-73
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:37:5-73
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:37:22-71
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:37:22-71
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:38:5-70
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:38:5-70
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:38:22-68
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:38:22-68
 application
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-691:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ccf/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c2b449b88f9f41c966a82d892004d052/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:29:5-20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:40:5-691:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fa16a5a6794effeee23755d868beb54a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fa16a5a6794effeee23755d868beb54a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7ce978248e8615d1b1ee75eed83cc4ba\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7ce978248e8615d1b1ee75eed83cc4ba\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\bee79f7b9186ea5cc9eb7210c789f959\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\bee79f7b9186ea5cc9eb7210c789f959\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ad35f414556112c08d3a09724fe37fcb\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ad35f414556112c08d3a09724fe37fcb\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0110baae2e3f0f8debfe74d4bb215056\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0110baae2e3f0f8debfe74d4bb215056\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4e23195b26bca8c01bcd0e5bca375987\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4e23195b26bca8c01bcd0e5bca375987\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fbf702b9b64d27c1b836ea25d87701\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fbf702b9b64d27c1b836ea25d87701\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5071d77dd4a21e7f37d4a50d677553af\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5071d77dd4a21e7f37d4a50d677553af\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c011b20c733ef7684b48c62874f8cee3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c011b20c733ef7684b48c62874f8cee3\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:44:9-41
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:44:9-41
 	android:icon
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:43:9-45
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:43:9-45
 	android:allowBackup
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:42:9-36
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:42:9-36
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:46:9-40
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:46:9-40
 	android:logo
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:45:9-45
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:45:9-45
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:41:9-40
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:41:9-40
 activity#cn.com.amome.amomeshoes.view.account.WelcomeActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:47:9-59:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:47:9-59:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:52:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:52:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:51:13-45
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:51:13-45
 	android:configChanges
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:50:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:50:13-63
 	android:alwaysRetainTaskState
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:49:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:49:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:53:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:53:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:48:13-57
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:48:13-57
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:54:13-58:29
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:54:13-58:29
 action#android.intent.action.MAIN
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:55:17-68
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:55:17-68
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:55:25-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:55:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:57:17-76
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:57:17-76
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:57:27-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:57:27-74
 activity#cn.com.amome.amomeshoes.view.account.IntroductionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:61:9-65:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:61:9-65:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:63:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:63:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:64:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:64:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:62:13-62
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:62:13-62
 activity#cn.com.amome.amomeshoes.view.account.LoginActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:67:9-71:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:67:9-71:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:69:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:69:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:70:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:70:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:68:13-55
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:68:13-55
 activity#cn.com.amome.amomeshoes.view.account.ForgetPwActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:73:9-77:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:73:9-77:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:75:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:75:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:76:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:76:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:74:13-58
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:74:13-58
 activity#cn.com.amome.amomeshoes.view.account.RegisterActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:79:9-83:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:79:9-83:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:81:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:81:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:82:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:82:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:80:13-58
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:80:13-58
 activity#cn.com.amome.amomeshoes.view.account.RegProtoActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:85:9-90:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:85:9-90:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:87:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:87:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:89:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:89:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:88:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:88:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:86:13-58
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:86:13-58
 activity#cn.com.amome.amomeshoes.view.account.ChoosePayActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:92:9-97:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:92:9-97:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:94:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:94:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:96:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:96:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:95:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:95:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:93:13-59
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:93:13-59
 activity#cn.com.amome.amomeshoes.view.account.SweepActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:99:9-105:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:99:9-105:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:102:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:102:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:104:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:104:13-72
 	android:configChanges
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:101:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:101:13-63
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:103:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:103:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:100:13-55
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:100:13-55
 activity#cn.com.amome.amomeshoes.view.account.PayActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:107:9-112:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:107:9-112:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:109:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:109:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:111:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:111:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:110:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:110:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:108:13-53
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:108:13-53
 activity#cn.com.amome.amomeshoes.view.account.PayResultActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:114:9-119:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:114:9-119:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:116:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:116:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:118:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:118:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:117:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:117:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:115:13-59
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:115:13-59
 activity#cn.com.amome.amomeshoes.view.main.MainFragmentActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:121:9-125:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:121:9-125:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:123:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:123:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:124:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:124:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:122:13-59
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:122:13-59
 activity#cn.com.amome.amomeshoes.view.main.health.MarketWebviewActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:127:9-131:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:127:9-131:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:129:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:129:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:130:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:130:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:128:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:128:13-67
 activity#cn.com.amome.amomeshoes.view.main.my.setting.JDWebviewActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:133:9-137:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:133:9-137:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:135:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:135:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:136:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:136:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:134:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:134:13-67
 activity#cn.com.amome.amomeshoes.view.main.my.setting.WeiboWebviewActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:139:9-143:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:139:9-143:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:141:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:141:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:142:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:142:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:140:13-70
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:140:13-70
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.LookMainActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:145:9-150:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:145:9-150:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:147:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:147:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:149:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:149:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:148:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:148:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:146:13-75
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:146:13-75
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.FootLookActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:152:9-157:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:152:9-157:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:154:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:154:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:156:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:156:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:155:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:155:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:153:13-75
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:153:13-75
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.LookFootpainActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:159:9-164:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:159:9-164:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:161:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:161:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:163:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:163:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:162:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:162:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:160:13-79
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:160:13-79
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.LookFootdiseasActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:166:9-171:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:166:9-171:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:168:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:168:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:170:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:170:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:169:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:169:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:167:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:167:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.LookFootcolorActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:173:9-178:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:173:9-178:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:175:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:175:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:177:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:177:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:176:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:176:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:174:13-80
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:174:13-80
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.LookFootprintsActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:180:9-185:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:180:9-185:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:182:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:182:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:184:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:184:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:183:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:183:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:181:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:181:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.LookShapActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:187:9-192:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:187:9-192:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:189:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:189:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:191:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:191:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:190:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:190:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:188:13-75
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:188:13-75
 activity#cn.com.amome.amomeshoes.view.main.health.service.look.LookSizeActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:194:9-199:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:194:9-199:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:196:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:196:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:198:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:198:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:197:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:197:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:195:13-75
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:195:13-75
 activity#cn.com.amome.amomeshoes.view.main.health.service.ruler.RulerIntroductionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:201:9-205:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:201:9-205:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:203:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:203:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:204:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:204:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:202:13-85
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:202:13-85
 activity#cn.com.amome.amomeshoes.view.main.health.service.ruler.RulerFootRightActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:207:9-211:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:207:9-211:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:209:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:209:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:210:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:210:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:208:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:208:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.service.ruler.RulerFootLeftActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:213:9-217:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:213:9-217:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:215:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:215:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:216:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:216:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:214:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:214:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.service.ruler.RulerResultActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:219:9-223:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:219:9-223:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:221:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:221:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:222:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:222:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:220:13-79
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:220:13-79
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.MainShoesBoxActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:225:9-229:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:225:9-229:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:227:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:227:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:228:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:228:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:226:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:226:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.AddShoesBoxActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:231:9-235:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:231:9-235:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:233:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:233:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:234:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:234:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:232:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:232:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ClipPictureActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:237:9-241:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:237:9-241:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:239:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:239:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:240:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:240:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:238:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:238:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ShoeBrandListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:243:9-248:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:243:9-248:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:245:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:245:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:247:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:247:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:246:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:246:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:244:13-83
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:244:13-83
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ShoeCategoryListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:250:9-255:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:250:9-255:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:252:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:252:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:254:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:254:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:253:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:253:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:251:13-86
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:251:13-86
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ShoeMaterialListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:257:9-262:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:257:9-262:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:259:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:259:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:261:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:261:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:260:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:260:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:258:13-86
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:258:13-86
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ShoeHeelListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:264:9-269:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:264:9-269:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:266:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:266:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:268:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:268:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:267:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:267:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:265:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:265:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ShoesBoxListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:271:9-275:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:271:9-275:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:273:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:273:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:274:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:274:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:272:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:272:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ShoesBoxInfoActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:277:9-282:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:277:9-282:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:279:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:279:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:281:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:281:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:280:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:280:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:278:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:278:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.EditShoesBoxActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:284:9-289:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:284:9-289:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:286:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:286:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:288:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:288:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:287:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:287:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:285:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:285:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.ShoesDelReasonActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:291:9-295:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:291:9-295:20
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:293:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:293:13-65
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:294:13-47
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:294:13-47
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:292:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:292:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.service.shoebox.charts.ShoeChartMainFragmentActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:297:9-301:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:297:9-301:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:299:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:299:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:300:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:300:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:298:13-98
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:298:13-98
 activity#cn.com.amome.amomeshoes.view.main.health.service.assistant.AssistMainActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:303:9-307:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:303:9-307:20
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:305:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:305:13-63
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:306:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:306:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:304:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:304:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.service.assistant.AssistOptionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:309:9-313:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:309:9-313:20
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:311:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:311:13-65
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:312:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:312:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:310:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:310:13-84
 activity#cn.com.amome.amomeshoes.view.main.my.secret.FootSecretActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:315:9-319:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:315:9-319:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:317:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:317:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:318:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:318:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:316:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:316:13-67
 activity#cn.com.amome.amomeshoes.view.main.my.secret.ShoeSecretActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:321:9-326:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:321:9-326:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:324:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:324:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:323:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:323:13-63
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:325:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:325:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:322:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:322:13-67
 activity#cn.com.amome.amomeshoes.view.main.my.user.ClipAvatarActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:328:9-332:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:328:9-332:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:330:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:330:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:331:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:331:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:329:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:329:13-65
 activity#cn.com.amome.amomeshoes.view.main.my.user.MyInfomationActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:334:9-339:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:334:9-339:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:336:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:336:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:338:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:338:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:337:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:337:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:335:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:335:13-67
 activity#cn.com.amome.amomeshoes.view.main.my.setting.AppSettingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:341:9-345:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:341:9-345:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:343:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:343:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:344:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:344:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:342:13-68
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:342:13-68
 activity#cn.com.amome.amomeshoes.view.main.my.setting.AccountManagementActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:348:9-352:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:348:9-352:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:350:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:350:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:351:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:351:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:349:13-75
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:349:13-75
 activity#cn.com.amome.amomeshoes.view.main.my.setting.ChangPwActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:354:9-358:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:354:9-358:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:356:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:356:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:357:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:357:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:355:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:355:13-65
 activity#cn.com.amome.amomeshoes.view.main.my.setting.UserHelpActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:360:9-365:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:360:9-365:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:362:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:362:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:364:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:364:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:363:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:363:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:361:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:361:13-66
 activity#cn.com.amome.amomeshoes.view.main.my.setting.UpgradeAmomeActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:367:9-371:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:367:9-371:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:369:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:369:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:370:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:370:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:368:13-70
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:368:13-70
 activity#cn.com.amome.amomeshoes.view.main.my.setting.ContactUsActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:373:9-377:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:373:9-377:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:375:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:375:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:376:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:376:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:374:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:374:13-67
 activity#cn.com.amome.amomeshoes.view.main.bind.BindActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:379:9-384:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:379:9-384:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:382:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:382:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:381:13-56
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:381:13-56
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:383:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:383:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:380:13-56
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:380:13-56
 activity#cn.com.amome.amomeshoes.view.main.my.user.JobListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:386:9-391:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:386:9-391:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:388:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:388:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:390:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:390:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:389:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:389:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:387:13-62
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:387:13-62
 activity#cn.com.amome.amomeshoes.view.main.my.user.HobbyListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:393:9-398:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:393:9-398:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:395:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:395:13-49
 	android:windowSoftInputMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:397:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:397:13-72
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:396:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:396:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:394:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:394:13-64
 activity#cn.com.amome.amomeshoes.view.main.my.SendOpinionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:400:9-404:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:400:9-404:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:402:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:402:13-49
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:403:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:403:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:401:13-61
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:401:13-61
 activity#cn.com.amome.amomeshoes.view.main.my.setting.MoreSettingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:405:9-410:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:405:9-410:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:408:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:408:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:407:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:407:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:409:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:409:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:406:13-69
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:406:13-69
 activity#cn.com.amome.amomeshoes.view.main.bind.ScanBluetoothActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:412:9-416:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:412:9-416:20
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:414:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:414:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:415:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:415:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:413:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:413:13-65
 activity#cn.com.amome.amomeshoes.view.main.bind.BindShockActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:418:9-423:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:418:9-423:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:421:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:421:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:420:13-62
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:420:13-62
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:422:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:422:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:419:13-61
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:419:13-61
 activity#cn.com.amome.amomeshoes.view.main.bind.BindStressActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:425:9-430:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:425:9-430:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:428:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:428:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:427:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:427:13-63
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:429:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:429:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:426:13-62
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:426:13-62
 activity#cn.com.amome.amomeshoes.view.main.bind.BindWalkActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:432:9-437:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:432:9-437:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:435:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:435:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:434:13-61
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:434:13-61
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:436:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:436:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:433:13-60
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:433:13-60
 activity#cn.com.amome.amomeshoes.view.main.bind.SweepShoesActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:439:9-444:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:439:9-444:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:442:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:442:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:441:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:441:13-63
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:443:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:443:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:440:13-62
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:440:13-62
 activity#cn.com.amome.amomeshoes.view.main.my.setting.MyShoesActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:446:9-451:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:446:9-451:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:449:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:449:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:448:13-60
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:448:13-60
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:450:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:450:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:447:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:447:13-65
 activity#cn.com.amome.amomeshoes.view.main.health.detection.ReconnectionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:453:9-457:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:453:9-457:20
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:455:13-64
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:455:13-64
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:456:13-47
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:456:13-47
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:454:13-76
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:454:13-76
 activity#cn.com.amome.amomeshoes.view.main.health.detection.squat.SquatDetectionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:459:9-464:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:459:9-464:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:462:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:462:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:461:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:461:13-67
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:463:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:463:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:460:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:460:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.detection.squat.SquatRecDetectionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:466:9-471:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:466:9-471:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:469:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:469:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:468:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:468:13-67
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:470:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:470:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:467:13-87
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:467:13-87
 activity#cn.com.amome.amomeshoes.view.main.health.detection.squat.SquatReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:473:9-478:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:473:9-478:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:476:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:476:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:475:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:475:13-74
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:477:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:477:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:474:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:474:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.detection.squat.SquatTeachingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:480:9-485:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:480:9-485:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:483:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:483:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:482:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:482:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:484:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:484:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:481:13-83
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:481:13-83
 activity#cn.com.amome.amomeshoes.view.main.health.detection.stand.StandDetectionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:487:9-492:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:487:9-492:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:490:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:490:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:489:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:489:13-67
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:491:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:491:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:488:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:488:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.detection.stand.StandReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:494:9-499:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:494:9-499:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:497:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:497:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:496:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:496:13-74
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:498:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:498:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:495:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:495:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.detection.stand.StandTeachingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:501:9-506:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:501:9-506:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:504:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:504:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:503:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:503:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:505:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:505:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:502:13-83
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:502:13-83
 activity#cn.com.amome.amomeshoes.view.main.health.detection.shake.ShakeDetectionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:508:9-513:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:508:9-513:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:511:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:511:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:510:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:510:13-67
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:512:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:512:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:509:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:509:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.detection.shake.ShakeReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:515:9-520:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:515:9-520:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:518:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:518:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:517:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:517:13-74
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:519:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:519:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:516:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:516:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.detection.shake.ShakeTeachingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:522:9-527:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:522:9-527:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:525:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:525:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:524:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:524:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:526:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:526:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:523:13-83
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:523:13-83
 activity#cn.com.amome.amomeshoes.view.main.health.detection.walk.WalkDetectionActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:530:9-535:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:530:9-535:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:533:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:533:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:532:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:532:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:534:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:534:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:531:13-82
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:531:13-82
 activity#cn.com.amome.amomeshoes.view.main.health.detection.walk.WalkReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:537:9-542:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:537:9-542:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:540:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:540:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:539:13-73
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:539:13-73
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:541:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:541:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:538:13-79
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:538:13-79
 activity#cn.com.amome.amomeshoes.view.main.health.detection.walk.WalkTeachingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:544:9-549:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:544:9-549:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:547:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:547:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:546:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:546:13-65
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:548:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:548:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:545:13-81
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:545:13-81
 activity#cn.com.amome.amomeshoes.view.main.health.report.FootReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:552:9-557:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:552:9-557:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:555:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:555:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:554:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:554:13-63
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:556:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:556:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:553:13-71
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:553:13-71
 activity#cn.com.amome.amomeshoes.view.main.health.report.PostureReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:559:9-564:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:559:9-564:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:562:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:562:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:561:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:561:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:563:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:563:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:560:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:560:13-74
 activity#cn.com.amome.amomeshoes.view.main.health.report.BalanceReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:566:9-571:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:566:9-571:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:569:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:569:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:568:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:568:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:570:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:570:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:567:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:567:13-74
 activity#cn.com.amome.amomeshoes.view.main.health.report.WalkingReportActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:573:9-578:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:573:9-578:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:576:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:576:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:575:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:575:13-63
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:577:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:577:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:574:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:574:13-74
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.PromotionFootAddActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:580:9-585:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:580:9-585:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:583:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:583:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:582:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:582:13-65
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:584:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:584:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:581:13-80
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:581:13-80
 activity#cn.com.amome.amomeshoes.view.main.bind.PrepareScanActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:587:9-591:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:587:9-591:20
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:589:13-62
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:589:13-62
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:590:13-47
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:590:13-47
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:588:13-63
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:588:13-63
 service#cn.com.amome.amomeshoes.http.HttpService
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:593:9-594:19
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:593:9-594:19
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:593:18-50
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:593:18-50
 service#cn.com.amome.shoeservice.BleService
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:595:9-596:19
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:595:9-596:19
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:595:18-68
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:595:18-68
 meta-data#UMENG_APPKEY
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:601:9-604:21
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:601:9-604:21
 	android:value
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:603:13-53
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:603:13-53
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:602:13-40
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:602:13-40
 meta-data#UMENG_CHANNEL
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:605:9-607:35
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:605:9-607:35
 	android:value
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:607:13-33
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:607:13-33
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:606:13-41
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:606:13-41
 activity#cn.com.amome.amomeshoes.wxapi.WXPayEntryActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:609:9-614:51
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:609:9-614:51
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:614:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:614:13-49
 	android:launchMode
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:613:13-43
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:613:13-43
 	android:exported
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:612:13-36
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:612:13-36
 	android:configChanges
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:611:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:611:13-74
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:610:13-53
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:610:13-53
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:616:9-621:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:616:9-621:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:619:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:619:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:618:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:618:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:620:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:620:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:617:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:617:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailDescribeActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:623:9-628:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:623:9-628:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:626:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:626:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:625:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:625:13-67
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:627:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:627:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:624:13-85
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:624:13-85
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailTrainingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:629:9-635:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:629:9-635:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:633:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:633:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:632:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:632:13-67
 	android:configChanges
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:631:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:631:13-74
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:634:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:634:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:630:13-85
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:630:13-85
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailFittingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:636:9-641:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:636:9-641:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:639:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:639:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:638:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:638:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:640:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:640:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:637:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:637:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailNursingActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:642:9-647:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:642:9-647:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:645:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:645:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:644:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:644:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:646:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:646:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:643:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:643:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.IllnessDetailTrueActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:648:9-653:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:648:9-653:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:651:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:651:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:650:13-71
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:650:13-71
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:652:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:652:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:649:13-88
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:649:13-88
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailNursingTrueActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:654:9-659:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:654:9-659:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:657:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:657:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:656:13-71
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:656:13-71
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:658:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:658:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:655:13-88
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:655:13-88
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingFinishActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:660:9-665:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:660:9-665:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:663:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:663:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:662:13-66
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:662:13-66
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:664:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:664:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:661:13-84
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:661:13-84
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.finish.NursingNotFinishActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:666:9-671:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:666:9-671:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:669:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:669:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:668:13-70
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:668:13-70
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:670:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:670:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:667:13-87
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:667:13-87
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.DetailTrainingTrueActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:672:9-678:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:672:9-678:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:676:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:676:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:675:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:675:13-72
 	android:configChanges
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:674:13-74
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:674:13-74
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:677:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:677:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:673:13-89
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:673:13-89
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.detail.TrainingListActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:679:9-684:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:679:9-684:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:682:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:682:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:681:13-65
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:681:13-65
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:683:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:683:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:680:13-83
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:680:13-83
 activity#cn.com.amome.amomeshoes.view.main.health.promotion.finish.TrainingFinishActivity
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:685:9-690:20
+ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:685:9-690:20
 	android:screenOrientation
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:688:13-49
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:688:13-49
 	android:label
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:687:13-67
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:687:13-67
 	android:theme
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:689:13-72
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:689:13-72
 	android:name
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:686:13-85
+		ADDED from E:\as_WorkSpace\AmomeShoeAndroid_work\app\src\main\AndroidManifest.xml:686:13-85
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9882927821c03f98e9c865012cf3b2f1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e5217ff04b20cfce475c572c23fa8521/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/5a479d0f21041ef0dc47c6e8125c75ad/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8d460cf72fe6d5409f284774e8e90198/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/82a6111ce702b266f7490a3fafe13135/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a01477a22fdb25cfab6112343b945793/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/89393f1365f952aa347019d36292bd5b/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fc503723d14da397c6611ee7a30897f2/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fa16a5a6794effeee23755d868beb54a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fa16a5a6794effeee23755d868beb54a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\bee79f7b9186ea5cc9eb7210c789f959\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\bee79f7b9186ea5cc9eb7210c789f959\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ad35f414556112c08d3a09724fe37fcb\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ad35f414556112c08d3a09724fe37fcb\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0110baae2e3f0f8debfe74d4bb215056\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\0110baae2e3f0f8debfe74d4bb215056\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4e23195b26bca8c01bcd0e5bca375987\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\4e23195b26bca8c01bcd0e5bca375987\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fbf702b9b64d27c1b836ea25d87701\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\21fbf702b9b64d27c1b836ea25d87701\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5071d77dd4a21e7f37d4a50d677553af\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\5071d77dd4a21e7f37d4a50d677553af\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c011b20c733ef7684b48c62874f8cee3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c011b20c733ef7684b48c62874f8cee3\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/24b6df3fee3bfb494c8b6fe0c2a3c1d3/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\369c18cdb6a057f0103311b48b218260\AndroidManifest.xml:26:9-47
