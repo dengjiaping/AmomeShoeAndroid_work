@@ -19,6 +19,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,6 +52,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
     private Gson gson = new Gson();
     private List<IllnessInfo> footInfo, postureInfo, balanceInfo, gaitInfo;
     private ActivityillnessAdapter footadapter, postureadapter, balanceadapter, gaitadapter;
+    private LinearLayout ll_gait;
     private static final String GET_TYPE_FOOT = "foot";//获取信息的类型
     private static final String GET_TYPE_POSTURE = "posture";//获取信息的类型
     private static final String GET_TYPE_BALANCE = "balance";//获取信息的类型
@@ -147,21 +149,33 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         switch (code) {
             case MSG_GET_ILLNESS_FOOT:
+                if (footInfo.size() > 2) {
+                    checkmore_foot.setVisibility(View.VISIBLE);
+                }
                 recycle_activity_foot.setLayoutManager(linearLayoutManager);
                 footadapter = new ActivityillnessAdapter(mContext, footInfo);
                 recycle_activity_foot.setAdapter(footadapter);
                 break;
             case MSG_GET_ILLNESS_POSTURE:
+                if (postureInfo.size() > 2) {
+                    checkmore_posture.setVisibility(View.VISIBLE);
+                }
                 recycle_activity_posture.setLayoutManager(linearLayoutManager);
                 postureadapter = new ActivityillnessAdapter(mContext, postureInfo);
                 recycle_activity_posture.setAdapter(postureadapter);
                 break;
             case MSG_GET_ILLNESS_BALANCE:
+                if (balanceInfo.size() > 2) {
+                    checkmore_balance.setVisibility(View.VISIBLE);
+                }
                 recycle_activity_balance.setLayoutManager(linearLayoutManager);
                 balanceadapter = new ActivityillnessAdapter(mContext, balanceInfo);
                 recycle_activity_balance.setAdapter(balanceadapter);
                 break;
             case MSG_GET_ILLNESS_GAIT:
+                if (gaitInfo.size() > 2) {
+                    checkmore_gait.setVisibility(View.VISIBLE);
+                }
                 recycle_activity_gait.setLayoutManager(linearLayoutManager);
                 gaitadapter = new ActivityillnessAdapter(mContext, gaitInfo);
                 recycle_activity_gait.setAdapter(gaitadapter);
@@ -276,7 +290,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         mContext = getActivity();
         rootView = inflater.inflate(R.layout.fragment_activity_main, null, false);
         initView(rootView);
-        T.showToast(mContext, "游戏敬请期待", 0);
+       // T.showToast(mContext, "游戏敬请期待", 0);
         getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
         getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
         getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
@@ -289,6 +303,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         tv_title = (TextView) view.findViewById(R.id.title_tv);
         tv_title.setText("活动");
         view.findViewById(R.id.rl_left).setVisibility(View.GONE);
+        ll_gait = view.findViewById(R.id.ll_gait);
 
         checkmore_foot = (TextView) view.findViewById(R.id.checkmore_foot);
         checkmore_posture = (TextView) view.findViewById(R.id.checkmore_posture);
@@ -298,14 +313,15 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         checkmore_foot.setOnClickListener(this);
         checkmore_posture.setOnClickListener(this);
         checkmore_balance.setOnClickListener(this);
-        //先屏蔽步态的more
-        //checkmore_gait.setOnClickListener(this);
+        checkmore_gait.setOnClickListener(this);
 
         recycle_activity_foot = (RecyclerView) view.findViewById(R.id.recycle_activity_foot);
         recycle_activity_posture = (RecyclerView) view.findViewById(R.id.recycle_activity_posture);
         recycle_activity_balance = (RecyclerView) view.findViewById(R.id.recycle_activity_balance);
         recycle_activity_gait = (RecyclerView) view.findViewById(R.id.recycle_activity_gait);
 
+        //因为没有数据设置步态部分不显示
+        ll_gait.setVisibility(View.GONE);
     }
 
 

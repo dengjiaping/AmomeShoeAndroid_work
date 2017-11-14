@@ -33,7 +33,7 @@
                 android:background="#FF9A4A"
                 android:gravity="center"
                 android:padding="5dp"
-                android:text="活动"
+                android:text="训练"
                 android:textColor="#FFFFFF"
                 android:textSize="16sp"/>
             <!--足部-->
@@ -61,7 +61,8 @@
                     android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
                     android:gravity="right"
-                    android:text="查看更多"/>
+                    android:text="查看更多"
+                    android:visibility="invisible"/>
 
             </LinearLayout>
 
@@ -120,7 +121,8 @@
                     android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
                     android:gravity="right"
-                    android:text="查看更多"/>
+                    android:text="查看更多"
+                    android:visibility="invisible"/>
 
             </LinearLayout>
 
@@ -161,7 +163,8 @@
                     android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
                     android:gravity="right"
-                    android:text="查看更多"/>
+                    android:text="查看更多"
+                    android:visibility="invisible"/>
 
             </LinearLayout>
 
@@ -180,47 +183,54 @@
 
             <!--&lt;!&ndash;步态&ndash;&gt;-->
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal"
-                android:padding="1dp">
+                android:id="@+id/ll_gait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:padding="1dp">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="#FF9A4A"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:text="步态"/>
+
+                    <TextView
+                        android:id="@+id/checkmore_gait"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right"
+                        android:text="查看更多"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycle_activity_gait"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    ></android.support.v7.widget.RecyclerView>
 
                 <View
-                    android:layout_width="5dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:background="#FF9A4A"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="5dp"
-                    android:text="步态"/>
-
-                <TextView
-                    android:id="@+id/checkmore_gait"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:gravity="right"
-                    android:text="查看更多"/>
+                    android:layout_height="1dp"
+                    android:background="#C7C7C7"/>
 
             </LinearLayout>
-
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recycle_activity_gait"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_margin="10dp"
-                ></android.support.v7.widget.RecyclerView>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#C7C7C7"/>
-
-
         </LinearLayout>
 
     </ScrollView>

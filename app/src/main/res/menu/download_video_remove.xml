@@ -6,5 +6,8 @@
     <item
         android:id="@+id/remove"
         android:title="移除"/>
+    <item
+        android:id="@+id/cancle"
+        android:title="取消"/>
 
 </menu>

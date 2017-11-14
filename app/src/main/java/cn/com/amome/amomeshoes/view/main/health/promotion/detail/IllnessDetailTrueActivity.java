@@ -407,6 +407,10 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                 //TODO:Dialog
                 break;
             case R.id.iv_training:
+                Intent intent_training = new Intent(mContext, TrainingListActivity.class);
+                intent_training.putExtra("disease", disease);
+                intent_training.putExtra("type", "training");
+                startActivity(intent_training);
                 break;
             case R.id.iv_training_enter:
                 if (mVideoIconInfo != null) {
@@ -502,6 +506,8 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
             case R.id.remove:
                 removeDisease();
                 break;
+            case R.id.cancle:
+                closeOptionsMenu();
             default:
                 break;
         }
