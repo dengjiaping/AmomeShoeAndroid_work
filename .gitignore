@@ -54,3 +54,8 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+.DS_Store
+/captures
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
