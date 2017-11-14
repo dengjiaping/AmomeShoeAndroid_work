@@ -399,6 +399,7 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                 Intent intent_detail = new Intent(mContext, DetailTrainingActivity.class);
                 intent_detail.putExtra("disease", disease);
                 intent_detail.putExtra("type", type);
+                intent_detail.putExtra("toNum", size);
                 startActivity(intent_detail);
                 break;
             case R.id.iv_middle:

@@ -131,6 +131,6 @@ public class DetailNursingTrueAdapter extends RecyclerView.Adapter<DetailNursing
 
 
     public interface MyItemClickListener {
-         void onItemClick(View view, int postion);
+        public void onItemClick(View view, int postion);
     }
 }

@@ -200,6 +200,7 @@ public class DetailTrainingActivity extends FragmentActivity implements View.OnC
             vp_detail_training.setCurrentItem(toNum);
             currentNum=toNum;
             tv_num.setText((currentNum + 1) + "/" + pagerNum);
+
         }
 
     }

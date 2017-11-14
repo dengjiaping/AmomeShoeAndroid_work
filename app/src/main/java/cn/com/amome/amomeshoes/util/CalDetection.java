@@ -1434,19 +1434,19 @@ public class CalDetection {
 		// 通过压上的点的数值计算是前脚尖还是后脚跟
 		for (int i = 0; i < originList.size() - 1; i++) {
 			int frontCount = 0, backCount = 0, nextFrontCount = 0, nextBackCount = 0;
+			if (originList.get(i).getPressData()[1] > 150) {
+				frontCount++;
+			}
 			if (originList.get(i).getPressData()[2] > 150) {
 				frontCount++;
 			}
-			if (originList.get(i).getPressData()[3] > 150) {
+			if (originList.get(i).getPressData()[5] > 150) {
 				frontCount++;
 			}
 			if (originList.get(i).getPressData()[6] > 150) {
 				frontCount++;
 			}
 			if (originList.get(i).getPressData()[7] > 150) {
-				frontCount++;
-			}
-			if (originList.get(i).getPressData()[8] > 150) {
 				frontCount++;
 			}
 			if (originList.get(i).getPressData()[56] > 150) {
@@ -1465,19 +1465,19 @@ public class CalDetection {
 				backCount++;
 			}
 
+			if (originList.get(i + 1).getPressData()[1] > 150) {
+				nextFrontCount++;
+			}
 			if (originList.get(i + 1).getPressData()[2] > 150) {
 				nextFrontCount++;
 			}
-			if (originList.get(i + 1).getPressData()[3] > 150) {
+			if (originList.get(i + 1).getPressData()[5] > 150) {
 				nextFrontCount++;
 			}
 			if (originList.get(i + 1).getPressData()[6] > 150) {
 				nextFrontCount++;
 			}
 			if (originList.get(i + 1).getPressData()[7] > 150) {
-				nextFrontCount++;
-			}
-			if (originList.get(i + 1).getPressData()[8] > 150) {
 				nextFrontCount++;
 			}
 			if (originList.get(i + 1).getPressData()[56] > 150) {
