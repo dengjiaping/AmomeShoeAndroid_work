@@ -688,6 +688,12 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.Light.NoActionBar">
         </activity>
+        <activity
+            android:name=".view.main.health.promotion.intelligent.PrimaryBalanceActivity"
+            android:label="@string/primary_balance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

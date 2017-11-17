@@ -43,6 +43,7 @@ import cn.com.amome.amomeshoes.model.IllnessDetailTrueInfo;
 import cn.com.amome.amomeshoes.model.VideoIconInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
 import cn.com.amome.amomeshoes.util.T;
+import cn.com.amome.amomeshoes.view.main.health.promotion.intelligent.PrimaryBalanceActivity;
 
 public class IllnessDetailTrueActivity extends Activity implements View.OnClickListener {
     private Context mContext;
@@ -413,38 +414,7 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
                 startActivity(intent_training);
                 break;
             case R.id.iv_training_enter:
-                if (mVideoIconInfo != null) {
-                    //判断最后一个视频是否存在
-                    List<VideoIconInfo.VideosBean> videos = mVideoIconInfo.getVideos();
-                    VideoIconInfo.VideosBean videosBean = videos.get(videos.size() - 1);
-                    String down_url = videosBean.getIcon();
-                    String filename = down_url.substring(down_url.lastIndexOf('/') + 1);
-                    String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Amome/video/";
-                    File file = new File(path + filename);
-                    if (file.exists()) {
-                        Intent intent_training_true = new Intent(mContext, DetailTrainingTrueActivity.class);
-                        intent_training_true.putExtra("disease", disease);
-                        intent_training_true.putExtra("type", "training");
-                        intent_training_true.putExtra("newest_id", mNewest_id_training);
-                        intent_training_true.putExtra("done_times", mDone_times);
-                        startActivity(intent_training_true);
-                    } else {
-                        Log.i(TAG, "onClick: 大小为" + mTotal_size);
-                        new AlertDialog.Builder(this)
-                                .setTitle("下载视频")
-                                .setMessage("未下载视频，是否下载？\n共" + mTotal_size / 1024 / 1024 + "M")
-                                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialogInterface, int i) {
-                                        dowmloadVideo();
-                                    }
-                                })
-                                .setNegativeButton("取消", null)
-                                .show();
-
-                    }
-                }
-
+               TrainingOrIntelligent();
 
                 break;
             case R.id.iv_nursing:
@@ -476,6 +446,8 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         }
 
     }
+
+
 
 
     @Override
@@ -514,5 +486,50 @@ public class IllnessDetailTrueActivity extends Activity implements View.OnClickL
         return true;
     }
 
+    private void TrainingOrIntelligent() {
+        if (disease.equals("初级平衡训练")) {
+            Intent intent = new Intent(mContext, PrimaryBalanceActivity.class);
+            intent.putExtra("disease", disease);
+            startActivity(intent);
+        } else {
+            startTrainingForVideo();
+        }
+
+    }
+
+
+    public void startTrainingForVideo(){
+        if (mVideoIconInfo != null) {
+            //判断最后一个视频是否存在
+            List<VideoIconInfo.VideosBean> videos = mVideoIconInfo.getVideos();
+            VideoIconInfo.VideosBean videosBean = videos.get(videos.size() - 1);
+            String down_url = videosBean.getIcon();
+            String filename = down_url.substring(down_url.lastIndexOf('/') + 1);
+            String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Amome/video/";
+            File file = new File(path + filename);
+            if (file.exists()) {
+                Intent intent_training_true = new Intent(mContext, DetailTrainingTrueActivity.class);
+                intent_training_true.putExtra("disease", disease);
+                intent_training_true.putExtra("type", "training");
+                intent_training_true.putExtra("newest_id", mNewest_id_training);
+                intent_training_true.putExtra("done_times", mDone_times);
+                startActivity(intent_training_true);
+            } else {
+                Log.i(TAG, "onClick: 大小为" + mTotal_size);
+                new AlertDialog.Builder(this)
+                        .setTitle("下载视频")
+                        .setMessage("未下载视频，是否下载？\n共" + mTotal_size / 1024 / 1024 + "M")
+                        .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dowmloadVideo();
+                            }
+                        })
+                        .setNegativeButton("取消", null)
+                        .show();
+
+            }
+        }
+    }
 
 }

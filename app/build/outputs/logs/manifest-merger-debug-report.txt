@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-699:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-699:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-699:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-699:12
 MERGED from [com.android.support:recyclerview-v7:23.4.0] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/07b109cebbfd12df31b1f2e34a41b68c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/78e87876f3995141c0459741df2f54b5/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f6004239affaef85c63c40c93f721e65/AndroidManifest.xml:17:1-31:12
@@ -16,9 +16,9 @@ MERGED from [com.android.support:support-media-compat:25.3.1] /home/ccf/.gradle/
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/69e9e9ed4ee081b33dbaebcf3502ae62/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d56efc4dbdecd6a3d7fd2211956fe539/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c479b938dc7da4b9136aa3105de71e97/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
-INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-693:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-699:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-699:12
+INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:2:1-699:12
 	package
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:3:11-44
 		INJECTED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml
@@ -140,7 +140,7 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:38:22-68
 application
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-691:19
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:40:5-697:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/78e87876f3995141c0459741df2f54b5/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/78e87876f3995141c0459741df2f54b5/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f6004239affaef85c63c40c93f721e65/AndroidManifest.xml:29:5-20
@@ -1093,6 +1093,16 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:689:13-72
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:686:13-85
+activity#cn.com.amome.amomeshoes.view.main.health.promotion.intelligent.PrimaryBalanceActivity
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:691:9-696:20
+	android:screenOrientation
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:694:13-49
+	android:label
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:693:13-52
+	android:theme
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:695:13-72
+	android:name
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:692:13-90
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/78e87876f3995141c0459741df2f54b5/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.1] /home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f6004239affaef85c63c40c93f721e65/AndroidManifest.xml:25:5-27:34

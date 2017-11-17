@@ -2,6 +2,7 @@ package cn.com.amome.amomeshoes.view.main.health.promotion.detail;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -368,7 +369,28 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.iv_back:
-                finish();
+                JZMediaManager.instance().mediaPlayer.pause();
+                Picasso.with(mContext).load(R.drawable.bofang)
+                        .fit()
+                        .into(iv_middle);
+                new android.app.AlertDialog.Builder(this)
+                        .setMessage("训练仍在进行中，确定要结束当前训练吗？结束训练后将无法保存训练数据")
+                        .setPositiveButton("结束训练", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                finish();
+                            }
+                        })
+                        .setNegativeButton("再练会儿", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                JZMediaManager.instance().mediaPlayer.start();
+                                Picasso.with(mContext).load(R.drawable.zanting)
+                                        .fit()
+                                        .into(iv_middle);
+                            }
+                        })
+                        .show();
                 break;
             case R.id.iv_more:
                 if (mTimer != null) {
