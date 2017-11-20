@@ -39,7 +39,7 @@ public class TrainingVideoView extends JZVideoPlayerStandard {
         findViewById(R.id.retry_text).setVisibility(GONE);
         findViewById(R.id.bottom_progress).setVisibility(GONE);
         findViewById(R.id.surface_container).setEnabled(false);
-
+        SAVE_PROGRESS = false;
 
     }
 

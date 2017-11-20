@@ -68,9 +68,11 @@ public class PromotionAddAdapter extends RecyclerView.Adapter<PromotionAddAdapte
         if (info.getIs_user_related().equals("1")) {
             holder.isAdd.setText("已添加");
             holder.isAdd.setBackgroundColor(Color.TRANSPARENT);
+            holder.isAdd.setTextColor(Color.WHITE);
         } else {
             holder.isAdd.setText("未添加");
             holder.isAdd.setBackgroundColor(Color.WHITE);
+            holder.isAdd.setTextColor(Color.rgb(55,210,202));
         }
 
 

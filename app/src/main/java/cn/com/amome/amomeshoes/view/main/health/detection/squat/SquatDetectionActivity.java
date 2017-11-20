@@ -1148,7 +1148,7 @@ public class SquatDetectionActivity extends Activity implements OnClickListener 
 	/**
 	 * 添加蹲一蹲信息
 	 */
-	private void addSquatInfo(String spin, String instep, String leftPressStr,
+	private void addSquatInfo(String instep, String spin, String leftPressStr,
 			String rightPressStr) {
 		Log.i(TAG, "添加蹲一蹲");
 		RequestParams params = new RequestParams();

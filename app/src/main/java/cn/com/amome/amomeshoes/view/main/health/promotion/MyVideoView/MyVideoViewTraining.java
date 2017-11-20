@@ -28,6 +28,7 @@ public class MyVideoViewTraining extends JZVideoPlayerStandard {
         titleTextView.setVisibility(GONE);
         //clarityPopWindow.dismiss();
         bottomContainer.setVisibility(GONE);
+        SAVE_PROGRESS = false;
 
     }
 

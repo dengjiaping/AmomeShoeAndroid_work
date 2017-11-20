@@ -298,7 +298,41 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
         if (JZVideoPlayer.backPress()) {
             return;
         }
-        super.onBackPressed();
+        //super.onBackPressed();
+
+        //做成和左上角返回一样的效果
+        JZMediaManager.instance().mediaPlayer.pause();
+        Picasso.with(mContext).load(R.drawable.bofang)
+                .fit()
+                .into(iv_middle);
+        new android.app.AlertDialog.Builder(this)
+                .setMessage("训练仍在进行中，确定要结束当前训练吗？结束训练后将无法保存训练数据")
+                .setPositiveButton("结束训练", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        time = time + trainingVideoView.currentDuration;
+                        if (Integer.parseInt(getIntent().getStringExtra("newest_id")) > 0) {
+                            Intent intent = new Intent(mContext, TrainingFinishActivity.class);
+                            intent.putExtra("disease", disease);
+                            intent.putExtra("type", type);
+                            intent.putExtra("time", time);
+                            intent.putExtra("group", group);
+                            startActivity(intent);
+                        }
+
+                        finish();
+                    }
+                })
+                .setNegativeButton("再练会儿", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        JZMediaManager.instance().mediaPlayer.start();
+                        Picasso.with(mContext).load(R.drawable.zanting)
+                                .fit()
+                                .into(iv_middle);
+                    }
+                })
+                .show();
     }
 
     @Override
@@ -326,11 +360,14 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
         goOnRedio();
     }
 
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
         mTimer.cancel();
     }
+
+
 
     @Override
     public void setOnFinish() {
@@ -378,6 +415,16 @@ public class DetailTrainingTrueActivity extends Activity implements TrainingVide
                         .setPositiveButton("结束训练", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
+                                time = time + trainingVideoView.currentDuration;
+                                if (Integer.parseInt(getIntent().getStringExtra("newest_id")) > 0) {
+                                    Intent intent = new Intent(mContext, TrainingFinishActivity.class);
+                                    intent.putExtra("disease", disease);
+                                    intent.putExtra("type", type);
+                                    intent.putExtra("time", time);
+                                    intent.putExtra("group", group);
+                                    startActivity(intent);
+                                }
+
                                 finish();
                             }
                         })
