@@ -40,6 +40,7 @@ import cn.com.amome.amomeshoes.http.HttpService;
 import cn.com.amome.amomeshoes.http.PostAsyncTask;
 import cn.com.amome.amomeshoes.model.IllnessInfo;
 import cn.com.amome.amomeshoes.util.SpfUtil;
+import cn.com.amome.amomeshoes.util.T;
 import cn.com.amome.amomeshoes.view.main.health.promotion.PromotionFootAddActivity;
 
 public class ActivityFragment extends Fragment implements OnClickListener {
@@ -289,7 +290,7 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         mContext = getActivity();
         rootView = inflater.inflate(R.layout.fragment_activity_main, null, false);
         initView(rootView);
-       // T.showToast(mContext, "游戏敬请期待", 0);
+        T.showToast(mContext, "游戏敬请期待", 0);
         getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
         getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
         getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);

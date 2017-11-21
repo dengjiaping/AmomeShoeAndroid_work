@@ -379,10 +379,12 @@
                     android:background="#d9d9d9" />
             </LinearLayout>
             <!--添加足部管家中有解决方案&&用户有的疾病-->
+            <!--这下面的打包不显示-->
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/re_foot"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:visibility="gone">
             </android.support.v7.widget.RecyclerView>
             <Button
                 android:id="@+id/btn_add"
@@ -391,7 +393,8 @@
                 android:text="+  一键添加"
                 android:textSize="20sp"
                 android:background="#3ED6BB"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:visibility="gone"/>
         </LinearLayout>
     </ScrollView>
 

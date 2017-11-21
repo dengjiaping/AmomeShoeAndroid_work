@@ -1,9 +1,5 @@
 package cn.com.amome.amomeshoes.common;
 
-import java.io.File;
-import java.lang.reflect.Field;
-import java.util.List;
-
 import android.app.Application;
 import android.content.ComponentName;
 import android.content.Context;
@@ -11,13 +7,6 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.graphics.Typeface;
 import android.os.IBinder;
-import cn.com.amome.amomeshoes.http.HttpService;
-import cn.com.amome.amomeshoes.model.FootLookInfo;
-import cn.com.amome.amomeshoes.model.FootRulerInfo;
-import cn.com.amome.amomeshoes.util.BleShoes;
-import cn.com.amome.amomeshoes.util.BleShoesState;
-import cn.com.amome.amomeshoes.util.Environments;
-import cn.com.amome.shoeservice.BleService;
 
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
@@ -26,6 +15,18 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.tencent.bugly.crashreport.CrashReport;
 import com.umeng.analytics.MobclickAgent;
+
+import java.io.File;
+import java.lang.reflect.Field;
+import java.util.List;
+
+import cn.com.amome.amomeshoes.http.HttpService;
+import cn.com.amome.amomeshoes.model.FootLookInfo;
+import cn.com.amome.amomeshoes.model.FootRulerInfo;
+import cn.com.amome.amomeshoes.util.BleShoes;
+import cn.com.amome.amomeshoes.util.BleShoesState;
+import cn.com.amome.amomeshoes.util.Environments;
+import cn.com.amome.shoeservice.BleService;
 
 public class AmomeApp extends Application {
 	public static Typeface typeFace;
@@ -63,7 +64,7 @@ public class AmomeApp extends Application {
 		/** 设置是否对日志信息进行加密, 默认false(不加密). */
 		MobclickAgent.enableEncrypt(true);// 6.0.0版本及以后
 		CrashReport
-				.initCrashReport(getApplicationContext(), "db81603aa6", true);
+				.initCrashReport(getApplicationContext(), "db81603aa6", false);
 	}
 
 	private ServiceConnection BleServiceConnection = new ServiceConnection() {

@@ -8,7 +8,7 @@ public class ClientConstant {
 	// public static final String BASE_URL =
 	// "http://www.iamome.cn/AmomeWebApp/";
 	// 发布版本
-	public static final String BASE_URL = "http://www.iamome.cn/AmomeWebApp/";
+	public static final String BASE_URL = "http://www.iamome.com/AmomeWebApp/";
 
 	// //////////////短信类型码表////////////////////
 	public static final String REGISTER_ID = "SMS_8205301";// 获取注册验证码id

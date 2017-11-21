@@ -225,7 +225,8 @@ public class WalkingReportActivity extends Activity implements OnClickListener {
         mContext = this;
         initView();
         getWalkInfo();
-        getPromotionData();
+//        先不使用步态部分
+        //getPromotionData();
     }
 
     private void initView() {
