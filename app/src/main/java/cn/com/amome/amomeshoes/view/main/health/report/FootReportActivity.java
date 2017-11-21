@@ -336,7 +336,7 @@ public class FootReportActivity extends Activity implements OnClickListener {
         initView();
         getWidgetL();
         getSquatInfo();
-        getPromotionData();
+        //getPromotionData();
     }
 
     private void initView() {
@@ -650,6 +650,6 @@ public class FootReportActivity extends Activity implements OnClickListener {
     @Override
     protected void onRestart() {
         super.onRestart();
-        getPromotionData();
+        //getPromotionData();
     }
 }

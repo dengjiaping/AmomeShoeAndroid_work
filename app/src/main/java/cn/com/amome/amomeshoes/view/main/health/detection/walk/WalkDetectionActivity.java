@@ -311,14 +311,16 @@ public class WalkDetectionActivity extends Activity implements OnClickListener {
 						// 添加走一走信息
 						addWalkInfo(walkInfo, leftStepsFrc, rightStepsFrc);
 					} else {
-						Log.i(TAG, "数据错误，walkInfo为空");
+						/*Log.i(TAG, "数据错误，walkInfo为空");
 						T.showToast(mContext, "数据异常，请重新测试", 0);
-						finish();
+						finish();*/
+						addWalkInfo();
 					}
 				} else {
-					Log.i(TAG, "数据错误，CharacterList为空");
+					/*Log.i(TAG, "数据错误，CharacterList为空");
 					T.showToast(mContext, "数据异常，请重新测试", 0);
-					finish();
+					finish();*/
+					addWalkInfo();
 				}
 
 				break;
@@ -918,6 +920,37 @@ public class WalkDetectionActivity extends Activity implements OnClickListener {
 		params.put("r_swingphase", walkInfo.getRightSwingPhaseTime() / 1000
 				+ "");
 
+		PostAsyncTask postTask = new PostAsyncTask(mHandler);
+		postTask.startAsyncTask(mContext, callback, MSG_ADD_WALK_INFO, params,
+				ClientConstant.WALK_URL);
+	}
+
+
+	/**
+	 * 当获取不到数据时做的处理修改为（正常/优秀/0/0/0/0/0/0...）
+	 */
+	public void addWalkInfo(){
+		RequestParams params = new RequestParams();
+		params.put("calltype", ClientConstant.ADDWALKINFO_TYPE);
+		params.put("useid", SpfUtil.readUserId(mContext));
+		params.put("symmetry", "正常");
+		params.put("gait", "优秀");
+
+		params.put("l_pacetime", 0 + "");
+		params.put("l_stridetime", 0 + "");
+		params.put("l_stridefqc", 0 + "");
+		params.put("l_unisptphase", 0 + "");
+		params.put("l_bisptphase", 0 + "");
+		params.put("l_stdphase", 0 + "");
+		params.put("l_swingphase", 0 + "");
+
+		params.put("r_pacetime", 0 + "");
+		params.put("r_stridetime", 0 + "");
+		params.put("r_stridefqc", 0 + "");
+		params.put("r_unisptphase", 0 + "");
+		params.put("r_bisptphase", 0 + "");
+		params.put("r_stdphase", 0 + "");
+		params.put("r_swingphase", 0 + "");
 		PostAsyncTask postTask = new PostAsyncTask(mHandler);
 		postTask.startAsyncTask(mContext, callback, MSG_ADD_WALK_INFO, params,
 				ClientConstant.WALK_URL);

@@ -134,9 +134,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
     public void onResume() {
         super.onResume();
 
-        getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
-        getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
-        getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
+        //getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
+        //getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
+        //getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
         //这里用不到先屏蔽
         //getIllnessInfo(GET_TYPE_GAIT, MSG_GET_ILLNESS_GAIT);
     }
@@ -291,9 +291,9 @@ public class ActivityFragment extends Fragment implements OnClickListener {
         rootView = inflater.inflate(R.layout.fragment_activity_main, null, false);
         initView(rootView);
         T.showToast(mContext, "游戏敬请期待", 0);
-        getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
-        getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
-        getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
+        //getIllnessInfo(GET_TYPE_FOOT, MSG_GET_ILLNESS_FOOT);
+        //getIllnessInfo(GET_TYPE_POSTURE, MSG_GET_ILLNESS_POSTURE);
+        //getIllnessInfo(GET_TYPE_BALANCE, MSG_GET_ILLNESS_BALANCE);
         //这里用不到先屏蔽
         //getIllnessInfo(GET_TYPE_GAIT, MSG_GET_ILLNESS_GAIT);
         return rootView;

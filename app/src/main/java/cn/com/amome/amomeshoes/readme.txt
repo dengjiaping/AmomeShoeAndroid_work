@@ -17,3 +17,8 @@
 
 3、bugly配置修改：
 在AmomeApp.java修改“CrashReport.initCrashReport(getApplicationContext(), "db81603aa6", true);”的最后一个参数为false。true:实时上报崩溃日志;false:按天上报崩溃日志。
+
+记得关闭调试绑定入口
+activity_setting_main 317:gone
+
+修改版本号manifest

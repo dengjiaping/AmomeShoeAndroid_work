@@ -5,109 +5,291 @@
         is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/mpandroidchartlibrary-2-1-6.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-6_28b7e53dbb490d27107c931f56a526a7bc886664.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/universal-image-loader-1.9.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3_6e6951814de41a9b94a7e32351e0fa6c22696794.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/swipemenulistview.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2353dd795333a76ae8517e97e85995586b961bb1">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/swipemenulistview_eeeae6d445175c369c97e8521b32cefb7f5e9e03.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/android-async-http-1.4.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4_7fb36c4d2b0cd7a72b34eb514c7b6991aa1e2563.jar" />
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/7.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/amome.encrypt.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="1f02d3a73d58c64ef3ed5d5f1886794fcc3d6efd">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/amome.encrypt_07ccf5dc61c063ce9be5672488c6640aca27468f.jar" />
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/radar.jar"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/5531f9b7f33f793aa19826bce03ca979/jars/classes.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
-        sha1="1a74514cd94bbf059f22a7591c40cf08d19efdf5">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/radar_a910048e16d95822250e5b68bcc6f4aef9267a16.jar" />
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/23.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/BleService.jar"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
-        sha1="9d683d48fc375bf1d80490f912be476603b1e506">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/BleService_4dd62d0164aa0cf28540422649463b3b693bb4e4.jar" />
+        revision="26.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/jiaozivideoplayer-6.0.2.aar/60a9a34e1b6e74d8786a738608e61f02/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cfd46fc8bde84d8b73c3b1e5ada76661f4472e5a">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/78e87876f3995141c0459741df2f54b5/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/2d47504bba1e0ee84615f4c54140971e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/29.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/bugly_crash_release.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="d26ab01651bb5b5c149274c1176ba322136bbc5c">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/bugly_crash_release_9ef5f8f43ab5796ba46246acd30da1bb551776a4.jar" />
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/8a2625a76b93338124a50b431bb42619/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/d56efc4dbdecd6a3d7fd2211956fe539/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c479b938dc7da4b9136aa3105de71e97/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f6004239affaef85c63c40c93f721e65/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/16.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/ZXing-core-3.2.1.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/ZXing-core-3.2.1_c4f630d563062ac701dc71334fe22a0329383942.jar" />
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/umeng-analytics-v6.0.1.jar"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/69e9e9ed4ee081b33dbaebcf3502ae62/jars/classes.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
-        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/umeng-analytics-v6.0.1_5ee61a21d6a1f7d13e0d06eb1404770f98ffd2f7.jar" />
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/swipemenulistview.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2353dd795333a76ae8517e97e85995586b961bb1">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/BleService.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9d683d48fc375bf1d80490f912be476603b1e506">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/673e23059347c7702864d8dce9c80a43/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/24.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/weixinlibammsdk.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="11b09244aedaa51bfd09269637be7c32c60da314">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/weixinlibammsdk_f6128ac624593a17621b71682f1cded493e115ce.jar" />
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/12.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/eventbus-1.0.1.jar"
         jumboMode="false"
+        min-sdk-version="19"
         optimize="true"
-        revision="26.0.1"
+        revision="26.0.2"
         sha1="352937af5b17299533e2434291411f51f3bac2ec">
-        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/pre-dexed/debug/eventbus-1.0.1_c26716e81bd31ab5d6347d44db895ec56a9caaac.jar" />
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/radar.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a74514cd94bbf059f22a7591c40cf08d19efdf5">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/umeng-analytics-v6.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7ceb7dd7773de04636c2e76a04bb6b49/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.2/b8e98ae35bf6e3f14382deb60f2ea6e4e0e220fd/httpcore-4.4.2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b8e98ae35bf6e3f14382deb60f2ea6e4e0e220fd">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/.gradle/wrapper/dists/gradle-3.3-all/caches/transforms-1/files-1.1/recyclerview-v7-23.4.0.aar/07b109cebbfd12df31b1f2e34a41b68c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/build/intermediates/transforms/preDex/release/11.jar" />
     </item>
 
 </items>

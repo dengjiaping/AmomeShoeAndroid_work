@@ -348,7 +348,7 @@ public class BalanceReportActivity extends Activity implements OnClickListener {
         mContext = this;
         initView();
         getBalanceInfo();
-        getPromotionData();
+        //getPromotionData();
     }
 
     private void initView() {
@@ -730,6 +730,6 @@ public class BalanceReportActivity extends Activity implements OnClickListener {
     @Override
     protected void onRestart() {
         super.onRestart();
-        getPromotionData();
+        //getPromotionData();
     }
 }

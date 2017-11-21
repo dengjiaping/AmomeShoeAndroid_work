@@ -98,3 +98,5 @@ freeline_project_description.json
 .idea
 out
 gen
+app/release/
+release/
