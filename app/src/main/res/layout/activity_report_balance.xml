@@ -1165,7 +1165,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:visibility="gone">
+                android:visibility="visible">
 
                 <View
                     android:layout_width="0dp"
@@ -1195,7 +1195,7 @@
                 android:id="@+id/re_balance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone">
+                android:visibility="visible">
             </android.support.v7.widget.RecyclerView>
             <Button
                 android:id="@+id/btn_add"
@@ -1205,7 +1205,7 @@
                 android:textSize="20sp"
                 android:background="#3ED6BB"
                 android:textColor="#FFFFFF"
-                android:visibility="gone"/>
+                android:visibility="visible"/>
         </LinearLayout>
     </ScrollView>
 

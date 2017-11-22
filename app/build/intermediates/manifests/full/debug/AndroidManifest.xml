@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.com.amome.amomeshoes"
-    android:versionCode="4"
-    android:versionName="1.0.5" >
+    android:versionCode="6"
+    android:versionName="1.0.6" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -48,7 +48,6 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:logo="@drawable/ic_launcher"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="cn.com.amome.amomeshoes.view.account.WelcomeActivity"
@@ -606,11 +605,11 @@
         <!-- android:value="5747b64ae0f55ad8c700055c" -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="5864699e3eae255903000663" >
+            android:value="5747b64ae0f55ad8c700055c" >
         </meta-data>
         <meta-data
             android:name="UMENG_CHANNEL"
-            android:value="anzhishichang" />
+            android:value="test" />
         <!-- 微信支付回调 -->
         <activity
             android:name="cn.com.amome.amomeshoes.wxapi.WXPayEntryActivity"

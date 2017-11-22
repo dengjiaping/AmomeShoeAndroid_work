@@ -348,7 +348,7 @@ public class BalanceReportActivity extends Activity implements OnClickListener {
         mContext = this;
         initView();
         getBalanceInfo();
-        //getPromotionData();
+        getPromotionData();
     }
 
     private void initView() {
@@ -408,7 +408,7 @@ public class BalanceReportActivity extends Activity implements OnClickListener {
 
         scale = (float) (((SpfUtil.readScreenHeightPx(mContext) / 2.5) / 3.4) / 70);
 
-        mChart.setAlpha(100);
+        mChart.setAlpha(1);
         mChart.setNoDataText("");
         mChart.setRotationAngle(60); // 设置初始旋转角度
         mChart.setRotationEnabled(false); // 禁止手动旋转
@@ -730,6 +730,6 @@ public class BalanceReportActivity extends Activity implements OnClickListener {
     @Override
     protected void onRestart() {
         super.onRestart();
-        //getPromotionData();
+        getPromotionData();
     }
 }

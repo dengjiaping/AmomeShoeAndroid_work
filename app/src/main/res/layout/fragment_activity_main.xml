@@ -13,13 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/activity_background"/>
+        android:src="@drawable/activity_background"
+        android:visibility="gone"/>
 
     <!--上面的iv是新增的下面全部不显示-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone">
+        android:visibility="visible">
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -511,7 +511,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:visibility="gone">
+                android:visibility="visible">
 
                 <View
                     android:layout_width="0dp"
@@ -541,7 +541,7 @@
                 android:id="@+id/re_posture"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone">
+                android:visibility="visible">
             </android.support.v7.widget.RecyclerView>
 
             <Button
@@ -552,7 +552,7 @@
                 android:text="+  一键添加"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
-                android:visibility="gone"/>
+                android:visibility="visible"/>
         </LinearLayout>
     </ScrollView>
 

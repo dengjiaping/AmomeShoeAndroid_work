@@ -64,7 +64,7 @@ public class AmomeApp extends Application {
 		/** 设置是否对日志信息进行加密, 默认false(不加密). */
 		MobclickAgent.enableEncrypt(true);// 6.0.0版本及以后
 		CrashReport
-				.initCrashReport(getApplicationContext(), "db81603aa6", false);
+				.initCrashReport(getApplicationContext(), "db81603aa6", true);
 	}
 
 	private ServiceConnection BleServiceConnection = new ServiceConnection() {

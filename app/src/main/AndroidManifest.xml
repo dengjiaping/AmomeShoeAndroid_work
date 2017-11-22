@@ -600,11 +600,11 @@
         <!-- android:value="5747b64ae0f55ad8c700055c" -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="5864699e3eae255903000663">
+            android:value="5747b64ae0f55ad8c700055c">
         </meta-data>
         <meta-data
             android:name="UMENG_CHANNEL"
-            android:value="erweima"/>
+            android:value="test"/>
         <!-- 微信支付回调 -->
         <activity
             android:name=".wxapi.WXPayEntryActivity"

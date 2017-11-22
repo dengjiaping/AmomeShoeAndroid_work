@@ -13,6 +13,7 @@ android {
 
     buildTypes {
         release {
+            //打开混淆
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -24,6 +25,7 @@ android {
         }
     }
 
+    //解决lint编译报错(忽略警告)
     lintOptions {
         checkReleaseBuilds false
         abortOnError false

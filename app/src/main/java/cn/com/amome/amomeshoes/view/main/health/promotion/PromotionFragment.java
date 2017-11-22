@@ -57,7 +57,7 @@ public class PromotionFragment extends Fragment implements OnClickListener {
         View view = inflater.inflate(R.layout.fragment_promotion_main, null, false);
         mContext = getActivity();
         initView(view);
-        //getAllInfo();
+        getAllInfo();
         return view;
     }
 
@@ -241,7 +241,7 @@ public class PromotionFragment extends Fragment implements OnClickListener {
     public void onResume() {
         // TODO Auto-generated method stub
         super.onResume();
-        //getAllInfo();
+        getAllInfo();
     }
 
     @Override

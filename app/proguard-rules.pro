@@ -94,7 +94,7 @@
 
 -dontwarn com.squareup.okhttp.**
 
-#很特殊
+#很特殊(压制警告)
 -dontwarn org.apache.http.**
 
 #自己包内的
