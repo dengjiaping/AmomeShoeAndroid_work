@@ -21,4 +21,4 @@
 记得关闭调试绑定入口
 activity_setting_main 317:gone
 
-修改版本号manifest
+manifest    修改版本号   和版本名称

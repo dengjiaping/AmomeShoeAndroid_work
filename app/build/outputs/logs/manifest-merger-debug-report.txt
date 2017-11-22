@@ -952,9 +952,9 @@ ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:602:13-40
 meta-data#UMENG_CHANNEL
-ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:605:9-607:38
+ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:605:9-607:44
 	android:value
-		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:607:13-36
+		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:607:13-42
 	android:name
 		ADDED from /home/ccf/dlp/as_workspace/AmomeShoeAndroid/app/src/main/AndroidManifest.xml:606:13-41
 activity#cn.com.amome.amomeshoes.wxapi.WXPayEntryActivity
